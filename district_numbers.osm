@@ -1,0 +1,4792 @@
+<osm version="0.6" generator="GovTrack.us WMS Server">
+	<node id='0' lon='-156.125831' lat='64.4992926666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-156.125831'/>
+		<tag k='lat' v='64.4992926666667'/>
+	</node>
+	<node id='1' lon='-152.847509' lat='57.8065756666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-152.847509'/>
+		<tag k='lat' v='57.8065756666667'/>
+	</node>
+	<node id='2' lon='-166.887221666667' lat='53.8171556666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-166.887221666667'/>
+		<tag k='lat' v='53.8171556666667'/>
+	</node>
+	<node id='3' lon='-176.643445666667' lat='51.8368153333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-176.643445666667'/>
+		<tag k='lat' v='51.8368153333333'/>
+	</node>
+	<node id='4' lon='-170.227629666667' lat='63.353344'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-170.227629666667'/>
+		<tag k='lat' v='63.353344'/>
+	</node>
+	<node id='5' lon='-166.194972666667' lat='60.1953856666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-166.194972666667'/>
+		<tag k='lat' v='60.1953856666667'/>
+	</node>
+	<node id='6' lon='-187.067086' lat='52.8266393333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-187.067086'/>
+		<tag k='lat' v='52.8266393333333'/>
+	</node>
+	<node id='7' lon='-170.061813333333' lat='52.845558'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-170.061813333333'/>
+		<tag k='lat' v='52.845558'/>
+	</node>
+	<node id='8' lon='-180.975537333333' lat='51.5601826666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-180.975537333333'/>
+		<tag k='lat' v='51.5601826666667'/>
+	</node>
+	<node id='9' lon='-173.040932666667' lat='60.5609063333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-173.040932666667'/>
+		<tag k='lat' v='60.5609063333333'/>
+	</node>
+	<node id='10' lon='-182.421273333333' lat='51.98723'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-182.421273333333'/>
+		<tag k='lat' v='51.98723'/>
+	</node>
+	<node id='11' lon='-162.695541' lat='54.342441'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-162.695541'/>
+		<tag k='lat' v='54.342441'/>
+	</node>
+	<node id='12' lon='-186.330737666667' lat='52.4375653333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-186.330737666667'/>
+		<tag k='lat' v='52.4375653333333'/>
+	</node>
+	<node id='13' lon='-181.504155333333' lat='51.9753876666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-181.504155333333'/>
+		<tag k='lat' v='51.9753876666667'/>
+	</node>
+	<node id='14' lon='-180.385638333333' lat='51.9879906666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-180.385638333333'/>
+		<tag k='lat' v='51.9879906666667'/>
+	</node>
+	<node id='15' lon='-178.735906333333' lat='51.5922646666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-178.735906333333'/>
+		<tag k='lat' v='51.5922646666667'/>
+	</node>
+	<node id='16' lon='-172.393363333333' lat='52.3023093333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-172.393363333333'/>
+		<tag k='lat' v='52.3023093333333'/>
+	</node>
+	<node id='17' lon='-170.367016333333' lat='57.144294'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-170.367016333333'/>
+		<tag k='lat' v='57.144294'/>
+	</node>
+	<node id='18' lon='-170.670647' lat='52.6785563333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-170.670647'/>
+		<tag k='lat' v='52.6785563333333'/>
+	</node>
+	<node id='19' lon='-152.321072666667' lat='58.944689'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-152.321072666667'/>
+		<tag k='lat' v='58.944689'/>
+	</node>
+	<node id='20' lon='-178.970813' lat='51.3880413333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-178.970813'/>
+		<tag k='lat' v='51.3880413333333'/>
+	</node>
+	<node id='21' lon='-156.741738666667' lat='56.063337'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-156.741738666667'/>
+		<tag k='lat' v='56.063337'/>
+	</node>
+	<node id='22' lon='-160.293629666667' lat='58.667358'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-160.293629666667'/>
+		<tag k='lat' v='58.667358'/>
+	</node>
+	<node id='23' lon='-169.570458' lat='56.604438'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-169.570458'/>
+		<tag k='lat' v='56.604438'/>
+	</node>
+	<node id='24' lon='-159.57568' lat='54.8194276666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-159.57568'/>
+		<tag k='lat' v='54.8194276666667'/>
+	</node>
+	<node id='25' lon='-155.578317333333' lat='55.817875'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-155.578317333333'/>
+		<tag k='lat' v='55.817875'/>
+	</node>
+	<node id='26' lon='-171.230638666667' lat='52.4578623333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-171.230638666667'/>
+		<tag k='lat' v='52.4578623333333'/>
+	</node>
+	<node id='27' lon='-185.886605333333' lat='52.7522896666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-185.886605333333'/>
+		<tag k='lat' v='52.7522896666667'/>
+	</node>
+	<node id='28' lon='-181.71849' lat='51.774104'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-181.71849'/>
+		<tag k='lat' v='51.774104'/>
+	</node>
+	<node id='29' lon='-178.82343' lat='51.762313'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-178.82343'/>
+		<tag k='lat' v='51.762313'/>
+	</node>
+	<node id='30' lon='-184.097737' lat='52.3326593333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-184.097737'/>
+		<tag k='lat' v='52.3326593333333'/>
+	</node>
+	<node id='31' lon='-163.186388666667' lat='55.4401083333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-163.186388666667'/>
+		<tag k='lat' v='55.4401083333333'/>
+	</node>
+	<node id='32' lon='-177.456968333333' lat='51.9335816666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-177.456968333333'/>
+		<tag k='lat' v='51.9335816666667'/>
+	</node>
+	<node id='33' lon='-178.289316' lat='51.461115'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-178.289316'/>
+		<tag k='lat' v='51.461115'/>
+	</node>
+	<node id='34' lon='-168.073967333333' lat='64.9547643333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-168.073967333333'/>
+		<tag k='lat' v='64.9547643333333'/>
+	</node>
+	<node id='35' lon='-175.505231333333' lat='52.1505666666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-175.505231333333'/>
+		<tag k='lat' v='52.1505666666667'/>
+	</node>
+	<node id='36' lon='-159.999101' lat='58.6201533333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-159.999101'/>
+		<tag k='lat' v='58.6201533333333'/>
+	</node>
+	<node id='37' lon='-172.757880666667' lat='60.180464'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-172.757880666667'/>
+		<tag k='lat' v='60.180464'/>
+	</node>
+	<node id='38' lon='-161.293736' lat='64.1453323333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-161.293736'/>
+		<tag k='lat' v='64.1453323333333'/>
+	</node>
+	<node id='39' lon='-168.044677666667' lat='53.9152393333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-168.044677666667'/>
+		<tag k='lat' v='53.9152393333333'/>
+	</node>
+	<node id='40' lon='-175.135568333333' lat='52.2401316666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-175.135568333333'/>
+		<tag k='lat' v='52.2401316666667'/>
+	</node>
+	<node id='41' lon='-168.923436333333' lat='65.7651526666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-168.923436333333'/>
+		<tag k='lat' v='65.7651526666667'/>
+	</node>
+	<node id='42' lon='-169.96166' lat='57.1645433333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-169.96166'/>
+		<tag k='lat' v='57.1645433333333'/>
+	</node>
+	<node id='43' lon='-161.097594' lat='55.1383053333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-161.097594'/>
+		<tag k='lat' v='55.1383053333333'/>
+	</node>
+	<node id='44' lon='-181.974528666667' lat='51.8553773333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-181.974528666667'/>
+		<tag k='lat' v='51.8553773333333'/>
+	</node>
+	<node id='45' lon='-162.734271666667' lat='54.822757'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-162.734271666667'/>
+		<tag k='lat' v='54.822757'/>
+	</node>
+	<node id='46' lon='-161.763477666667' lat='63.619806'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-161.763477666667'/>
+		<tag k='lat' v='63.619806'/>
+	</node>
+	<node id='47' lon='-182.635329666667' lat='52.1061046666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-182.635329666667'/>
+		<tag k='lat' v='52.1061046666667'/>
+	</node>
+	<node id='48' lon='-168.747367' lat='65.6396956666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/ak'/>
+		<tag k='long' v='-168.747367'/>
+		<tag k='lat' v='65.6396956666667'/>
+	</node>
+	<node id='49' lon='-87.9993083333333' lat='30.545111'>
+		<tag k='state' v='al'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.9993083333333'/>
+		<tag k='lat' v='30.545111'/>
+	</node>
+	<node id='50' lon='-85.622171' lat='31.560528'>
+		<tag k='state' v='al'/><tag k='cd' v='2'/>
+		<tag k='long' v='-85.622171'/>
+		<tag k='lat' v='31.560528'/>
+	</node>
+	<node id='51' lon='-85.9045653333333' lat='33.369524'>
+		<tag k='state' v='al'/><tag k='cd' v='3'/>
+		<tag k='long' v='-85.9045653333333'/>
+		<tag k='lat' v='33.369524'/>
+	</node>
+	<node id='52' lon='-87.7757416666667' lat='33.992805'>
+		<tag k='state' v='al'/><tag k='cd' v='4'/>
+		<tag k='long' v='-87.7757416666667'/>
+		<tag k='lat' v='33.992805'/>
+	</node>
+	<node id='53' lon='-86.1529853333333' lat='34.532212'>
+		<tag k='state' v='al'/><tag k='cd' v='4'/>
+		<tag k='long' v='-86.1529853333333'/>
+		<tag k='lat' v='34.532212'/>
+	</node>
+	<node id='54' lon='-87.3308656666667' lat='34.7148033333333'>
+		<tag k='state' v='al'/><tag k='cd' v='5'/>
+		<tag k='long' v='-87.3308656666667'/>
+		<tag k='lat' v='34.7148033333333'/>
+	</node>
+	<node id='55' lon='-86.1529853333333' lat='34.532212'>
+		<tag k='state' v='al'/><tag k='cd' v='5'/>
+		<tag k='long' v='-86.1529853333333'/>
+		<tag k='lat' v='34.532212'/>
+	</node>
+	<node id='56' lon='-86.8290623333333' lat='33.077837'>
+		<tag k='state' v='al'/><tag k='cd' v='6'/>
+		<tag k='long' v='-86.8290623333333'/>
+		<tag k='lat' v='33.077837'/>
+	</node>
+	<node id='57' lon='-87.8388483333333' lat='32.488498'>
+		<tag k='state' v='al'/><tag k='cd' v='7'/>
+		<tag k='long' v='-87.8388483333333'/>
+		<tag k='lat' v='32.488498'/>
+	</node>
+	<node id='58' lon='-90.7388976666667' lat='35.9784653333333'>
+		<tag k='state' v='ar'/><tag k='cd' v='1'/>
+		<tag k='long' v='-90.7388976666667'/>
+		<tag k='lat' v='35.9784653333333'/>
+	</node>
+	<node id='59' lon='-92.5948546666667' lat='34.930722'>
+		<tag k='state' v='ar'/><tag k='cd' v='2'/>
+		<tag k='long' v='-92.5948546666667'/>
+		<tag k='lat' v='34.930722'/>
+	</node>
+	<node id='60' lon='-94.0733083333333' lat='35.8693466666667'>
+		<tag k='state' v='ar'/><tag k='cd' v='3'/>
+		<tag k='long' v='-94.0733083333333'/>
+		<tag k='lat' v='35.8693466666667'/>
+	</node>
+	<node id='61' lon='-93.3514306666667' lat='33.6641936666667'>
+		<tag k='state' v='ar'/><tag k='cd' v='4'/>
+		<tag k='long' v='-93.3514306666667'/>
+		<tag k='lat' v='33.6641936666667'/>
+	</node>
+	<node id='62' lon='-170.657827666667' lat='-14.2453256666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/as'/>
+		<tag k='long' v='-170.657827666667'/>
+		<tag k='lat' v='-14.2453256666667'/>
+	</node>
+	<node id='63' lon='-169.481964' lat='-14.253443'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/as'/>
+		<tag k='long' v='-169.481964'/>
+		<tag k='lat' v='-14.253443'/>
+	</node>
+	<node id='64' lon='-171.077966333333' lat='-11.034946'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/as'/>
+		<tag k='long' v='-171.077966333333'/>
+		<tag k='lat' v='-11.034946'/>
+	</node>
+	<node id='65' lon='-168.162670666667' lat='-14.5420676666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/as'/>
+		<tag k='long' v='-168.162670666667'/>
+		<tag k='lat' v='-14.5420676666667'/>
+	</node>
+	<node id='66' lon='-110.174295666667' lat='34.6711183333333'>
+		<tag k='state' v='az'/><tag k='cd' v='1'/>
+		<tag k='long' v='-110.174295666667'/>
+		<tag k='lat' v='34.6711183333333'/>
+	</node>
+	<node id='67' lon='-113.449168666667' lat='36.4153746666667'>
+		<tag k='state' v='az'/><tag k='cd' v='2'/>
+		<tag k='long' v='-113.449168666667'/>
+		<tag k='lat' v='36.4153746666667'/>
+	</node>
+	<node id='68' lon='-113.797973333333' lat='34.2357986666667'>
+		<tag k='state' v='az'/><tag k='cd' v='2'/>
+		<tag k='long' v='-113.797973333333'/>
+		<tag k='lat' v='34.2357986666667'/>
+	</node>
+	<node id='69' lon='-112.124743333333' lat='33.851808'>
+		<tag k='state' v='az'/><tag k='cd' v='3'/>
+		<tag k='long' v='-112.124743333333'/>
+		<tag k='lat' v='33.851808'/>
+	</node>
+	<node id='70' lon='-112.139370333333' lat='33.3936223333333'>
+		<tag k='state' v='az'/><tag k='cd' v='4'/>
+		<tag k='long' v='-112.139370333333'/>
+		<tag k='lat' v='33.3936223333333'/>
+	</node>
+	<node id='71' lon='-111.716697666667' lat='33.7719553333333'>
+		<tag k='state' v='az'/><tag k='cd' v='5'/>
+		<tag k='long' v='-111.716697666667'/>
+		<tag k='lat' v='33.7719553333333'/>
+	</node>
+	<node id='72' lon='-111.599162666667' lat='33.2498046666667'>
+		<tag k='state' v='az'/><tag k='cd' v='6'/>
+		<tag k='long' v='-111.599162666667'/>
+		<tag k='lat' v='33.2498046666667'/>
+	</node>
+	<node id='73' lon='-113.855739333333' lat='32.8691163333333'>
+		<tag k='state' v='az'/><tag k='cd' v='7'/>
+		<tag k='long' v='-113.855739333333'/>
+		<tag k='lat' v='32.8691163333333'/>
+	</node>
+	<node id='74' lon='-113.797973333333' lat='34.2357986666667'>
+		<tag k='state' v='az'/><tag k='cd' v='7'/>
+		<tag k='long' v='-113.797973333333'/>
+		<tag k='lat' v='34.2357986666667'/>
+	</node>
+	<node id='75' lon='-110.54636' lat='31.9232903333333'>
+		<tag k='state' v='az'/><tag k='cd' v='8'/>
+		<tag k='long' v='-110.54636'/>
+		<tag k='lat' v='31.9232903333333'/>
+	</node>
+	<node id='76' lon='-123.345298' lat='39.1498206666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='1'/>
+		<tag k='long' v='-123.345298'/>
+		<tag k='lat' v='39.1498206666667'/>
+	</node>
+	<node id='77' lon='-121.791416' lat='37.7880986666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='10'/>
+		<tag k='long' v='-121.791416'/>
+		<tag k='lat' v='37.7880986666667'/>
+	</node>
+	<node id='78' lon='-122.139837666667' lat='37.9810183333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='10'/>
+		<tag k='long' v='-122.139837666667'/>
+		<tag k='lat' v='37.9810183333333'/>
+	</node>
+	<node id='79' lon='-121.605565333333' lat='37.4732833333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='11'/>
+		<tag k='long' v='-121.605565333333'/>
+		<tag k='lat' v='37.4732833333333'/>
+	</node>
+	<node id='80' lon='-122.344974' lat='37.6021376666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='12'/>
+		<tag k='long' v='-122.344974'/>
+		<tag k='lat' v='37.6021376666667'/>
+	</node>
+	<node id='81' lon='-123.034030333333' lat='37.6979386666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='12'/>
+		<tag k='long' v='-123.034030333333'/>
+		<tag k='lat' v='37.6979386666667'/>
+	</node>
+	<node id='82' lon='-121.974502' lat='37.58928'>
+		<tag k='state' v='ca'/><tag k='cd' v='13'/>
+		<tag k='long' v='-121.974502'/>
+		<tag k='lat' v='37.58928'/>
+	</node>
+	<node id='83' lon='-122.318631' lat='37.2371023333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='14'/>
+		<tag k='long' v='-122.318631'/>
+		<tag k='lat' v='37.2371023333333'/>
+	</node>
+	<node id='84' lon='-121.920333' lat='37.2258573333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='15'/>
+		<tag k='long' v='-121.920333'/>
+		<tag k='lat' v='37.2258573333333'/>
+	</node>
+	<node id='85' lon='-121.814954666667' lat='37.3214786666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='16'/>
+		<tag k='long' v='-121.814954666667'/>
+		<tag k='lat' v='37.3214786666667'/>
+	</node>
+	<node id='86' lon='-121.259802' lat='36.174777'>
+		<tag k='state' v='ca'/><tag k='cd' v='17'/>
+		<tag k='long' v='-121.259802'/>
+		<tag k='lat' v='36.174777'/>
+	</node>
+	<node id='87' lon='-120.987927666667' lat='37.1305036666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='18'/>
+		<tag k='long' v='-120.987927666667'/>
+		<tag k='lat' v='37.1305036666667'/>
+	</node>
+	<node id='88' lon='-119.720488333333' lat='37.64811'>
+		<tag k='state' v='ca'/><tag k='cd' v='19'/>
+		<tag k='long' v='-119.720488333333'/>
+		<tag k='lat' v='37.64811'/>
+	</node>
+	<node id='89' lon='-122.657038666667' lat='40.7855486666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='2'/>
+		<tag k='long' v='-122.657038666667'/>
+		<tag k='lat' v='40.7855486666667'/>
+	</node>
+	<node id='90' lon='-120.156610666667' lat='36.3405716666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='20'/>
+		<tag k='long' v='-120.156610666667'/>
+		<tag k='lat' v='36.3405716666667'/>
+	</node>
+	<node id='91' lon='-118.912373666667' lat='36.2573386666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='21'/>
+		<tag k='long' v='-118.912373666667'/>
+		<tag k='lat' v='36.2573386666667'/>
+	</node>
+	<node id='92' lon='-118.421655666667' lat='35.2784363333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='22'/>
+		<tag k='long' v='-118.421655666667'/>
+		<tag k='lat' v='35.2784363333333'/>
+	</node>
+	<node id='93' lon='-120.634978333333' lat='34.9102453333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='23'/>
+		<tag k='long' v='-120.634978333333'/>
+		<tag k='lat' v='34.9102453333333'/>
+	</node>
+	<node id='94' lon='-120.109258' lat='33.92985'>
+		<tag k='state' v='ca'/><tag k='cd' v='23'/>
+		<tag k='long' v='-120.109258'/>
+		<tag k='lat' v='33.92985'/>
+	</node>
+	<node id='95' lon='-119.065020333333' lat='33.4784083333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='23'/>
+		<tag k='long' v='-119.065020333333'/>
+		<tag k='lat' v='33.4784083333333'/>
+	</node>
+	<node id='96' lon='-119.014531' lat='34.5669543333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='24'/>
+		<tag k='long' v='-119.014531'/>
+		<tag k='lat' v='34.5669543333333'/>
+	</node>
+	<node id='97' lon='-119.515286333333' lat='33.278319'>
+		<tag k='state' v='ca'/><tag k='cd' v='24'/>
+		<tag k='long' v='-119.515286333333'/>
+		<tag k='lat' v='33.278319'/>
+	</node>
+	<node id='98' lon='-119.420506' lat='33.9937126666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='24'/>
+		<tag k='long' v='-119.420506'/>
+		<tag k='lat' v='33.9937126666667'/>
+	</node>
+	<node id='99' lon='-116.857297333333' lat='35.7087773333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='25'/>
+		<tag k='long' v='-116.857297333333'/>
+		<tag k='lat' v='35.7087773333333'/>
+	</node>
+	<node id='100' lon='-117.584900333333' lat='34.1916736666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='26'/>
+		<tag k='long' v='-117.584900333333'/>
+		<tag k='lat' v='34.1916736666667'/>
+	</node>
+	<node id='101' lon='-118.513059333333' lat='34.2879823333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='27'/>
+		<tag k='long' v='-118.513059333333'/>
+		<tag k='lat' v='34.2879823333333'/>
+	</node>
+	<node id='102' lon='-118.397472' lat='34.2219856666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='28'/>
+		<tag k='long' v='-118.397472'/>
+		<tag k='lat' v='34.2219856666667'/>
+	</node>
+	<node id='103' lon='-118.264622666667' lat='34.1864033333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='29'/>
+		<tag k='long' v='-118.264622666667'/>
+		<tag k='lat' v='34.1864033333333'/>
+	</node>
+	<node id='104' lon='-120.692232333333' lat='38.2196636666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='3'/>
+		<tag k='long' v='-120.692232333333'/>
+		<tag k='lat' v='38.2196636666667'/>
+	</node>
+	<node id='105' lon='-118.636664' lat='34.111476'>
+		<tag k='state' v='ca'/><tag k='cd' v='30'/>
+		<tag k='long' v='-118.636664'/>
+		<tag k='lat' v='34.111476'/>
+	</node>
+	<node id='106' lon='-118.216772' lat='34.0952776666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='31'/>
+		<tag k='long' v='-118.216772'/>
+		<tag k='lat' v='34.0952776666667'/>
+	</node>
+	<node id='107' lon='-117.925368' lat='34.1003123333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='32'/>
+		<tag k='long' v='-117.925368'/>
+		<tag k='lat' v='34.1003123333333'/>
+	</node>
+	<node id='108' lon='-118.345448' lat='34.008578'>
+		<tag k='state' v='ca'/><tag k='cd' v='33'/>
+		<tag k='long' v='-118.345448'/>
+		<tag k='lat' v='34.008578'/>
+	</node>
+	<node id='109' lon='-118.213536333333' lat='33.9955'>
+		<tag k='state' v='ca'/><tag k='cd' v='34'/>
+		<tag k='long' v='-118.213536333333'/>
+		<tag k='lat' v='33.9955'/>
+	</node>
+	<node id='110' lon='-118.316416' lat='33.9158786666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='35'/>
+		<tag k='long' v='-118.316416'/>
+		<tag k='lat' v='33.9158786666667'/>
+	</node>
+	<node id='111' lon='-118.404862666667' lat='33.842541'>
+		<tag k='state' v='ca'/><tag k='cd' v='36'/>
+		<tag k='long' v='-118.404862666667'/>
+		<tag k='lat' v='33.842541'/>
+	</node>
+	<node id='112' lon='-118.239930333333' lat='33.8554336666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='37'/>
+		<tag k='long' v='-118.239930333333'/>
+		<tag k='lat' v='33.8554336666667'/>
+	</node>
+	<node id='113' lon='-117.971325333333' lat='34.0029513333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='38'/>
+		<tag k='long' v='-117.971325333333'/>
+		<tag k='lat' v='34.0029513333333'/>
+	</node>
+	<node id='114' lon='-118.023200666667' lat='33.9230273333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='39'/>
+		<tag k='long' v='-118.023200666667'/>
+		<tag k='lat' v='33.9230273333333'/>
+	</node>
+	<node id='115' lon='-120.591226333333' lat='39.046723'>
+		<tag k='state' v='ca'/><tag k='cd' v='4'/>
+		<tag k='long' v='-120.591226333333'/>
+		<tag k='lat' v='39.046723'/>
+	</node>
+	<node id='116' lon='-118.003089666667' lat='33.8337063333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='40'/>
+		<tag k='long' v='-118.003089666667'/>
+		<tag k='lat' v='33.8337063333333'/>
+	</node>
+	<node id='117' lon='-115.439095333333' lat='34.918057'>
+		<tag k='state' v='ca'/><tag k='cd' v='41'/>
+		<tag k='long' v='-115.439095333333'/>
+		<tag k='lat' v='34.918057'/>
+	</node>
+	<node id='118' lon='-117.747853666667' lat='33.932384'>
+		<tag k='state' v='ca'/><tag k='cd' v='42'/>
+		<tag k='long' v='-117.747853666667'/>
+		<tag k='lat' v='33.932384'/>
+	</node>
+	<node id='119' lon='-117.399441666667' lat='34.13219'>
+		<tag k='state' v='ca'/><tag k='cd' v='43'/>
+		<tag k='long' v='-117.399441666667'/>
+		<tag k='lat' v='34.13219'/>
+	</node>
+	<node id='120' lon='-117.484889333333' lat='33.8567546666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='44'/>
+		<tag k='long' v='-117.484889333333'/>
+		<tag k='lat' v='33.8567546666667'/>
+	</node>
+	<node id='121' lon='-114.759736' lat='33.7841696666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='45'/>
+		<tag k='long' v='-114.759736'/>
+		<tag k='lat' v='33.7841696666667'/>
+	</node>
+	<node id='122' lon='-118.438791' lat='33.3394193333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='46'/>
+		<tag k='long' v='-118.438791'/>
+		<tag k='lat' v='33.3394193333333'/>
+	</node>
+	<node id='123' lon='-118.007723333333' lat='33.673677'>
+		<tag k='state' v='ca'/><tag k='cd' v='46'/>
+		<tag k='long' v='-118.007723333333'/>
+		<tag k='lat' v='33.673677'/>
+	</node>
+	<node id='124' lon='-118.501365' lat='32.8648353333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='46'/>
+		<tag k='long' v='-118.501365'/>
+		<tag k='lat' v='32.8648353333333'/>
+	</node>
+	<node id='125' lon='-117.923949666667' lat='33.770124'>
+		<tag k='state' v='ca'/><tag k='cd' v='47'/>
+		<tag k='long' v='-117.923949666667'/>
+		<tag k='lat' v='33.770124'/>
+	</node>
+	<node id='126' lon='-117.795130666667' lat='33.59548'>
+		<tag k='state' v='ca'/><tag k='cd' v='48'/>
+		<tag k='long' v='-117.795130666667'/>
+		<tag k='lat' v='33.59548'/>
+	</node>
+	<node id='127' lon='-117.319119666667' lat='33.3066266666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='49'/>
+		<tag k='long' v='-117.319119666667'/>
+		<tag k='lat' v='33.3066266666667'/>
+	</node>
+	<node id='128' lon='-121.467047666667' lat='38.52053'>
+		<tag k='state' v='ca'/><tag k='cd' v='5'/>
+		<tag k='long' v='-121.467047666667'/>
+		<tag k='lat' v='38.52053'/>
+	</node>
+	<node id='129' lon='-117.189851' lat='33.0067773333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='50'/>
+		<tag k='long' v='-117.189851'/>
+		<tag k='lat' v='33.0067773333333'/>
+	</node>
+	<node id='130' lon='-115.668544666667' lat='32.9108923333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='51'/>
+		<tag k='long' v='-115.668544666667'/>
+		<tag k='lat' v='32.9108923333333'/>
+	</node>
+	<node id='131' lon='-116.732029' lat='32.8872333333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='52'/>
+		<tag k='long' v='-116.732029'/>
+		<tag k='lat' v='32.8872333333333'/>
+	</node>
+	<node id='132' lon='-117.239231666667' lat='32.6811896666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='53'/>
+		<tag k='long' v='-117.239231666667'/>
+		<tag k='lat' v='32.6811896666667'/>
+	</node>
+	<node id='133' lon='-122.592857666667' lat='38.0948383333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='6'/>
+		<tag k='long' v='-122.592857666667'/>
+		<tag k='lat' v='38.0948383333333'/>
+	</node>
+	<node id='134' lon='-122.274954333333' lat='38.0758736666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='7'/>
+		<tag k='long' v='-122.274954333333'/>
+		<tag k='lat' v='38.0758736666667'/>
+	</node>
+	<node id='135' lon='-122.139837666667' lat='37.9810183333333'>
+		<tag k='state' v='ca'/><tag k='cd' v='7'/>
+		<tag k='long' v='-122.139837666667'/>
+		<tag k='lat' v='37.9810183333333'/>
+	</node>
+	<node id='136' lon='-122.405786333333' lat='37.805777'>
+		<tag k='state' v='ca'/><tag k='cd' v='8'/>
+		<tag k='long' v='-122.405786333333'/>
+		<tag k='lat' v='37.805777'/>
+	</node>
+	<node id='137' lon='-122.069719' lat='37.7198806666667'>
+		<tag k='state' v='ca'/><tag k='cd' v='9'/>
+		<tag k='long' v='-122.069719'/>
+		<tag k='lat' v='37.7198806666667'/>
+	</node>
+	<node id='138' lon='-104.940904' lat='39.720863'>
+		<tag k='state' v='co'/><tag k='cd' v='1'/>
+		<tag k='long' v='-104.940904'/>
+		<tag k='lat' v='39.720863'/>
+	</node>
+	<node id='139' lon='-106.224267666667' lat='39.930842'>
+		<tag k='state' v='co'/><tag k='cd' v='2'/>
+		<tag k='long' v='-106.224267666667'/>
+		<tag k='lat' v='39.930842'/>
+	</node>
+	<node id='140' lon='-107.919852666667' lat='38.2505243333333'>
+		<tag k='state' v='co'/><tag k='cd' v='3'/>
+		<tag k='long' v='-107.919852666667'/>
+		<tag k='lat' v='38.2505243333333'/>
+	</node>
+	<node id='141' lon='-103.103724333333' lat='38.5654193333333'>
+		<tag k='state' v='co'/><tag k='cd' v='4'/>
+		<tag k='long' v='-103.103724333333'/>
+		<tag k='lat' v='38.5654193333333'/>
+	</node>
+	<node id='142' lon='-105.889769' lat='38.8352956666667'>
+		<tag k='state' v='co'/><tag k='cd' v='5'/>
+		<tag k='long' v='-105.889769'/>
+		<tag k='lat' v='38.8352956666667'/>
+	</node>
+	<node id='143' lon='-103.989694666667' lat='39.428883'>
+		<tag k='state' v='co'/><tag k='cd' v='6'/>
+		<tag k='long' v='-103.989694666667'/>
+		<tag k='lat' v='39.428883'/>
+	</node>
+	<node id='144' lon='-104.524668666667' lat='39.8708743333333'>
+		<tag k='state' v='co'/><tag k='cd' v='7'/>
+		<tag k='long' v='-104.524668666667'/>
+		<tag k='lat' v='39.8708743333333'/>
+	</node>
+	<node id='145' lon='-72.6246966666667' lat='41.784696'>
+		<tag k='state' v='ct'/><tag k='cd' v='1'/>
+		<tag k='long' v='-72.6246966666667'/>
+		<tag k='lat' v='41.784696'/>
+	</node>
+	<node id='146' lon='-72.1485273333333' lat='41.5486096666667'>
+		<tag k='state' v='ct'/><tag k='cd' v='2'/>
+		<tag k='long' v='-72.1485273333333'/>
+		<tag k='lat' v='41.5486096666667'/>
+	</node>
+	<node id='147' lon='-72.601893' lat='41.266155'>
+		<tag k='state' v='ct'/><tag k='cd' v='2'/>
+		<tag k='long' v='-72.601893'/>
+		<tag k='lat' v='41.266155'/>
+	</node>
+	<node id='148' lon='-72.8016166666667' lat='41.3564936666667'>
+		<tag k='state' v='ct'/><tag k='cd' v='3'/>
+		<tag k='long' v='-72.8016166666667'/>
+		<tag k='lat' v='41.3564936666667'/>
+	</node>
+	<node id='149' lon='-73.366532' lat='41.221429'>
+		<tag k='state' v='ct'/><tag k='cd' v='4'/>
+		<tag k='long' v='-73.366532'/>
+		<tag k='lat' v='41.221429'/>
+	</node>
+	<node id='150' lon='-73.288863' lat='41.6435113333333'>
+		<tag k='state' v='ct'/><tag k='cd' v='5'/>
+		<tag k='long' v='-73.288863'/>
+		<tag k='lat' v='41.6435113333333'/>
+	</node>
+	<node id='151' lon='-76.988028' lat='38.8856696666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/dc'/>
+		<tag k='long' v='-76.988028'/>
+		<tag k='lat' v='38.8856696666667'/>
+	</node>
+	<node id='152' lon='-75.412058' lat='38.711137'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/de'/>
+		<tag k='long' v='-75.412058'/>
+		<tag k='lat' v='38.711137'/>
+	</node>
+	<node id='153' lon='-87.130463' lat='30.6570886666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.130463'/>
+		<tag k='lat' v='30.6570886666667'/>
+	</node>
+	<node id='154' lon='-82.772833' lat='27.8193583333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='10'/>
+		<tag k='long' v='-82.772833'/>
+		<tag k='lat' v='27.8193583333333'/>
+	</node>
+	<node id='155' lon='-82.4812016666667' lat='27.9281873333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='11'/>
+		<tag k='long' v='-82.4812016666667'/>
+		<tag k='lat' v='27.9281873333333'/>
+	</node>
+	<node id='156' lon='-81.780831' lat='27.9902413333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='12'/>
+		<tag k='long' v='-81.780831'/>
+		<tag k='lat' v='27.9902413333333'/>
+	</node>
+	<node id='157' lon='-82.348697' lat='27.3833896666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='13'/>
+		<tag k='long' v='-82.348697'/>
+		<tag k='lat' v='27.3833896666667'/>
+	</node>
+	<node id='158' lon='-81.830653' lat='26.5196473333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='14'/>
+		<tag k='long' v='-81.830653'/>
+		<tag k='lat' v='26.5196473333333'/>
+	</node>
+	<node id='159' lon='-80.975498' lat='27.9195883333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='15'/>
+		<tag k='long' v='-80.975498'/>
+		<tag k='lat' v='27.9195883333333'/>
+	</node>
+	<node id='160' lon='-81.1868823333333' lat='27.2527143333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='16'/>
+		<tag k='long' v='-81.1868823333333'/>
+		<tag k='lat' v='27.2527143333333'/>
+	</node>
+	<node id='161' lon='-80.2216106666667' lat='25.9257353333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='17'/>
+		<tag k='long' v='-80.2216106666667'/>
+		<tag k='lat' v='25.9257353333333'/>
+	</node>
+	<node id='162' lon='-80.816857' lat='24.9512556666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='18'/>
+		<tag k='long' v='-80.816857'/>
+		<tag k='lat' v='24.9512556666667'/>
+	</node>
+	<node id='163' lon='-82.8761653333333' lat='24.630932'>
+		<tag k='state' v='fl'/><tag k='cd' v='18'/>
+		<tag k='long' v='-82.8761653333333'/>
+		<tag k='lat' v='24.630932'/>
+	</node>
+	<node id='164' lon='-80.147592' lat='26.5660916666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='19'/>
+		<tag k='long' v='-80.147592'/>
+		<tag k='lat' v='26.5660916666667'/>
+	</node>
+	<node id='165' lon='-84.9795116666667' lat='30.078402'>
+		<tag k='state' v='fl'/><tag k='cd' v='2'/>
+		<tag k='long' v='-84.9795116666667'/>
+		<tag k='lat' v='30.078402'/>
+	</node>
+	<node id='166' lon='-80.2784046666667' lat='26.1175736666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='20'/>
+		<tag k='long' v='-80.2784046666667'/>
+		<tag k='lat' v='26.1175736666667'/>
+	</node>
+	<node id='167' lon='-80.349484' lat='25.6493593333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='21'/>
+		<tag k='long' v='-80.349484'/>
+		<tag k='lat' v='25.6493593333333'/>
+	</node>
+	<node id='168' lon='-80.1130446666667' lat='26.8485206666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='22'/>
+		<tag k='long' v='-80.1130446666667'/>
+		<tag k='lat' v='26.8485206666667'/>
+	</node>
+	<node id='169' lon='-80.7063946666667' lat='26.5637986666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='23'/>
+		<tag k='long' v='-80.7063946666667'/>
+		<tag k='lat' v='26.5637986666667'/>
+	</node>
+	<node id='170' lon='-80.9582176666667' lat='28.632306'>
+		<tag k='state' v='fl'/><tag k='cd' v='24'/>
+		<tag k='long' v='-80.9582176666667'/>
+		<tag k='lat' v='28.632306'/>
+	</node>
+	<node id='171' lon='-80.8421993333333' lat='25.6133306666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='25'/>
+		<tag k='long' v='-80.8421993333333'/>
+		<tag k='lat' v='25.6133306666667'/>
+	</node>
+	<node id='172' lon='-81.894095' lat='29.5555923333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='3'/>
+		<tag k='long' v='-81.894095'/>
+		<tag k='lat' v='29.5555923333333'/>
+	</node>
+	<node id='173' lon='-82.4114833333333' lat='30.2213923333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='4'/>
+		<tag k='long' v='-82.4114833333333'/>
+		<tag k='lat' v='30.2213923333333'/>
+	</node>
+	<node id='174' lon='-82.367703' lat='28.507219'>
+		<tag k='state' v='fl'/><tag k='cd' v='5'/>
+		<tag k='long' v='-82.367703'/>
+		<tag k='lat' v='28.507219'/>
+	</node>
+	<node id='175' lon='-82.4300623333333' lat='29.7175813333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='6'/>
+		<tag k='long' v='-82.4300623333333'/>
+		<tag k='lat' v='29.7175813333333'/>
+	</node>
+	<node id='176' lon='-81.3886813333333' lat='29.5722443333333'>
+		<tag k='state' v='fl'/><tag k='cd' v='7'/>
+		<tag k='long' v='-81.3886813333333'/>
+		<tag k='lat' v='29.5722443333333'/>
+	</node>
+	<node id='177' lon='-81.5513486666667' lat='28.445303'>
+		<tag k='state' v='fl'/><tag k='cd' v='8'/>
+		<tag k='long' v='-81.5513486666667'/>
+		<tag k='lat' v='28.445303'/>
+	</node>
+	<node id='178' lon='-82.6469066666667' lat='28.0966466666667'>
+		<tag k='state' v='fl'/><tag k='cd' v='9'/>
+		<tag k='long' v='-82.6469066666667'/>
+		<tag k='lat' v='28.0966466666667'/>
+	</node>
+	<node id='179' lon='-82.348199' lat='31.3957373333333'>
+		<tag k='state' v='ga'/><tag k='cd' v='1'/>
+		<tag k='long' v='-82.348199'/>
+		<tag k='lat' v='31.3957373333333'/>
+	</node>
+	<node id='180' lon='-83.1112123333333' lat='34.0324803333333'>
+		<tag k='state' v='ga'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.1112123333333'/>
+		<tag k='lat' v='34.0324803333333'/>
+	</node>
+	<node id='181' lon='-85.045604' lat='34.059463'>
+		<tag k='state' v='ga'/><tag k='cd' v='11'/>
+		<tag k='long' v='-85.045604'/>
+		<tag k='lat' v='34.059463'/>
+	</node>
+	<node id='182' lon='-82.051948' lat='32.598707'>
+		<tag k='state' v='ga'/><tag k='cd' v='12'/>
+		<tag k='long' v='-82.051948'/>
+		<tag k='lat' v='32.598707'/>
+	</node>
+	<node id='183' lon='-84.6750086666667' lat='33.6118'>
+		<tag k='state' v='ga'/><tag k='cd' v='13'/>
+		<tag k='long' v='-84.6750086666667'/>
+		<tag k='lat' v='33.6118'/>
+	</node>
+	<node id='184' lon='-84.64385' lat='31.8227886666667'>
+		<tag k='state' v='ga'/><tag k='cd' v='2'/>
+		<tag k='long' v='-84.64385'/>
+		<tag k='lat' v='31.8227886666667'/>
+	</node>
+	<node id='185' lon='-84.8843226666667' lat='33.1191403333333'>
+		<tag k='state' v='ga'/><tag k='cd' v='3'/>
+		<tag k='long' v='-84.8843226666667'/>
+		<tag k='lat' v='33.1191403333333'/>
+	</node>
+	<node id='186' lon='-84.2194946666667' lat='33.74506'>
+		<tag k='state' v='ga'/><tag k='cd' v='4'/>
+		<tag k='long' v='-84.2194946666667'/>
+		<tag k='lat' v='33.74506'/>
+	</node>
+	<node id='187' lon='-84.4489946666667' lat='33.7025743333333'>
+		<tag k='state' v='ga'/><tag k='cd' v='5'/>
+		<tag k='long' v='-84.4489946666667'/>
+		<tag k='lat' v='33.7025743333333'/>
+	</node>
+	<node id='188' lon='-84.400644' lat='34.232532'>
+		<tag k='state' v='ga'/><tag k='cd' v='6'/>
+		<tag k='long' v='-84.400644'/>
+		<tag k='lat' v='34.232532'/>
+	</node>
+	<node id='189' lon='-83.7530786666667' lat='33.889988'>
+		<tag k='state' v='ga'/><tag k='cd' v='7'/>
+		<tag k='long' v='-83.7530786666667'/>
+		<tag k='lat' v='33.889988'/>
+	</node>
+	<node id='190' lon='-83.3119163333333' lat='32.6698073333333'>
+		<tag k='state' v='ga'/><tag k='cd' v='8'/>
+		<tag k='long' v='-83.3119163333333'/>
+		<tag k='lat' v='32.6698073333333'/>
+	</node>
+	<node id='191' lon='-83.897286' lat='34.558592'>
+		<tag k='state' v='ga'/><tag k='cd' v='9'/>
+		<tag k='long' v='-83.897286'/>
+		<tag k='lat' v='34.558592'/>
+	</node>
+	<node id='192' lon='-215.307161666667' lat='13.4259046666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/gu'/>
+		<tag k='long' v='-215.307161666667'/>
+		<tag k='lat' v='13.4259046666667'/>
+	</node>
+	<node id='193' lon='-157.937346666667' lat='21.349666'>
+		<tag k='state' v='hi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-157.937346666667'/>
+		<tag k='lat' v='21.349666'/>
+	</node>
+	<node id='194' lon='-155.509938' lat='19.580114'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-155.509938'/>
+		<tag k='lat' v='19.580114'/>
+	</node>
+	<node id='195' lon='-156.295352666667' lat='20.736844'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-156.295352666667'/>
+		<tag k='lat' v='20.736844'/>
+	</node>
+	<node id='196' lon='-159.441480333333' lat='22.0455303333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-159.441480333333'/>
+		<tag k='lat' v='22.0455303333333'/>
+	</node>
+	<node id='197' lon='-158.150948333333' lat='21.507964'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-158.150948333333'/>
+		<tag k='lat' v='21.507964'/>
+	</node>
+	<node id='198' lon='-157.229654333333' lat='21.1705013333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-157.229654333333'/>
+		<tag k='lat' v='21.1705013333333'/>
+	</node>
+	<node id='199' lon='-156.90306' lat='20.8149016666667'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-156.90306'/>
+		<tag k='lat' v='20.8149016666667'/>
+	</node>
+	<node id='200' lon='-175.820579333333' lat='27.8829273333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-175.820579333333'/>
+		<tag k='lat' v='27.8829273333333'/>
+	</node>
+	<node id='201' lon='-160.107817333333' lat='21.9127156666667'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-160.107817333333'/>
+		<tag k='lat' v='21.9127156666667'/>
+	</node>
+	<node id='202' lon='-166.237445' lat='23.7832093333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-166.237445'/>
+		<tag k='lat' v='23.7832093333333'/>
+	</node>
+	<node id='203' lon='-178.351213666667' lat='28.4049126666667'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-178.351213666667'/>
+		<tag k='lat' v='28.4049126666667'/>
+	</node>
+	<node id='204' lon='-174.002628333333' lat='26.073957'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-174.002628333333'/>
+		<tag k='lat' v='26.073957'/>
+	</node>
+	<node id='205' lon='-171.723925333333' lat='25.7664703333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-171.723925333333'/>
+		<tag k='lat' v='25.7664703333333'/>
+	</node>
+	<node id='206' lon='-161.949833333333' lat='23.0583823333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-161.949833333333'/>
+		<tag k='lat' v='23.0583823333333'/>
+	</node>
+	<node id='207' lon='-160.547894333333' lat='21.6733613333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-160.547894333333'/>
+		<tag k='lat' v='21.6733613333333'/>
+	</node>
+	<node id='208' lon='-164.679681333333' lat='23.5639693333333'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-164.679681333333'/>
+		<tag k='lat' v='23.5639693333333'/>
+	</node>
+	<node id='209' lon='-167.997055333333' lat='25.0159256666667'>
+		<tag k='state' v='hi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-167.997055333333'/>
+		<tag k='lat' v='25.0159256666667'/>
+	</node>
+	<node id='210' lon='-91.059429' lat='42.246095'>
+		<tag k='state' v='ia'/><tag k='cd' v='1'/>
+		<tag k='long' v='-91.059429'/>
+		<tag k='lat' v='42.246095'/>
+	</node>
+	<node id='211' lon='-91.4426213333333' lat='41.0249853333333'>
+		<tag k='state' v='ia'/><tag k='cd' v='2'/>
+		<tag k='long' v='-91.4426213333333'/>
+		<tag k='lat' v='41.0249853333333'/>
+	</node>
+	<node id='212' lon='-92.9532293333333' lat='41.4735203333333'>
+		<tag k='state' v='ia'/><tag k='cd' v='3'/>
+		<tag k='long' v='-92.9532293333333'/>
+		<tag k='lat' v='41.4735203333333'/>
+	</node>
+	<node id='213' lon='-94.0666396666667' lat='42.5011893333333'>
+		<tag k='state' v='ia'/><tag k='cd' v='4'/>
+		<tag k='long' v='-94.0666396666667'/>
+		<tag k='lat' v='42.5011893333333'/>
+	</node>
+	<node id='214' lon='-95.665381' lat='42.8307476666667'>
+		<tag k='state' v='ia'/><tag k='cd' v='5'/>
+		<tag k='long' v='-95.665381'/>
+		<tag k='lat' v='42.8307476666667'/>
+	</node>
+	<node id='215' lon='-115.345801333333' lat='46.0997623333333'>
+		<tag k='state' v='id'/><tag k='cd' v='1'/>
+		<tag k='long' v='-115.345801333333'/>
+		<tag k='lat' v='46.0997623333333'/>
+	</node>
+	<node id='216' lon='-113.93822' lat='43.554652'>
+		<tag k='state' v='id'/><tag k='cd' v='2'/>
+		<tag k='long' v='-113.93822'/>
+		<tag k='lat' v='43.554652'/>
+	</node>
+	<node id='217' lon='-87.7622456666667' lat='41.645438'>
+		<tag k='state' v='il'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.7622456666667'/>
+		<tag k='lat' v='41.645438'/>
+	</node>
+	<node id='218' lon='-87.9019453333333' lat='42.155379'>
+		<tag k='state' v='il'/><tag k='cd' v='10'/>
+		<tag k='long' v='-87.9019453333333'/>
+		<tag k='lat' v='42.155379'/>
+	</node>
+	<node id='219' lon='-88.0744923333333' lat='41.3397113333333'>
+		<tag k='state' v='il'/><tag k='cd' v='11'/>
+		<tag k='long' v='-88.0744923333333'/>
+		<tag k='lat' v='41.3397113333333'/>
+	</node>
+	<node id='220' lon='-90.0532886666667' lat='38.2753013333333'>
+		<tag k='state' v='il'/><tag k='cd' v='12'/>
+		<tag k='long' v='-90.0532886666667'/>
+		<tag k='lat' v='38.2753013333333'/>
+	</node>
+	<node id='221' lon='-88.063599' lat='41.7279836666667'>
+		<tag k='state' v='il'/><tag k='cd' v='13'/>
+		<tag k='long' v='-88.063599'/>
+		<tag k='lat' v='41.7279836666667'/>
+	</node>
+	<node id='222' lon='-88.5068673333333' lat='41.7991096666667'>
+		<tag k='state' v='il'/><tag k='cd' v='14'/>
+		<tag k='long' v='-88.5068673333333'/>
+		<tag k='lat' v='41.7991096666667'/>
+	</node>
+	<node id='223' lon='-88.293764' lat='39.8080846666667'>
+		<tag k='state' v='il'/><tag k='cd' v='15'/>
+		<tag k='long' v='-88.293764'/>
+		<tag k='lat' v='39.8080846666667'/>
+	</node>
+	<node id='224' lon='-89.8887756666667' lat='42.165066'>
+		<tag k='state' v='il'/><tag k='cd' v='16'/>
+		<tag k='long' v='-89.8887756666667'/>
+		<tag k='lat' v='42.165066'/>
+	</node>
+	<node id='225' lon='-90.5628236666667' lat='40.6633746666667'>
+		<tag k='state' v='il'/><tag k='cd' v='17'/>
+		<tag k='long' v='-90.5628236666667'/>
+		<tag k='lat' v='40.6633746666667'/>
+	</node>
+	<node id='226' lon='-89.5773883333333' lat='40.7766206666667'>
+		<tag k='state' v='il'/><tag k='cd' v='18'/>
+		<tag k='long' v='-89.5773883333333'/>
+		<tag k='lat' v='40.7766206666667'/>
+	</node>
+	<node id='227' lon='-88.8329153333333' lat='38.7749143333333'>
+		<tag k='state' v='il'/><tag k='cd' v='19'/>
+		<tag k='long' v='-88.8329153333333'/>
+		<tag k='lat' v='38.7749143333333'/>
+	</node>
+	<node id='228' lon='-87.6034926666667' lat='41.5501183333333'>
+		<tag k='state' v='il'/><tag k='cd' v='2'/>
+		<tag k='long' v='-87.6034926666667'/>
+		<tag k='lat' v='41.5501183333333'/>
+	</node>
+	<node id='229' lon='-87.8015803333333' lat='41.73761'>
+		<tag k='state' v='il'/><tag k='cd' v='3'/>
+		<tag k='long' v='-87.8015803333333'/>
+		<tag k='lat' v='41.73761'/>
+	</node>
+	<node id='230' lon='-87.710377' lat='41.8261163333333'>
+		<tag k='state' v='il'/><tag k='cd' v='4'/>
+		<tag k='long' v='-87.710377'/>
+		<tag k='lat' v='41.8261163333333'/>
+	</node>
+	<node id='231' lon='-87.860926' lat='41.936199'>
+		<tag k='state' v='il'/><tag k='cd' v='5'/>
+		<tag k='long' v='-87.860926'/>
+		<tag k='lat' v='41.936199'/>
+	</node>
+	<node id='232' lon='-88.0324616666667' lat='41.882611'>
+		<tag k='state' v='il'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.0324616666667'/>
+		<tag k='lat' v='41.882611'/>
+	</node>
+	<node id='233' lon='-87.6410936666667' lat='41.8864006666667'>
+		<tag k='state' v='il'/><tag k='cd' v='7'/>
+		<tag k='long' v='-87.6410936666667'/>
+		<tag k='lat' v='41.8864006666667'/>
+	</node>
+	<node id='234' lon='-88.117417' lat='42.3501583333333'>
+		<tag k='state' v='il'/><tag k='cd' v='8'/>
+		<tag k='long' v='-88.117417'/>
+		<tag k='lat' v='42.3501583333333'/>
+	</node>
+	<node id='235' lon='-87.8431056666667' lat='42.0234663333333'>
+		<tag k='state' v='il'/><tag k='cd' v='9'/>
+		<tag k='long' v='-87.8431056666667'/>
+		<tag k='lat' v='42.0234663333333'/>
+	</node>
+	<node id='236' lon='-87.174331' lat='41.0219'>
+		<tag k='state' v='in'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.174331'/>
+		<tag k='lat' v='41.0219'/>
+	</node>
+	<node id='237' lon='-86.3722303333333' lat='41.164883'>
+		<tag k='state' v='in'/><tag k='cd' v='2'/>
+		<tag k='long' v='-86.3722303333333'/>
+		<tag k='lat' v='41.164883'/>
+	</node>
+	<node id='238' lon='-85.2648133333333' lat='41.2549603333333'>
+		<tag k='state' v='in'/><tag k='cd' v='3'/>
+		<tag k='long' v='-85.2648133333333'/>
+		<tag k='lat' v='41.2549603333333'/>
+	</node>
+	<node id='239' lon='-86.5141616666667' lat='40.1187286666667'>
+		<tag k='state' v='in'/><tag k='cd' v='4'/>
+		<tag k='long' v='-86.5141616666667'/>
+		<tag k='lat' v='40.1187286666667'/>
+	</node>
+	<node id='240' lon='-85.8210496666667' lat='40.8076573333333'>
+		<tag k='state' v='in'/><tag k='cd' v='5'/>
+		<tag k='long' v='-85.8210496666667'/>
+		<tag k='lat' v='40.8076573333333'/>
+	</node>
+	<node id='241' lon='-85.290724' lat='40.1335006666667'>
+		<tag k='state' v='in'/><tag k='cd' v='6'/>
+		<tag k='long' v='-85.290724'/>
+		<tag k='lat' v='40.1335006666667'/>
+	</node>
+	<node id='242' lon='-86.179172' lat='39.771747'>
+		<tag k='state' v='in'/><tag k='cd' v='7'/>
+		<tag k='long' v='-86.179172'/>
+		<tag k='lat' v='39.771747'/>
+	</node>
+	<node id='243' lon='-87.2783863333333' lat='39.157667'>
+		<tag k='state' v='in'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.2783863333333'/>
+		<tag k='lat' v='39.157667'/>
+	</node>
+	<node id='244' lon='-85.8400933333333' lat='38.7992026666667'>
+		<tag k='state' v='in'/><tag k='cd' v='9'/>
+		<tag k='long' v='-85.8400933333333'/>
+		<tag k='lat' v='38.7992026666667'/>
+	</node>
+	<node id='245' lon='-100.987119333333' lat='38.5157043333333'>
+		<tag k='state' v='ks'/><tag k='cd' v='1'/>
+		<tag k='long' v='-100.987119333333'/>
+		<tag k='lat' v='38.5157043333333'/>
+	</node>
+	<node id='246' lon='-95.4275633333333' lat='37.7382603333333'>
+		<tag k='state' v='ks'/><tag k='cd' v='2'/>
+		<tag k='long' v='-95.4275633333333'/>
+		<tag k='lat' v='37.7382603333333'/>
+	</node>
+	<node id='247' lon='-94.769055' lat='38.876939'>
+		<tag k='state' v='ks'/><tag k='cd' v='3'/>
+		<tag k='long' v='-94.769055'/>
+		<tag k='lat' v='38.876939'/>
+	</node>
+	<node id='248' lon='-97.3517993333333' lat='37.6067096666667'>
+		<tag k='state' v='ks'/><tag k='cd' v='4'/>
+		<tag k='long' v='-97.3517993333333'/>
+		<tag k='lat' v='37.6067096666667'/>
+	</node>
+	<node id='249' lon='-87.7419626666667' lat='37.2806336666667'>
+		<tag k='state' v='ky'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.7419626666667'/>
+		<tag k='lat' v='37.2806336666667'/>
+	</node>
+	<node id='250' lon='-89.5289233333333' lat='36.5300483333333'>
+		<tag k='state' v='ky'/><tag k='cd' v='1'/>
+		<tag k='long' v='-89.5289233333333'/>
+		<tag k='lat' v='36.5300483333333'/>
+	</node>
+	<node id='251' lon='-86.1000193333333' lat='37.5086816666667'>
+		<tag k='state' v='ky'/><tag k='cd' v='2'/>
+		<tag k='long' v='-86.1000193333333'/>
+		<tag k='lat' v='37.5086816666667'/>
+	</node>
+	<node id='252' lon='-85.549647' lat='38.168485'>
+		<tag k='state' v='ky'/><tag k='cd' v='3'/>
+		<tag k='long' v='-85.549647'/>
+		<tag k='lat' v='38.168485'/>
+	</node>
+	<node id='253' lon='-84.5043073333333' lat='38.6661546666667'>
+		<tag k='state' v='ky'/><tag k='cd' v='4'/>
+		<tag k='long' v='-84.5043073333333'/>
+		<tag k='lat' v='38.6661546666667'/>
+	</node>
+	<node id='254' lon='-83.3249366666667' lat='37.522532'>
+		<tag k='state' v='ky'/><tag k='cd' v='5'/>
+		<tag k='long' v='-83.3249366666667'/>
+		<tag k='lat' v='37.522532'/>
+	</node>
+	<node id='255' lon='-84.5625833333333' lat='38.020342'>
+		<tag k='state' v='ky'/><tag k='cd' v='6'/>
+		<tag k='long' v='-84.5625833333333'/>
+		<tag k='lat' v='38.020342'/>
+	</node>
+	<node id='256' lon='-90.202528' lat='30.753551'>
+		<tag k='state' v='la'/><tag k='cd' v='1'/>
+		<tag k='long' v='-90.202528'/>
+		<tag k='lat' v='30.753551'/>
+	</node>
+	<node id='257' lon='-90.0122883333333' lat='30.0570863333333'>
+		<tag k='state' v='la'/><tag k='cd' v='2'/>
+		<tag k='long' v='-90.0122883333333'/>
+		<tag k='lat' v='30.0570863333333'/>
+	</node>
+	<node id='258' lon='-90.8769363333333' lat='29.74394'>
+		<tag k='state' v='la'/><tag k='cd' v='3'/>
+		<tag k='long' v='-90.8769363333333'/>
+		<tag k='lat' v='29.74394'/>
+	</node>
+	<node id='259' lon='-93.270829' lat='32.2982456666667'>
+		<tag k='state' v='la'/><tag k='cd' v='4'/>
+		<tag k='long' v='-93.270829'/>
+		<tag k='lat' v='32.2982456666667'/>
+	</node>
+	<node id='260' lon='-91.8829653333333' lat='32.183931'>
+		<tag k='state' v='la'/><tag k='cd' v='5'/>
+		<tag k='long' v='-91.8829653333333'/>
+		<tag k='lat' v='32.183931'/>
+	</node>
+	<node id='261' lon='-91.7213343333333' lat='31.021817'>
+		<tag k='state' v='la'/><tag k='cd' v='5'/>
+		<tag k='long' v='-91.7213343333333'/>
+		<tag k='lat' v='31.021817'/>
+	</node>
+	<node id='262' lon='-90.8749526666667' lat='30.6478543333333'>
+		<tag k='state' v='la'/><tag k='cd' v='6'/>
+		<tag k='long' v='-90.8749526666667'/>
+		<tag k='lat' v='30.6478543333333'/>
+	</node>
+	<node id='263' lon='-91.7218043333333' lat='31.0210373333333'>
+		<tag k='state' v='la'/><tag k='cd' v='6'/>
+		<tag k='long' v='-91.7218043333333'/>
+		<tag k='lat' v='31.0210373333333'/>
+	</node>
+	<node id='264' lon='-92.428981' lat='29.9962923333333'>
+		<tag k='state' v='la'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.428981'/>
+		<tag k='lat' v='29.9962923333333'/>
+	</node>
+	<node id='265' lon='-73.0290096666667' lat='42.2962196666667'>
+		<tag k='state' v='ma'/><tag k='cd' v='1'/>
+		<tag k='long' v='-73.0290096666667'/>
+		<tag k='lat' v='42.2962196666667'/>
+	</node>
+	<node id='266' lon='-70.4503713333333' lat='41.8318336666667'>
+		<tag k='state' v='ma'/><tag k='cd' v='10'/>
+		<tag k='long' v='-70.4503713333333'/>
+		<tag k='lat' v='41.8318336666667'/>
+	</node>
+	<node id='267' lon='-72.003688' lat='42.131631'>
+		<tag k='state' v='ma'/><tag k='cd' v='2'/>
+		<tag k='long' v='-72.003688'/>
+		<tag k='lat' v='42.131631'/>
+	</node>
+	<node id='268' lon='-71.7975576666667' lat='42.298955'>
+		<tag k='state' v='ma'/><tag k='cd' v='3'/>
+		<tag k='long' v='-71.7975576666667'/>
+		<tag k='lat' v='42.298955'/>
+	</node>
+	<node id='269' lon='-70.913288' lat='41.7186506666667'>
+		<tag k='state' v='ma'/><tag k='cd' v='4'/>
+		<tag k='long' v='-70.913288'/>
+		<tag k='lat' v='41.7186506666667'/>
+	</node>
+	<node id='270' lon='-71.4474213333333' lat='42.5170383333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='5'/>
+		<tag k='long' v='-71.4474213333333'/>
+		<tag k='lat' v='42.5170383333333'/>
+	</node>
+	<node id='271' lon='-71.3763583333333' lat='42.3142763333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='5'/>
+		<tag k='long' v='-71.3763583333333'/>
+		<tag k='lat' v='42.3142763333333'/>
+	</node>
+	<node id='272' lon='-70.9108296666667' lat='42.651438'>
+		<tag k='state' v='ma'/><tag k='cd' v='6'/>
+		<tag k='long' v='-70.9108296666667'/>
+		<tag k='lat' v='42.651438'/>
+	</node>
+	<node id='273' lon='-71.2891566666667' lat='42.4057173333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='7'/>
+		<tag k='long' v='-71.2891566666667'/>
+		<tag k='lat' v='42.4057173333333'/>
+	</node>
+	<node id='274' lon='-71.3763583333333' lat='42.3142763333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='7'/>
+		<tag k='long' v='-71.3763583333333'/>
+		<tag k='lat' v='42.3142763333333'/>
+	</node>
+	<node id='275' lon='-71.080816' lat='42.3617443333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='8'/>
+		<tag k='long' v='-71.080816'/>
+		<tag k='lat' v='42.3617443333333'/>
+	</node>
+	<node id='276' lon='-71.0683623333333' lat='42.3626673333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='8'/>
+		<tag k='long' v='-71.0683623333333'/>
+		<tag k='lat' v='42.3626673333333'/>
+	</node>
+	<node id='277' lon='-71.0690286666667' lat='42.368517'>
+		<tag k='state' v='ma'/><tag k='cd' v='8'/>
+		<tag k='long' v='-71.0690286666667'/>
+		<tag k='lat' v='42.368517'/>
+	</node>
+	<node id='278' lon='-71.062836' lat='42.070601'>
+		<tag k='state' v='ma'/><tag k='cd' v='9'/>
+		<tag k='long' v='-71.062836'/>
+		<tag k='lat' v='42.070601'/>
+	</node>
+	<node id='279' lon='-71.0683256666667' lat='42.3624303333333'>
+		<tag k='state' v='ma'/><tag k='cd' v='9'/>
+		<tag k='long' v='-71.0683256666667'/>
+		<tag k='lat' v='42.3624303333333'/>
+	</node>
+	<node id='280' lon='-71.0690286666667' lat='42.368517'>
+		<tag k='state' v='ma'/><tag k='cd' v='9'/>
+		<tag k='long' v='-71.0690286666667'/>
+		<tag k='lat' v='42.368517'/>
+	</node>
+	<node id='281' lon='-76.0238773333333' lat='38.4411513333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0238773333333'/>
+		<tag k='lat' v='38.4411513333333'/>
+	</node>
+	<node id='282' lon='-75.489992' lat='38.149806'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.489992'/>
+		<tag k='lat' v='38.149806'/>
+	</node>
+	<node id='283' lon='-76.2910503333333' lat='39.5498786666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2910503333333'/>
+		<tag k='lat' v='39.5498786666667'/>
+	</node>
+	<node id='284' lon='-75.8998436666667' lat='39.6346146666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8998436666667'/>
+		<tag k='lat' v='39.6346146666667'/>
+	</node>
+	<node id='285' lon='-76.6535273333333' lat='39.091289'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.6535273333333'/>
+		<tag k='lat' v='39.091289'/>
+	</node>
+	<node id='286' lon='-76.2767683333333' lat='38.9703636666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2767683333333'/>
+		<tag k='lat' v='38.9703636666667'/>
+	</node>
+	<node id='287' lon='-76.489885' lat='39.107182'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.489885'/>
+		<tag k='lat' v='39.107182'/>
+	</node>
+	<node id='288' lon='-75.2296506666667' lat='38.0571213333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2296506666667'/>
+		<tag k='lat' v='38.0571213333333'/>
+	</node>
+	<node id='289' lon='-75.9842536666667' lat='38.0112796666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9842536666667'/>
+		<tag k='lat' v='38.0112796666667'/>
+	</node>
+	<node id='290' lon='-76.0530543333333' lat='38.181255'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0530543333333'/>
+		<tag k='lat' v='38.181255'/>
+	</node>
+	<node id='291' lon='-76.019797' lat='38.081471'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.019797'/>
+		<tag k='lat' v='38.081471'/>
+	</node>
+	<node id='292' lon='-75.0592923333333' lat='38.436826'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0592923333333'/>
+		<tag k='lat' v='38.436826'/>
+	</node>
+	<node id='293' lon='-75.8715843333333' lat='37.9318723333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8715843333333'/>
+		<tag k='lat' v='37.9318723333333'/>
+	</node>
+	<node id='294' lon='-76.1888803333333' lat='38.284684'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1888803333333'/>
+		<tag k='lat' v='38.284684'/>
+	</node>
+	<node id='295' lon='-75.94608' lat='38.139542'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.94608'/>
+		<tag k='lat' v='38.139542'/>
+	</node>
+	<node id='296' lon='-76.227566' lat='39.0324766666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.227566'/>
+		<tag k='lat' v='39.0324766666667'/>
+	</node>
+	<node id='297' lon='-76.0313536666667' lat='37.9852286666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0313536666667'/>
+		<tag k='lat' v='37.9852286666667'/>
+	</node>
+	<node id='298' lon='-76.139236' lat='38.2400136666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.139236'/>
+		<tag k='lat' v='38.2400136666667'/>
+	</node>
+	<node id='299' lon='-75.3398173333333' lat='38.047414'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.3398173333333'/>
+		<tag k='lat' v='38.047414'/>
+	</node>
+	<node id='300' lon='-76.1810906666667' lat='38.328734'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1810906666667'/>
+		<tag k='lat' v='38.328734'/>
+	</node>
+	<node id='301' lon='-76.087736' lat='39.5676833333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.087736'/>
+		<tag k='lat' v='39.5676833333333'/>
+	</node>
+	<node id='302' lon='-75.851029' lat='39.5871626666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.851029'/>
+		<tag k='lat' v='39.5871626666667'/>
+	</node>
+	<node id='303' lon='-75.2496146666667' lat='38.0618103333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2496146666667'/>
+		<tag k='lat' v='38.0618103333333'/>
+	</node>
+	<node id='304' lon='-75.3351026666667' lat='38.075991'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.3351026666667'/>
+		<tag k='lat' v='38.075991'/>
+	</node>
+	<node id='305' lon='-76.245695' lat='38.9079806666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.245695'/>
+		<tag k='lat' v='38.9079806666667'/>
+	</node>
+	<node id='306' lon='-76.2552103333333' lat='38.3284613333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2552103333333'/>
+		<tag k='lat' v='38.3284613333333'/>
+	</node>
+	<node id='307' lon='-75.9002256666667' lat='38.1608566666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9002256666667'/>
+		<tag k='lat' v='38.1608566666667'/>
+	</node>
+	<node id='308' lon='-75.2915266666667' lat='38.0781553333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2915266666667'/>
+		<tag k='lat' v='38.0781553333333'/>
+	</node>
+	<node id='309' lon='-76.0872186666667' lat='38.1186923333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0872186666667'/>
+		<tag k='lat' v='38.1186923333333'/>
+	</node>
+	<node id='310' lon='-76.0865856666667' lat='38.1444076666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0865856666667'/>
+		<tag k='lat' v='38.1444076666667'/>
+	</node>
+	<node id='311' lon='-75.18697' lat='38.1725436666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.18697'/>
+		<tag k='lat' v='38.1725436666667'/>
+	</node>
+	<node id='312' lon='-75.8849643333333' lat='38.1628573333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8849643333333'/>
+		<tag k='lat' v='38.1628573333333'/>
+	</node>
+	<node id='313' lon='-76.4313846666667' lat='39.0429253333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4313846666667'/>
+		<tag k='lat' v='39.0429253333333'/>
+	</node>
+	<node id='314' lon='-75.2564643333333' lat='38.045948'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2564643333333'/>
+		<tag k='lat' v='38.045948'/>
+	</node>
+	<node id='315' lon='-75.23281' lat='38.06672'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.23281'/>
+		<tag k='lat' v='38.06672'/>
+	</node>
+	<node id='316' lon='-75.3136666666667' lat='38.0838736666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.3136666666667'/>
+		<tag k='lat' v='38.0838736666667'/>
+	</node>
+	<node id='317' lon='-76.3359193333333' lat='38.5218273333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3359193333333'/>
+		<tag k='lat' v='38.5218273333333'/>
+	</node>
+	<node id='318' lon='-76.143662' lat='39.6166993333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.143662'/>
+		<tag k='lat' v='39.6166993333333'/>
+	</node>
+	<node id='319' lon='-76.33847' lat='38.5086206666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.33847'/>
+		<tag k='lat' v='38.5086206666667'/>
+	</node>
+	<node id='320' lon='-76.3659813333333' lat='38.7529676666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3659813333333'/>
+		<tag k='lat' v='38.7529676666667'/>
+	</node>
+	<node id='321' lon='-76.1652936666667' lat='38.6718783333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1652936666667'/>
+		<tag k='lat' v='38.6718783333333'/>
+	</node>
+	<node id='322' lon='-75.093924' lat='38.4366963333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.093924'/>
+		<tag k='lat' v='38.4366963333333'/>
+	</node>
+	<node id='323' lon='-75.262364' lat='38.0534793333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.262364'/>
+		<tag k='lat' v='38.0534793333333'/>
+	</node>
+	<node id='324' lon='-75.3176213333333' lat='38.087744'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.3176213333333'/>
+		<tag k='lat' v='38.087744'/>
+	</node>
+	<node id='325' lon='-75.946459' lat='38.9146586666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.946459'/>
+		<tag k='lat' v='38.9146586666667'/>
+	</node>
+	<node id='326' lon='-76.381071' lat='38.7584133333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.381071'/>
+		<tag k='lat' v='38.7584133333333'/>
+	</node>
+	<node id='327' lon='-75.247169' lat='38.073818'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.247169'/>
+		<tag k='lat' v='38.073818'/>
+	</node>
+	<node id='328' lon='-76.3715903333333' lat='38.76655'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3715903333333'/>
+		<tag k='lat' v='38.76655'/>
+	</node>
+	<node id='329' lon='-76.13337' lat='39.6088603333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.13337'/>
+		<tag k='lat' v='39.6088603333333'/>
+	</node>
+	<node id='330' lon='-76.0891766666667' lat='38.6219303333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0891766666667'/>
+		<tag k='lat' v='38.6219303333333'/>
+	</node>
+	<node id='331' lon='-75.3141523333333' lat='38.094342'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.3141523333333'/>
+		<tag k='lat' v='38.094342'/>
+	</node>
+	<node id='332' lon='-75.8468746666667' lat='39.5809706666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8468746666667'/>
+		<tag k='lat' v='39.5809706666667'/>
+	</node>
+	<node id='333' lon='-76.28972' lat='38.930897'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.28972'/>
+		<tag k='lat' v='38.930897'/>
+	</node>
+	<node id='334' lon='-75.30737' lat='38.0776973333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.30737'/>
+		<tag k='lat' v='38.0776973333333'/>
+	</node>
+	<node id='335' lon='-75.8746936666667' lat='38.2544013333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8746936666667'/>
+		<tag k='lat' v='38.2544013333333'/>
+	</node>
+	<node id='336' lon='-75.8351016666667' lat='38.0404336666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8351016666667'/>
+		<tag k='lat' v='38.0404336666667'/>
+	</node>
+	<node id='337' lon='-75.0680003333333' lat='38.4475196666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0680003333333'/>
+		<tag k='lat' v='38.4475196666667'/>
+	</node>
+	<node id='338' lon='-76.055066' lat='38.565007'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.055066'/>
+		<tag k='lat' v='38.565007'/>
+	</node>
+	<node id='339' lon='-75.190627' lat='38.2557813333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.190627'/>
+		<tag k='lat' v='38.2557813333333'/>
+	</node>
+	<node id='340' lon='-75.2992313333333' lat='38.0955793333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2992313333333'/>
+		<tag k='lat' v='38.0955793333333'/>
+	</node>
+	<node id='341' lon='-76.3838703333333' lat='38.7666003333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3838703333333'/>
+		<tag k='lat' v='38.7666003333333'/>
+	</node>
+	<node id='342' lon='-75.177197' lat='38.2026366666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.177197'/>
+		<tag k='lat' v='38.2026366666667'/>
+	</node>
+	<node id='343' lon='-76.3395406666667' lat='38.516555'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3395406666667'/>
+		<tag k='lat' v='38.516555'/>
+	</node>
+	<node id='344' lon='-75.0869136666667' lat='38.4319493333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0869136666667'/>
+		<tag k='lat' v='38.4319493333333'/>
+	</node>
+	<node id='345' lon='-75.252631' lat='38.052761'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.252631'/>
+		<tag k='lat' v='38.052761'/>
+	</node>
+	<node id='346' lon='-76.146937' lat='39.6291726666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.146937'/>
+		<tag k='lat' v='39.6291726666667'/>
+	</node>
+	<node id='347' lon='-75.1665106666667' lat='38.202901'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.1665106666667'/>
+		<tag k='lat' v='38.202901'/>
+	</node>
+	<node id='348' lon='-75.2311696666667' lat='38.0970303333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2311696666667'/>
+		<tag k='lat' v='38.0970303333333'/>
+	</node>
+	<node id='349' lon='-76.37581' lat='38.7796806666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.37581'/>
+		<tag k='lat' v='38.7796806666667'/>
+	</node>
+	<node id='350' lon='-76.230176' lat='38.755775'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.230176'/>
+		<tag k='lat' v='38.755775'/>
+	</node>
+	<node id='351' lon='-76.305349' lat='38.8982373333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.305349'/>
+		<tag k='lat' v='38.8982373333333'/>
+	</node>
+	<node id='352' lon='-76.2418966666667' lat='38.983307'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2418966666667'/>
+		<tag k='lat' v='38.983307'/>
+	</node>
+	<node id='353' lon='-75.8799956666667' lat='37.9709906666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8799956666667'/>
+		<tag k='lat' v='37.9709906666667'/>
+	</node>
+	<node id='354' lon='-75.2517973333333' lat='38.043332'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2517973333333'/>
+		<tag k='lat' v='38.043332'/>
+	</node>
+	<node id='355' lon='-75.2409783333333' lat='38.071505'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2409783333333'/>
+		<tag k='lat' v='38.071505'/>
+	</node>
+	<node id='356' lon='-75.227439' lat='38.093806'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.227439'/>
+		<tag k='lat' v='38.093806'/>
+	</node>
+	<node id='357' lon='-76.3787666666667' lat='38.76869'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3787666666667'/>
+		<tag k='lat' v='38.76869'/>
+	</node>
+	<node id='358' lon='-75.1505453333333' lat='38.2328133333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.1505453333333'/>
+		<tag k='lat' v='38.2328133333333'/>
+	</node>
+	<node id='359' lon='-75.9430336666667' lat='39.2418493333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9430336666667'/>
+		<tag k='lat' v='39.2418493333333'/>
+	</node>
+	<node id='360' lon='-75.783749' lat='37.971231'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.783749'/>
+		<tag k='lat' v='37.971231'/>
+	</node>
+	<node id='361' lon='-76.0946876666667' lat='38.1244593333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0946876666667'/>
+		<tag k='lat' v='38.1244593333333'/>
+	</node>
+	<node id='362' lon='-75.0934636666667' lat='38.4316416666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0934636666667'/>
+		<tag k='lat' v='38.4316416666667'/>
+	</node>
+	<node id='363' lon='-75.170025' lat='38.1932763333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.170025'/>
+		<tag k='lat' v='38.1932763333333'/>
+	</node>
+	<node id='364' lon='-75.9149946666667' lat='38.1453526666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9149946666667'/>
+		<tag k='lat' v='38.1453526666667'/>
+	</node>
+	<node id='365' lon='-75.1853043333333' lat='38.260742'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.1853043333333'/>
+		<tag k='lat' v='38.260742'/>
+	</node>
+	<node id='366' lon='-76.3077363333333' lat='38.5652386666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3077363333333'/>
+		<tag k='lat' v='38.5652386666667'/>
+	</node>
+	<node id='367' lon='-76.1415263333333' lat='39.6128793333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1415263333333'/>
+		<tag k='lat' v='39.6128793333333'/>
+	</node>
+	<node id='368' lon='-76.018799' lat='37.9543123333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.018799'/>
+		<tag k='lat' v='37.9543123333333'/>
+	</node>
+	<node id='369' lon='-75.1037846666667' lat='38.3545073333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.1037846666667'/>
+		<tag k='lat' v='38.3545073333333'/>
+	</node>
+	<node id='370' lon='-76.4598153333333' lat='39.0783606666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4598153333333'/>
+		<tag k='lat' v='39.0783606666667'/>
+	</node>
+	<node id='371' lon='-76.2522076666667' lat='38.9597106666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2522076666667'/>
+		<tag k='lat' v='38.9597106666667'/>
+	</node>
+	<node id='372' lon='-75.8828073333333' lat='38.1558293333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8828073333333'/>
+		<tag k='lat' v='38.1558293333333'/>
+	</node>
+	<node id='373' lon='-75.944896' lat='38.8988553333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.944896'/>
+		<tag k='lat' v='38.8988553333333'/>
+	</node>
+	<node id='374' lon='-75.8224676666667' lat='37.9598743333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8224676666667'/>
+		<tag k='lat' v='37.9598743333333'/>
+	</node>
+	<node id='375' lon='-76.06442' lat='38.1281786666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.06442'/>
+		<tag k='lat' v='38.1281786666667'/>
+	</node>
+	<node id='376' lon='-75.2266193333333' lat='38.0695483333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2266193333333'/>
+		<tag k='lat' v='38.0695483333333'/>
+	</node>
+	<node id='377' lon='-75.254752' lat='38.188957'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.254752'/>
+		<tag k='lat' v='38.188957'/>
+	</node>
+	<node id='378' lon='-75.6756713333333' lat='37.965544'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.6756713333333'/>
+		<tag k='lat' v='37.965544'/>
+	</node>
+	<node id='379' lon='-76.337015' lat='38.8961556666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.337015'/>
+		<tag k='lat' v='38.8961556666667'/>
+	</node>
+	<node id='380' lon='-75.2440103333333' lat='38.0531896666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2440103333333'/>
+		<tag k='lat' v='38.0531896666667'/>
+	</node>
+	<node id='381' lon='-75.9759846666667' lat='38.5857043333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9759846666667'/>
+		<tag k='lat' v='38.5857043333333'/>
+	</node>
+	<node id='382' lon='-75.8181456666667' lat='37.9486043333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8181456666667'/>
+		<tag k='lat' v='37.9486043333333'/>
+	</node>
+	<node id='383' lon='-75.2568246666667' lat='38.0330593333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2568246666667'/>
+		<tag k='lat' v='38.0330593333333'/>
+	</node>
+	<node id='384' lon='-76.1657176666667' lat='39.1234386666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1657176666667'/>
+		<tag k='lat' v='39.1234386666667'/>
+	</node>
+	<node id='385' lon='-76.0722906666667' lat='38.15032'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.0722906666667'/>
+		<tag k='lat' v='38.15032'/>
+	</node>
+	<node id='386' lon='-75.0703093333333' lat='38.412305'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0703093333333'/>
+		<tag k='lat' v='38.412305'/>
+	</node>
+	<node id='387' lon='-76.211527' lat='38.5626253333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.211527'/>
+		<tag k='lat' v='38.5626253333333'/>
+	</node>
+	<node id='388' lon='-76.4627453333333' lat='39.0832973333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4627453333333'/>
+		<tag k='lat' v='39.0832973333333'/>
+	</node>
+	<node id='389' lon='-75.8785876666667' lat='37.9140796666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8785876666667'/>
+		<tag k='lat' v='37.9140796666667'/>
+	</node>
+	<node id='390' lon='-75.2585113333333' lat='38.0305136666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2585113333333'/>
+		<tag k='lat' v='38.0305136666667'/>
+	</node>
+	<node id='391' lon='-75.086099' lat='38.4416893333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.086099'/>
+		<tag k='lat' v='38.4416893333333'/>
+	</node>
+	<node id='392' lon='-75.2465863333333' lat='38.0535163333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2465863333333'/>
+		<tag k='lat' v='38.0535163333333'/>
+	</node>
+	<node id='393' lon='-75.1665236666667' lat='38.1999406666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.1665236666667'/>
+		<tag k='lat' v='38.1999406666667'/>
+	</node>
+	<node id='394' lon='-76.484508' lat='39.125035'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.484508'/>
+		<tag k='lat' v='39.125035'/>
+	</node>
+	<node id='395' lon='-76.1436946666667' lat='39.6250283333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1436946666667'/>
+		<tag k='lat' v='39.6250283333333'/>
+	</node>
+	<node id='396' lon='-76.449607' lat='39.0041326666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.449607'/>
+		<tag k='lat' v='39.0041326666667'/>
+	</node>
+	<node id='397' lon='-75.1738473333333' lat='38.271455'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.1738473333333'/>
+		<tag k='lat' v='38.271455'/>
+	</node>
+	<node id='398' lon='-75.975359' lat='37.988205'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.975359'/>
+		<tag k='lat' v='37.988205'/>
+	</node>
+	<node id='399' lon='-76.594367' lat='39.080099'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.594367'/>
+		<tag k='lat' v='39.080099'/>
+	</node>
+	<node id='400' lon='-76.2761286666667' lat='39.1404913333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2761286666667'/>
+		<tag k='lat' v='39.1404913333333'/>
+	</node>
+	<node id='401' lon='-75.8129003333333' lat='38.0600383333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8129003333333'/>
+		<tag k='lat' v='38.0600383333333'/>
+	</node>
+	<node id='402' lon='-75.889796' lat='37.9558586666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.889796'/>
+		<tag k='lat' v='37.9558586666667'/>
+	</node>
+	<node id='403' lon='-76.31003' lat='38.56562'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.31003'/>
+		<tag k='lat' v='38.56562'/>
+	</node>
+	<node id='404' lon='-76.3335566666667' lat='38.9001083333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.3335566666667'/>
+		<tag k='lat' v='38.9001083333333'/>
+	</node>
+	<node id='405' lon='-75.875125' lat='39.5168976666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.875125'/>
+		<tag k='lat' v='39.5168976666667'/>
+	</node>
+	<node id='406' lon='-75.0669216666667' lat='38.414294'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0669216666667'/>
+		<tag k='lat' v='38.414294'/>
+	</node>
+	<node id='407' lon='-75.9382746666667' lat='38.878428'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9382746666667'/>
+		<tag k='lat' v='38.878428'/>
+	</node>
+	<node id='408' lon='-76.5473913333333' lat='39.0867166666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.5473913333333'/>
+		<tag k='lat' v='39.0867166666667'/>
+	</node>
+	<node id='409' lon='-75.9771976666667' lat='38.584878'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.9771976666667'/>
+		<tag k='lat' v='38.584878'/>
+	</node>
+	<node id='410' lon='-76.2700173333333' lat='38.7023676666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2700173333333'/>
+		<tag k='lat' v='38.7023676666667'/>
+	</node>
+	<node id='411' lon='-75.2497393333333' lat='38.1556696666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2497393333333'/>
+		<tag k='lat' v='38.1556696666667'/>
+	</node>
+	<node id='412' lon='-76.335754' lat='38.4911076666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.335754'/>
+		<tag k='lat' v='38.4911076666667'/>
+	</node>
+	<node id='413' lon='-76.4885003333333' lat='39.082194'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4885003333333'/>
+		<tag k='lat' v='39.082194'/>
+	</node>
+	<node id='414' lon='-75.2351726666667' lat='38.101937'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2351726666667'/>
+		<tag k='lat' v='38.101937'/>
+	</node>
+	<node id='415' lon='-75.8480896666667' lat='39.3695983333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8480896666667'/>
+		<tag k='lat' v='39.3695983333333'/>
+	</node>
+	<node id='416' lon='-75.879595' lat='38.1436183333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.879595'/>
+		<tag k='lat' v='38.1436183333333'/>
+	</node>
+	<node id='417' lon='-75.0859983333333' lat='38.4508086666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.0859983333333'/>
+		<tag k='lat' v='38.4508086666667'/>
+	</node>
+	<node id='418' lon='-76.231913' lat='38.96234'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.231913'/>
+		<tag k='lat' v='38.96234'/>
+	</node>
+	<node id='419' lon='-75.875379' lat='37.9725236666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.875379'/>
+		<tag k='lat' v='37.9725236666667'/>
+	</node>
+	<node id='420' lon='-75.3163746666667' lat='38.0603736666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.3163746666667'/>
+		<tag k='lat' v='38.0603736666667'/>
+	</node>
+	<node id='421' lon='-76.2860143333333' lat='38.9287236666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2860143333333'/>
+		<tag k='lat' v='38.9287236666667'/>
+	</node>
+	<node id='422' lon='-76.248461' lat='38.3305406666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.248461'/>
+		<tag k='lat' v='38.3305406666667'/>
+	</node>
+	<node id='423' lon='-75.8334666666667' lat='37.929212'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8334666666667'/>
+		<tag k='lat' v='37.929212'/>
+	</node>
+	<node id='424' lon='-75.8739803333333' lat='37.9730236666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8739803333333'/>
+		<tag k='lat' v='37.9730236666667'/>
+	</node>
+	<node id='425' lon='-75.8224243333333' lat='37.9590103333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8224243333333'/>
+		<tag k='lat' v='37.9590103333333'/>
+	</node>
+	<node id='426' lon='-76.4997813333333' lat='39.0874913333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4997813333333'/>
+		<tag k='lat' v='39.0874913333333'/>
+	</node>
+	<node id='427' lon='-75.986504' lat='38.636156'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.986504'/>
+		<tag k='lat' v='38.636156'/>
+	</node>
+	<node id='428' lon='-75.97984' lat='37.989784'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.97984'/>
+		<tag k='lat' v='37.989784'/>
+	</node>
+	<node id='429' lon='-76.4791076666667' lat='39.0873956666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4791076666667'/>
+		<tag k='lat' v='39.0873956666667'/>
+	</node>
+	<node id='430' lon='-76.2804376666667' lat='38.8970823333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.2804376666667'/>
+		<tag k='lat' v='38.8970823333333'/>
+	</node>
+	<node id='431' lon='-75.8346563333333' lat='37.9285646666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.8346563333333'/>
+		<tag k='lat' v='37.9285646666667'/>
+	</node>
+	<node id='432' lon='-75.923413' lat='39.3582926666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.923413'/>
+		<tag k='lat' v='39.3582926666667'/>
+	</node>
+	<node id='433' lon='-75.262213' lat='38.0258343333333'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.262213'/>
+		<tag k='lat' v='38.0258343333333'/>
+	</node>
+	<node id='434' lon='-76.1932596666667' lat='38.2716706666667'>
+		<tag k='state' v='md'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.1932596666667'/>
+		<tag k='lat' v='38.2716706666667'/>
+	</node>
+	<node id='435' lon='-76.4782946666667' lat='39.351183'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.4782946666667'/>
+		<tag k='lat' v='39.351183'/>
+	</node>
+	<node id='436' lon='-76.7218766666667' lat='39.110226'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.7218766666667'/>
+		<tag k='lat' v='39.110226'/>
+	</node>
+	<node id='437' lon='-76.5615226666667' lat='39.1599323333333'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.5615226666667'/>
+		<tag k='lat' v='39.1599323333333'/>
+	</node>
+	<node id='438' lon='-76.6402026666667' lat='39.2573163333333'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.6402026666667'/>
+		<tag k='lat' v='39.2573163333333'/>
+	</node>
+	<node id='439' lon='-76.359841' lat='39.248813'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.359841'/>
+		<tag k='lat' v='39.248813'/>
+	</node>
+	<node id='440' lon='-76.352953' lat='39.3209923333333'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.352953'/>
+		<tag k='lat' v='39.3209923333333'/>
+	</node>
+	<node id='441' lon='-76.262076' lat='39.2875136666667'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.262076'/>
+		<tag k='lat' v='39.2875136666667'/>
+	</node>
+	<node id='442' lon='-76.0894643333333' lat='39.5359036666667'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.0894643333333'/>
+		<tag k='lat' v='39.5359036666667'/>
+	</node>
+	<node id='443' lon='-76.388963' lat='39.3405766666667'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.388963'/>
+		<tag k='lat' v='39.3405766666667'/>
+	</node>
+	<node id='444' lon='-76.3934086666667' lat='39.2328796666667'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.3934086666667'/>
+		<tag k='lat' v='39.2328796666667'/>
+	</node>
+	<node id='445' lon='-76.3873573333333' lat='39.243513'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.3873573333333'/>
+		<tag k='lat' v='39.243513'/>
+	</node>
+	<node id='446' lon='-76.365788' lat='39.389922'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.365788'/>
+		<tag k='lat' v='39.389922'/>
+	</node>
+	<node id='447' lon='-76.5887056666667' lat='39.187695'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.5887056666667'/>
+		<tag k='lat' v='39.187695'/>
+	</node>
+	<node id='448' lon='-76.3521553333333' lat='39.3959063333333'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.3521553333333'/>
+		<tag k='lat' v='39.3959063333333'/>
+	</node>
+	<node id='449' lon='-76.2675433333333' lat='39.2822773333333'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.2675433333333'/>
+		<tag k='lat' v='39.2822773333333'/>
+	</node>
+	<node id='450' lon='-76.4878906666667' lat='39.314392'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.4878906666667'/>
+		<tag k='lat' v='39.314392'/>
+	</node>
+	<node id='451' lon='-76.3620586666667' lat='39.402718'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.3620586666667'/>
+		<tag k='lat' v='39.402718'/>
+	</node>
+	<node id='452' lon='-76.5960213333333' lat='39.2464726666667'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.5960213333333'/>
+		<tag k='lat' v='39.2464726666667'/>
+	</node>
+	<node id='453' lon='-76.3484816666667' lat='39.3945826666667'>
+		<tag k='state' v='md'/><tag k='cd' v='2'/>
+		<tag k='long' v='-76.3484816666667'/>
+		<tag k='lat' v='39.3945826666667'/>
+	</node>
+	<node id='454' lon='-76.573826' lat='39.0124006666667'>
+		<tag k='state' v='md'/><tag k='cd' v='3'/>
+		<tag k='long' v='-76.573826'/>
+		<tag k='lat' v='39.0124006666667'/>
+	</node>
+	<node id='455' lon='-76.7860286666667' lat='39.4422106666667'>
+		<tag k='state' v='md'/><tag k='cd' v='3'/>
+		<tag k='long' v='-76.7860286666667'/>
+		<tag k='lat' v='39.4422106666667'/>
+	</node>
+	<node id='456' lon='-76.56503' lat='39.0408403333333'>
+		<tag k='state' v='md'/><tag k='cd' v='3'/>
+		<tag k='long' v='-76.56503'/>
+		<tag k='lat' v='39.0408403333333'/>
+	</node>
+	<node id='457' lon='-76.8225073333333' lat='38.8989766666667'>
+		<tag k='state' v='md'/><tag k='cd' v='4'/>
+		<tag k='long' v='-76.8225073333333'/>
+		<tag k='lat' v='38.8989766666667'/>
+	</node>
+	<node id='458' lon='-77.1269476666667' lat='39.1075456666667'>
+		<tag k='state' v='md'/><tag k='cd' v='4'/>
+		<tag k='long' v='-77.1269476666667'/>
+		<tag k='lat' v='39.1075456666667'/>
+	</node>
+	<node id='459' lon='-77.0077866666667' lat='39.110088'>
+		<tag k='state' v='md'/><tag k='cd' v='4'/>
+		<tag k='long' v='-77.0077866666667'/>
+		<tag k='lat' v='39.110088'/>
+	</node>
+	<node id='460' lon='-77.1663356666667' lat='39.115799'>
+		<tag k='state' v='md'/><tag k='cd' v='4'/>
+		<tag k='long' v='-77.1663356666667'/>
+		<tag k='lat' v='39.115799'/>
+	</node>
+	<node id='461' lon='-76.901489' lat='38.5251966666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.901489'/>
+		<tag k='lat' v='38.5251966666667'/>
+	</node>
+	<node id='462' lon='-76.473774' lat='38.106416'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.473774'/>
+		<tag k='lat' v='38.106416'/>
+	</node>
+	<node id='463' lon='-76.8424616666667' lat='38.2588586666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.8424616666667'/>
+		<tag k='lat' v='38.2588586666667'/>
+	</node>
+	<node id='464' lon='-76.5014343333333' lat='38.9043706666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5014343333333'/>
+		<tag k='lat' v='38.9043706666667'/>
+	</node>
+	<node id='465' lon='-76.7931153333333' lat='38.2366973333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.7931153333333'/>
+		<tag k='lat' v='38.2366973333333'/>
+	</node>
+	<node id='466' lon='-76.7445333333333' lat='38.2112073333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.7445333333333'/>
+		<tag k='lat' v='38.2112073333333'/>
+	</node>
+	<node id='467' lon='-76.4940206666667' lat='38.8936883333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.4940206666667'/>
+		<tag k='lat' v='38.8936883333333'/>
+	</node>
+	<node id='468' lon='-76.4545863333333' lat='38.3223776666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.4545863333333'/>
+		<tag k='lat' v='38.3223776666667'/>
+	</node>
+	<node id='469' lon='-76.810995' lat='38.251775'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.810995'/>
+		<tag k='lat' v='38.251775'/>
+	</node>
+	<node id='470' lon='-77.1837456666667' lat='38.5745993333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-77.1837456666667'/>
+		<tag k='lat' v='38.5745993333333'/>
+	</node>
+	<node id='471' lon='-77.1759426666667' lat='38.57106'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-77.1759426666667'/>
+		<tag k='lat' v='38.57106'/>
+	</node>
+	<node id='472' lon='-76.5203633333333' lat='38.4096183333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5203633333333'/>
+		<tag k='lat' v='38.4096183333333'/>
+	</node>
+	<node id='473' lon='-76.5271956666667' lat='38.9222416666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5271956666667'/>
+		<tag k='lat' v='38.9222416666667'/>
+	</node>
+	<node id='474' lon='-76.5046446666667' lat='38.9016116666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5046446666667'/>
+		<tag k='lat' v='38.9016116666667'/>
+	</node>
+	<node id='475' lon='-76.906611' lat='38.3917106666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.906611'/>
+		<tag k='lat' v='38.3917106666667'/>
+	</node>
+	<node id='476' lon='-76.5906453333333' lat='38.2148073333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5906453333333'/>
+		<tag k='lat' v='38.2148073333333'/>
+	</node>
+	<node id='477' lon='-76.4689906666667' lat='38.2135613333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.4689906666667'/>
+		<tag k='lat' v='38.2135613333333'/>
+	</node>
+	<node id='478' lon='-76.795412' lat='38.2458526666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.795412'/>
+		<tag k='lat' v='38.2458526666667'/>
+	</node>
+	<node id='479' lon='-76.5063596666667' lat='38.8946'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5063596666667'/>
+		<tag k='lat' v='38.8946'/>
+	</node>
+	<node id='480' lon='-76.68341' lat='38.6314456666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.68341'/>
+		<tag k='lat' v='38.6314456666667'/>
+	</node>
+	<node id='481' lon='-76.6529713333333' lat='38.4916156666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.6529713333333'/>
+		<tag k='lat' v='38.4916156666667'/>
+	</node>
+	<node id='482' lon='-76.344235' lat='38.0553543333333'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.344235'/>
+		<tag k='lat' v='38.0553543333333'/>
+	</node>
+	<node id='483' lon='-76.5887673333333' lat='38.2145966666667'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5887673333333'/>
+		<tag k='lat' v='38.2145966666667'/>
+	</node>
+	<node id='484' lon='-76.6546263333333' lat='38.494177'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.6546263333333'/>
+		<tag k='lat' v='38.494177'/>
+	</node>
+	<node id='485' lon='-76.584931' lat='38.95573'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.584931'/>
+		<tag k='lat' v='38.95573'/>
+	</node>
+	<node id='486' lon='-76.5332973333333' lat='38.887452'>
+		<tag k='state' v='md'/><tag k='cd' v='5'/>
+		<tag k='long' v='-76.5332973333333'/>
+		<tag k='lat' v='38.887452'/>
+	</node>
+	<node id='487' lon='-77.4869923333333' lat='39.5577913333333'>
+		<tag k='state' v='md'/><tag k='cd' v='6'/>
+		<tag k='long' v='-77.4869923333333'/>
+		<tag k='lat' v='39.5577913333333'/>
+	</node>
+	<node id='488' lon='-76.1689883333333' lat='39.655482'>
+		<tag k='state' v='md'/><tag k='cd' v='6'/>
+		<tag k='long' v='-76.1689883333333'/>
+		<tag k='lat' v='39.655482'/>
+	</node>
+	<node id='489' lon='-76.9648583333333' lat='39.2516233333333'>
+		<tag k='state' v='md'/><tag k='cd' v='7'/>
+		<tag k='long' v='-76.9648583333333'/>
+		<tag k='lat' v='39.2516233333333'/>
+	</node>
+	<node id='490' lon='-77.391781' lat='39.1634213333333'>
+		<tag k='state' v='md'/><tag k='cd' v='8'/>
+		<tag k='long' v='-77.391781'/>
+		<tag k='lat' v='39.1634213333333'/>
+	</node>
+	<node id='491' lon='-77.1269476666667' lat='39.1075456666667'>
+		<tag k='state' v='md'/><tag k='cd' v='8'/>
+		<tag k='long' v='-77.1269476666667'/>
+		<tag k='lat' v='39.1075456666667'/>
+	</node>
+	<node id='492' lon='-77.0077866666667' lat='39.110088'>
+		<tag k='state' v='md'/><tag k='cd' v='8'/>
+		<tag k='long' v='-77.0077866666667'/>
+		<tag k='lat' v='39.110088'/>
+	</node>
+	<node id='493' lon='-77.1663356666667' lat='39.115799'>
+		<tag k='state' v='md'/><tag k='cd' v='8'/>
+		<tag k='long' v='-77.1663356666667'/>
+		<tag k='lat' v='39.115799'/>
+	</node>
+	<node id='494' lon='-69.5947416666667' lat='44.0445903333333'>
+		<tag k='state' v='me'/><tag k='cd' v='1'/>
+		<tag k='long' v='-69.5947416666667'/>
+		<tag k='lat' v='44.0445903333333'/>
+	</node>
+	<node id='495' lon='-69.1550876666667' lat='45.474271'>
+		<tag k='state' v='me'/><tag k='cd' v='2'/>
+		<tag k='long' v='-69.1550876666667'/>
+		<tag k='lat' v='45.474271'/>
+	</node>
+	<node id='496' lon='-87.4530303333333' lat='45.9202436666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.4530303333333'/>
+		<tag k='lat' v='45.9202436666667'/>
+	</node>
+	<node id='497' lon='-83.8178576666667' lat='44.8951233333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-83.8178576666667'/>
+		<tag k='lat' v='44.8951233333333'/>
+	</node>
+	<node id='498' lon='-88.6453393333333' lat='48.1488566666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.6453393333333'/>
+		<tag k='lat' v='48.1488566666667'/>
+	</node>
+	<node id='499' lon='-85.7985973333333' lat='45.748762'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-85.7985973333333'/>
+		<tag k='lat' v='45.748762'/>
+	</node>
+	<node id='500' lon='-84.4238063333333' lat='45.769425'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-84.4238063333333'/>
+		<tag k='lat' v='45.769425'/>
+	</node>
+	<node id='501' lon='-84.8758186666667' lat='45.861633'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-84.8758186666667'/>
+		<tag k='lat' v='45.861633'/>
+	</node>
+	<node id='502' lon='-88.2707886666667' lat='47.0728593333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.2707886666667'/>
+		<tag k='lat' v='47.0728593333333'/>
+	</node>
+	<node id='503' lon='-87.971546' lat='46.951901'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.971546'/>
+		<tag k='lat' v='46.951901'/>
+	</node>
+	<node id='504' lon='-87.9990613333333' lat='46.9630116666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.9990613333333'/>
+		<tag k='lat' v='46.9630116666667'/>
+	</node>
+	<node id='505' lon='-83.9429103333333' lat='43.767243'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-83.9429103333333'/>
+		<tag k='lat' v='43.767243'/>
+	</node>
+	<node id='506' lon='-84.4289566666667' lat='45.9202183333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-84.4289566666667'/>
+		<tag k='lat' v='45.9202183333333'/>
+	</node>
+	<node id='507' lon='-87.175052' lat='45.6475996666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.175052'/>
+		<tag k='lat' v='45.6475996666667'/>
+	</node>
+	<node id='508' lon='-87.9575493333333' lat='46.9503116666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.9575493333333'/>
+		<tag k='lat' v='46.9503116666667'/>
+	</node>
+	<node id='509' lon='-87.9989763333333' lat='46.9576866666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.9989763333333'/>
+		<tag k='lat' v='46.9576866666667'/>
+	</node>
+	<node id='510' lon='-87.4123226666667' lat='46.720515'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.4123226666667'/>
+		<tag k='lat' v='46.720515'/>
+	</node>
+	<node id='511' lon='-87.541127' lat='46.7041276666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.541127'/>
+		<tag k='lat' v='46.7041276666667'/>
+	</node>
+	<node id='512' lon='-88.0833453333333' lat='47.4697766666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.0833453333333'/>
+		<tag k='lat' v='47.4697766666667'/>
+	</node>
+	<node id='513' lon='-87.5571733333333' lat='46.712883'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.5571733333333'/>
+		<tag k='lat' v='46.712883'/>
+	</node>
+	<node id='514' lon='-83.9422816666667' lat='43.7560576666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-83.9422816666667'/>
+		<tag k='lat' v='43.7560576666667'/>
+	</node>
+	<node id='515' lon='-88.2675406666667' lat='48.2618363333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.2675406666667'/>
+		<tag k='lat' v='48.2618363333333'/>
+	</node>
+	<node id='516' lon='-83.9152613333333' lat='43.853961'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-83.9152613333333'/>
+		<tag k='lat' v='43.853961'/>
+	</node>
+	<node id='517' lon='-88.2622716666667' lat='48.2624246666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.2622716666667'/>
+		<tag k='lat' v='48.2624246666667'/>
+	</node>
+	<node id='518' lon='-85.291061' lat='46.0701446666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-85.291061'/>
+		<tag k='lat' v='46.0701446666667'/>
+	</node>
+	<node id='519' lon='-87.168486' lat='45.642416'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.168486'/>
+		<tag k='lat' v='45.642416'/>
+	</node>
+	<node id='520' lon='-87.9542553333333' lat='46.947547'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.9542553333333'/>
+		<tag k='lat' v='46.947547'/>
+	</node>
+	<node id='521' lon='-87.164743' lat='45.630001'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.164743'/>
+		<tag k='lat' v='45.630001'/>
+	</node>
+	<node id='522' lon='-84.4583996666667' lat='45.6533793333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-84.4583996666667'/>
+		<tag k='lat' v='45.6533793333333'/>
+	</node>
+	<node id='523' lon='-83.9268083333333' lat='43.776382'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-83.9268083333333'/>
+		<tag k='lat' v='43.776382'/>
+	</node>
+	<node id='524' lon='-84.7668606666667' lat='45.8387726666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-84.7668606666667'/>
+		<tag k='lat' v='45.8387726666667'/>
+	</node>
+	<node id='525' lon='-88.0996356666667' lat='47.469051'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.0996356666667'/>
+		<tag k='lat' v='47.469051'/>
+	</node>
+	<node id='526' lon='-87.9512516666667' lat='46.9471736666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-87.9512516666667'/>
+		<tag k='lat' v='46.9471736666667'/>
+	</node>
+	<node id='527' lon='-88.03099' lat='47.4766833333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.03099'/>
+		<tag k='lat' v='47.4766833333333'/>
+	</node>
+	<node id='528' lon='-85.4451446666666' lat='46.0754496666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-85.4451446666666'/>
+		<tag k='lat' v='46.0754496666667'/>
+	</node>
+	<node id='529' lon='-83.917254' lat='43.8156726666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-83.917254'/>
+		<tag k='lat' v='43.8156726666667'/>
+	</node>
+	<node id='530' lon='-88.115137' lat='47.4677736666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.115137'/>
+		<tag k='lat' v='47.4677736666667'/>
+	</node>
+	<node id='531' lon='-88.033647' lat='47.4765023333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.033647'/>
+		<tag k='lat' v='47.4765023333333'/>
+	</node>
+	<node id='532' lon='-82.9270526666667' lat='43.1446443333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-82.9270526666667'/>
+		<tag k='lat' v='43.1446443333333'/>
+	</node>
+	<node id='533' lon='-83.0275503333333' lat='44.0462863333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.0275503333333'/>
+		<tag k='lat' v='44.0462863333333'/>
+	</node>
+	<node id='534' lon='-83.0414256666667' lat='44.025951'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.0414256666667'/>
+		<tag k='lat' v='44.025951'/>
+	</node>
+	<node id='535' lon='-83.0318663333333' lat='44.041637'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.0318663333333'/>
+		<tag k='lat' v='44.041637'/>
+	</node>
+	<node id='536' lon='-83.041069' lat='44.0264606666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.041069'/>
+		<tag k='lat' v='44.0264606666667'/>
+	</node>
+	<node id='537' lon='-83.0402003333333' lat='44.0265846666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.0402003333333'/>
+		<tag k='lat' v='44.0265846666667'/>
+	</node>
+	<node id='538' lon='-83.032384' lat='44.0400953333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='10'/>
+		<tag k='long' v='-83.032384'/>
+		<tag k='lat' v='44.0400953333333'/>
+	</node>
+	<node id='539' lon='-83.556285' lat='42.6119853333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='11'/>
+		<tag k='long' v='-83.556285'/>
+		<tag k='lat' v='42.6119853333333'/>
+	</node>
+	<node id='540' lon='-82.939509' lat='42.4964303333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='12'/>
+		<tag k='long' v='-82.939509'/>
+		<tag k='lat' v='42.4964303333333'/>
+	</node>
+	<node id='541' lon='-82.9930423333333' lat='42.399404'>
+		<tag k='state' v='mi'/><tag k='cd' v='13'/>
+		<tag k='long' v='-82.9930423333333'/>
+		<tag k='lat' v='42.399404'/>
+	</node>
+	<node id='542' lon='-82.9724053333333' lat='42.344974'>
+		<tag k='state' v='mi'/><tag k='cd' v='13'/>
+		<tag k='long' v='-82.9724053333333'/>
+		<tag k='lat' v='42.344974'/>
+	</node>
+	<node id='543' lon='-83.135604' lat='42.2293046666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='13'/>
+		<tag k='long' v='-83.135604'/>
+		<tag k='lat' v='42.2293046666667'/>
+	</node>
+	<node id='544' lon='-83.1330556666667' lat='42.2213396666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='13'/>
+		<tag k='long' v='-83.1330556666667'/>
+		<tag k='lat' v='42.2213396666667'/>
+	</node>
+	<node id='545' lon='-83.1338266666667' lat='42.2267163333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='13'/>
+		<tag k='long' v='-83.1338266666667'/>
+		<tag k='lat' v='42.2267163333333'/>
+	</node>
+	<node id='546' lon='-83.1894293333333' lat='42.3814706666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1894293333333'/>
+		<tag k='lat' v='42.3814706666667'/>
+	</node>
+	<node id='547' lon='-83.1496146666667' lat='42.1330733333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1496146666667'/>
+		<tag k='lat' v='42.1330733333333'/>
+	</node>
+	<node id='548' lon='-83.1296603333333' lat='42.125665'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1296603333333'/>
+		<tag k='lat' v='42.125665'/>
+	</node>
+	<node id='549' lon='-83.17566' lat='42.083363'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.17566'/>
+		<tag k='lat' v='42.083363'/>
+	</node>
+	<node id='550' lon='-83.15502' lat='42.0874453333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.15502'/>
+		<tag k='lat' v='42.0874453333333'/>
+	</node>
+	<node id='551' lon='-83.1531856666667' lat='42.0926713333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1531856666667'/>
+		<tag k='lat' v='42.0926713333333'/>
+	</node>
+	<node id='552' lon='-83.1425236666667' lat='42.0900393333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1425236666667'/>
+		<tag k='lat' v='42.0900393333333'/>
+	</node>
+	<node id='553' lon='-83.1286363333333' lat='42.1309886666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1286363333333'/>
+		<tag k='lat' v='42.1309886666667'/>
+	</node>
+	<node id='554' lon='-83.1782126666667' lat='42.1030046666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1782126666667'/>
+		<tag k='lat' v='42.1030046666667'/>
+	</node>
+	<node id='555' lon='-83.1418976666667' lat='42.106226'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.1418976666667'/>
+		<tag k='lat' v='42.106226'/>
+	</node>
+	<node id='556' lon='-83.135814' lat='42.107361'>
+		<tag k='state' v='mi'/><tag k='cd' v='14'/>
+		<tag k='long' v='-83.135814'/>
+		<tag k='lat' v='42.107361'/>
+	</node>
+	<node id='557' lon='-83.5739816666667' lat='41.992565'>
+		<tag k='state' v='mi'/><tag k='cd' v='15'/>
+		<tag k='long' v='-83.5739816666667'/>
+		<tag k='lat' v='41.992565'/>
+	</node>
+	<node id='558' lon='-83.1871636666667' lat='42.072527'>
+		<tag k='state' v='mi'/><tag k='cd' v='15'/>
+		<tag k='long' v='-83.1871636666667'/>
+		<tag k='lat' v='42.072527'/>
+	</node>
+	<node id='559' lon='-86.151557' lat='43.6496656666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-86.151557'/>
+		<tag k='lat' v='43.6496656666667'/>
+	</node>
+	<node id='560' lon='-85.303648' lat='42.8860306666667'>
+		<tag k='state' v='mi'/><tag k='cd' v='3'/>
+		<tag k='long' v='-85.303648'/>
+		<tag k='lat' v='42.8860306666667'/>
+	</node>
+	<node id='561' lon='-85.1602026666667' lat='43.5879943333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='4'/>
+		<tag k='long' v='-85.1602026666667'/>
+		<tag k='lat' v='43.5879943333333'/>
+	</node>
+	<node id='562' lon='-83.6517276666667' lat='43.3925723333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='5'/>
+		<tag k='long' v='-83.6517276666667'/>
+		<tag k='lat' v='43.3925723333333'/>
+	</node>
+	<node id='563' lon='-85.8797893333333' lat='42.3157123333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-85.8797893333333'/>
+		<tag k='lat' v='42.3157123333333'/>
+	</node>
+	<node id='564' lon='-84.8807176666667' lat='42.135769'>
+		<tag k='state' v='mi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-84.8807176666667'/>
+		<tag k='lat' v='42.135769'/>
+	</node>
+	<node id='565' lon='-84.1072973333333' lat='42.7199243333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-84.1072973333333'/>
+		<tag k='lat' v='42.7199243333333'/>
+	</node>
+	<node id='566' lon='-83.1936563333333' lat='42.6236173333333'>
+		<tag k='state' v='mi'/><tag k='cd' v='9'/>
+		<tag k='long' v='-83.1936563333333'/>
+		<tag k='lat' v='42.6236173333333'/>
+	</node>
+	<node id='567' lon='-92.2013723333333' lat='44.0503083333333'>
+		<tag k='state' v='mn'/><tag k='cd' v='1'/>
+		<tag k='long' v='-92.2013723333333'/>
+		<tag k='lat' v='44.0503083333333'/>
+	</node>
+	<node id='568' lon='-93.5726833333333' lat='44.559269'>
+		<tag k='state' v='mn'/><tag k='cd' v='2'/>
+		<tag k='long' v='-93.5726833333333'/>
+		<tag k='lat' v='44.559269'/>
+	</node>
+	<node id='569' lon='-93.5278973333333' lat='45.042'>
+		<tag k='state' v='mn'/><tag k='cd' v='3'/>
+		<tag k='long' v='-93.5278973333333'/>
+		<tag k='lat' v='45.042'/>
+	</node>
+	<node id='570' lon='-93.0997083333333' lat='45.0226503333333'>
+		<tag k='state' v='mn'/><tag k='cd' v='4'/>
+		<tag k='long' v='-93.0997083333333'/>
+		<tag k='lat' v='45.0226503333333'/>
+	</node>
+	<node id='571' lon='-93.277839' lat='44.976828'>
+		<tag k='state' v='mn'/><tag k='cd' v='5'/>
+		<tag k='long' v='-93.277839'/>
+		<tag k='lat' v='44.976828'/>
+	</node>
+	<node id='572' lon='-93.926168' lat='45.3030523333333'>
+		<tag k='state' v='mn'/><tag k='cd' v='6'/>
+		<tag k='long' v='-93.926168'/>
+		<tag k='lat' v='45.3030523333333'/>
+	</node>
+	<node id='573' lon='-96.0950736666667' lat='47.9749756666667'>
+		<tag k='state' v='mn'/><tag k='cd' v='7'/>
+		<tag k='long' v='-96.0950736666667'/>
+		<tag k='lat' v='47.9749756666667'/>
+	</node>
+	<node id='574' lon='-93.530607' lat='46.7612903333333'>
+		<tag k='state' v='mn'/><tag k='cd' v='8'/>
+		<tag k='long' v='-93.530607'/>
+		<tag k='lat' v='46.7612903333333'/>
+	</node>
+	<node id='575' lon='-90.3077646666667' lat='38.742399'>
+		<tag k='state' v='mo'/><tag k='cd' v='1'/>
+		<tag k='long' v='-90.3077646666667'/>
+		<tag k='lat' v='38.742399'/>
+	</node>
+	<node id='576' lon='-90.8495806666667' lat='39.041799'>
+		<tag k='state' v='mo'/><tag k='cd' v='2'/>
+		<tag k='long' v='-90.8495806666667'/>
+		<tag k='lat' v='39.041799'/>
+	</node>
+	<node id='577' lon='-90.6172016666667' lat='38.245123'>
+		<tag k='state' v='mo'/><tag k='cd' v='3'/>
+		<tag k='long' v='-90.6172016666667'/>
+		<tag k='lat' v='38.245123'/>
+	</node>
+	<node id='578' lon='-93.5536076666667' lat='38.4572503333333'>
+		<tag k='state' v='mo'/><tag k='cd' v='4'/>
+		<tag k='long' v='-93.5536076666667'/>
+		<tag k='lat' v='38.4572503333333'/>
+	</node>
+	<node id='579' lon='-92.6580383333334' lat='38.0455833333333'>
+		<tag k='state' v='mo'/><tag k='cd' v='4'/>
+		<tag k='long' v='-92.6580383333334'/>
+		<tag k='lat' v='38.0455833333333'/>
+	</node>
+	<node id='580' lon='-94.4881883333333' lat='39.0498443333333'>
+		<tag k='state' v='mo'/><tag k='cd' v='5'/>
+		<tag k='long' v='-94.4881883333333'/>
+		<tag k='lat' v='39.0498443333333'/>
+	</node>
+	<node id='581' lon='-93.4064713333333' lat='39.986321'>
+		<tag k='state' v='mo'/><tag k='cd' v='6'/>
+		<tag k='long' v='-93.4064713333333'/>
+		<tag k='lat' v='39.986321'/>
+	</node>
+	<node id='582' lon='-94.2758106666667' lat='36.91593'>
+		<tag k='state' v='mo'/><tag k='cd' v='7'/>
+		<tag k='long' v='-94.2758106666667'/>
+		<tag k='lat' v='36.91593'/>
+	</node>
+	<node id='583' lon='-90.71862' lat='37.342339'>
+		<tag k='state' v='mo'/><tag k='cd' v='8'/>
+		<tag k='long' v='-90.71862'/>
+		<tag k='lat' v='37.342339'/>
+	</node>
+	<node id='584' lon='-91.633213' lat='39.2896536666667'>
+		<tag k='state' v='mo'/><tag k='cd' v='9'/>
+		<tag k='long' v='-91.633213'/>
+		<tag k='lat' v='39.2896536666667'/>
+	</node>
+	<node id='585' lon='-92.6580383333334' lat='38.0455833333333'>
+		<tag k='state' v='mo'/><tag k='cd' v='9'/>
+		<tag k='long' v='-92.6580383333334'/>
+		<tag k='lat' v='38.0455833333333'/>
+	</node>
+	<node id='586' lon='-214.370322' lat='15.0217993333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.370322'/>
+		<tag k='lat' v='15.0217993333333'/>
+	</node>
+	<node id='587' lon='-214.839737333333' lat='14.1553903333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.839737333333'/>
+		<tag k='lat' v='14.1553903333333'/>
+	</node>
+	<node id='588' lon='-214.232994666667' lat='18.1635216666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.232994666667'/>
+		<tag k='lat' v='18.1635216666667'/>
+	</node>
+	<node id='589' lon='-214.304100333333' lat='18.751272'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.304100333333'/>
+		<tag k='lat' v='18.751272'/>
+	</node>
+	<node id='590' lon='-214.332357333333' lat='16.3918313333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.332357333333'/>
+		<tag k='lat' v='16.3918313333333'/>
+	</node>
+	<node id='591' lon='-214.152014333333' lat='17.5870086666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.152014333333'/>
+		<tag k='lat' v='17.5870086666667'/>
+	</node>
+	<node id='592' lon='-214.615649' lat='19.69489'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.615649'/>
+		<tag k='lat' v='19.69489'/>
+	</node>
+	<node id='593' lon='-214.172008333333' lat='17.326459'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.172008333333'/>
+		<tag k='lat' v='17.326459'/>
+	</node>
+	<node id='594' lon='-214.799585' lat='20.0057113333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.799585'/>
+		<tag k='lat' v='20.0057113333333'/>
+	</node>
+	<node id='595' lon='-214.206122666667' lat='16.7260476666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-214.206122666667'/>
+		<tag k='lat' v='16.7260476666667'/>
+	</node>
+	<node id='596' lon='-215.112959666667' lat='20.515697'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-215.112959666667'/>
+		<tag k='lat' v='20.515697'/>
+	</node>
+	<node id='597' lon='-213.916467' lat='16.050095'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mp'/>
+		<tag k='long' v='-213.916467'/>
+		<tag k='lat' v='16.050095'/>
+	</node>
+	<node id='598' lon='-88.7534423333333' lat='34.2535733333333'>
+		<tag k='state' v='ms'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.7534423333333'/>
+		<tag k='lat' v='34.2535733333333'/>
+	</node>
+	<node id='599' lon='-90.473986' lat='33.1577103333333'>
+		<tag k='state' v='ms'/><tag k='cd' v='2'/>
+		<tag k='long' v='-90.473986'/>
+		<tag k='lat' v='33.1577103333333'/>
+	</node>
+	<node id='600' lon='-88.8427506666667' lat='32.671233'>
+		<tag k='state' v='ms'/><tag k='cd' v='3'/>
+		<tag k='long' v='-88.8427506666667'/>
+		<tag k='lat' v='32.671233'/>
+	</node>
+	<node id='601' lon='-89.1004086666667' lat='30.6978793333333'>
+		<tag k='state' v='ms'/><tag k='cd' v='4'/>
+		<tag k='long' v='-89.1004086666667'/>
+		<tag k='lat' v='30.6978793333333'/>
+	</node>
+	<node id='602' lon='-112.168404' lat='46.35363'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/mt'/>
+		<tag k='long' v='-112.168404'/>
+		<tag k='lat' v='46.35363'/>
+	</node>
+	<node id='603' lon='-77.3923583333333' lat='36.0968846666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='1'/>
+		<tag k='long' v='-77.3923583333333'/>
+		<tag k='lat' v='36.0968846666667'/>
+	</node>
+	<node id='604' lon='-81.4839576666667' lat='35.6499606666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='10'/>
+		<tag k='long' v='-81.4839576666667'/>
+		<tag k='lat' v='35.6499606666667'/>
+	</node>
+	<node id='605' lon='-82.5536676666667' lat='35.4877923333333'>
+		<tag k='state' v='nc'/><tag k='cd' v='11'/>
+		<tag k='long' v='-82.5536676666667'/>
+		<tag k='lat' v='35.4877923333333'/>
+	</node>
+	<node id='606' lon='-80.214512' lat='36.0575096666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='12'/>
+		<tag k='long' v='-80.214512'/>
+		<tag k='lat' v='36.0575096666667'/>
+	</node>
+	<node id='607' lon='-80.2338156666667' lat='35.834917'>
+		<tag k='state' v='nc'/><tag k='cd' v='12'/>
+		<tag k='long' v='-80.2338156666667'/>
+		<tag k='lat' v='35.834917'/>
+	</node>
+	<node id='608' lon='-79.2740126666667' lat='36.3350946666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='13'/>
+		<tag k='long' v='-79.2740126666667'/>
+		<tag k='lat' v='36.3350946666667'/>
+	</node>
+	<node id='609' lon='-79.7689376666667' lat='36.1404626666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='13'/>
+		<tag k='long' v='-79.7689376666667'/>
+		<tag k='lat' v='36.1404626666667'/>
+	</node>
+	<node id='610' lon='-79.9040506666667' lat='36.3829106666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='13'/>
+		<tag k='long' v='-79.9040506666667'/>
+		<tag k='lat' v='36.3829106666667'/>
+	</node>
+	<node id='611' lon='-78.16039' lat='36.00474'>
+		<tag k='state' v='nc'/><tag k='cd' v='2'/>
+		<tag k='long' v='-78.16039'/>
+		<tag k='lat' v='36.00474'/>
+	</node>
+	<node id='612' lon='-78.5072463333333' lat='34.9556573333333'>
+		<tag k='state' v='nc'/><tag k='cd' v='2'/>
+		<tag k='long' v='-78.5072463333333'/>
+		<tag k='lat' v='34.9556573333333'/>
+	</node>
+	<node id='613' lon='-75.864475' lat='35.5694063333333'>
+		<tag k='state' v='nc'/><tag k='cd' v='3'/>
+		<tag k='long' v='-75.864475'/>
+		<tag k='lat' v='35.5694063333333'/>
+	</node>
+	<node id='614' lon='-79.083244' lat='35.961118'>
+		<tag k='state' v='nc'/><tag k='cd' v='4'/>
+		<tag k='long' v='-79.083244'/>
+		<tag k='lat' v='35.961118'/>
+	</node>
+	<node id='615' lon='-80.8325383333333' lat='36.0673796666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='5'/>
+		<tag k='long' v='-80.8325383333333'/>
+		<tag k='lat' v='36.0673796666667'/>
+	</node>
+	<node id='616' lon='-79.9040506666667' lat='36.3829106666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='5'/>
+		<tag k='long' v='-79.9040506666667'/>
+		<tag k='lat' v='36.3829106666667'/>
+	</node>
+	<node id='617' lon='-79.7141886666667' lat='35.7743793333333'>
+		<tag k='state' v='nc'/><tag k='cd' v='6'/>
+		<tag k='long' v='-79.7141886666667'/>
+		<tag k='lat' v='35.7743793333333'/>
+	</node>
+	<node id='618' lon='-79.910074' lat='36.1625516666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='6'/>
+		<tag k='long' v='-79.910074'/>
+		<tag k='lat' v='36.1625516666667'/>
+	</node>
+	<node id='619' lon='-80.2338156666667' lat='35.834917'>
+		<tag k='state' v='nc'/><tag k='cd' v='6'/>
+		<tag k='long' v='-80.2338156666667'/>
+		<tag k='lat' v='35.834917'/>
+	</node>
+	<node id='620' lon='-78.8043776666667' lat='34.670595'>
+		<tag k='state' v='nc'/><tag k='cd' v='7'/>
+		<tag k='long' v='-78.8043776666667'/>
+		<tag k='lat' v='34.670595'/>
+	</node>
+	<node id='621' lon='-78.507414' lat='34.9556093333333'>
+		<tag k='state' v='nc'/><tag k='cd' v='7'/>
+		<tag k='long' v='-78.507414'/>
+		<tag k='lat' v='34.9556093333333'/>
+	</node>
+	<node id='622' lon='-79.9270873333333' lat='35.2069706666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='8'/>
+		<tag k='long' v='-79.9270873333333'/>
+		<tag k='lat' v='35.2069706666667'/>
+	</node>
+	<node id='623' lon='-80.6809436666667' lat='35.0467446666667'>
+		<tag k='state' v='nc'/><tag k='cd' v='9'/>
+		<tag k='long' v='-80.6809436666667'/>
+		<tag k='lat' v='35.0467446666667'/>
+	</node>
+	<node id='624' lon='-103.006120666667' lat='47.4817536666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/nd'/>
+		<tag k='long' v='-103.006120666667'/>
+		<tag k='lat' v='47.4817536666667'/>
+	</node>
+	<node id='625' lon='-96.433397' lat='40.4068473333333'>
+		<tag k='state' v='ne'/><tag k='cd' v='1'/>
+		<tag k='long' v='-96.433397'/>
+		<tag k='lat' v='40.4068473333333'/>
+	</node>
+	<node id='626' lon='-96.048693' lat='41.306458'>
+		<tag k='state' v='ne'/><tag k='cd' v='2'/>
+		<tag k='long' v='-96.048693'/>
+		<tag k='lat' v='41.306458'/>
+	</node>
+	<node id='627' lon='-98.8431646666667' lat='41.628942'>
+		<tag k='state' v='ne'/><tag k='cd' v='3'/>
+		<tag k='long' v='-98.8431646666667'/>
+		<tag k='lat' v='41.628942'/>
+	</node>
+	<node id='628' lon='-71.3153233333333' lat='43.5685893333333'>
+		<tag k='state' v='nh'/><tag k='cd' v='1'/>
+		<tag k='long' v='-71.3153233333333'/>
+		<tag k='lat' v='43.5685893333333'/>
+	</node>
+	<node id='629' lon='-71.8469446666667' lat='43.351819'>
+		<tag k='state' v='nh'/><tag k='cd' v='2'/>
+		<tag k='long' v='-71.8469446666667'/>
+		<tag k='lat' v='43.351819'/>
+	</node>
+	<node id='630' lon='-74.9912263333333' lat='39.7672033333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='1'/>
+		<tag k='long' v='-74.9912263333333'/>
+		<tag k='lat' v='39.7672033333333'/>
+	</node>
+	<node id='631' lon='-74.222611' lat='40.723206'>
+		<tag k='state' v='nj'/><tag k='cd' v='10'/>
+		<tag k='long' v='-74.222611'/>
+		<tag k='lat' v='40.723206'/>
+	</node>
+	<node id='632' lon='-74.2464053333333' lat='40.7500033333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='10'/>
+		<tag k='long' v='-74.2464053333333'/>
+		<tag k='lat' v='40.7500033333333'/>
+	</node>
+	<node id='633' lon='-74.423427' lat='40.853971'>
+		<tag k='state' v='nj'/><tag k='cd' v='11'/>
+		<tag k='long' v='-74.423427'/>
+		<tag k='lat' v='40.853971'/>
+	</node>
+	<node id='634' lon='-74.4405213333333' lat='40.36073'>
+		<tag k='state' v='nj'/><tag k='cd' v='12'/>
+		<tag k='long' v='-74.4405213333333'/>
+		<tag k='lat' v='40.36073'/>
+	</node>
+	<node id='635' lon='-74.054632' lat='40.7148093333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='13'/>
+		<tag k='long' v='-74.054632'/>
+		<tag k='lat' v='40.7148093333333'/>
+	</node>
+	<node id='636' lon='-74.0449076666667' lat='40.6893586666667'>
+		<tag k='state' v='nj'/><tag k='cd' v='13'/>
+		<tag k='long' v='-74.0449076666667'/>
+		<tag k='lat' v='40.6893586666667'/>
+	</node>
+	<node id='637' lon='-74.039746' lat='40.6999583333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='13'/>
+		<tag k='long' v='-74.039746'/>
+		<tag k='lat' v='40.6999583333333'/>
+	</node>
+	<node id='638' lon='-74.922318' lat='39.2772623333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='2'/>
+		<tag k='long' v='-74.922318'/>
+		<tag k='lat' v='39.2772623333333'/>
+	</node>
+	<node id='639' lon='-74.3106523333333' lat='39.7700016666667'>
+		<tag k='state' v='nj'/><tag k='cd' v='3'/>
+		<tag k='long' v='-74.3106523333333'/>
+		<tag k='lat' v='39.7700016666667'/>
+	</node>
+	<node id='640' lon='-74.373048' lat='40.0893766666667'>
+		<tag k='state' v='nj'/><tag k='cd' v='4'/>
+		<tag k='long' v='-74.373048'/>
+		<tag k='lat' v='40.0893766666667'/>
+	</node>
+	<node id='641' lon='-74.6978513333333' lat='41.2262653333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='5'/>
+		<tag k='long' v='-74.6978513333333'/>
+		<tag k='lat' v='41.2262653333333'/>
+	</node>
+	<node id='642' lon='-74.0480953333333' lat='40.4285893333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='6'/>
+		<tag k='long' v='-74.0480953333333'/>
+		<tag k='lat' v='40.4285893333333'/>
+	</node>
+	<node id='643' lon='-74.7657823333333' lat='40.6240893333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='7'/>
+		<tag k='long' v='-74.7657823333333'/>
+		<tag k='lat' v='40.6240893333333'/>
+	</node>
+	<node id='644' lon='-74.1940543333333' lat='40.858954'>
+		<tag k='state' v='nj'/><tag k='cd' v='8'/>
+		<tag k='long' v='-74.1940543333333'/>
+		<tag k='lat' v='40.858954'/>
+	</node>
+	<node id='645' lon='-74.2464053333333' lat='40.7500033333333'>
+		<tag k='state' v='nj'/><tag k='cd' v='8'/>
+		<tag k='long' v='-74.2464053333333'/>
+		<tag k='lat' v='40.7500033333333'/>
+	</node>
+	<node id='646' lon='-73.9951403333333' lat='40.8596766666667'>
+		<tag k='state' v='nj'/><tag k='cd' v='9'/>
+		<tag k='long' v='-73.9951403333333'/>
+		<tag k='lat' v='40.8596766666667'/>
+	</node>
+	<node id='647' lon='-106.196271666667' lat='34.579684'>
+		<tag k='state' v='nm'/><tag k='cd' v='1'/>
+		<tag k='long' v='-106.196271666667'/>
+		<tag k='lat' v='34.579684'/>
+	</node>
+	<node id='648' lon='-107.686881666667' lat='33.242227'>
+		<tag k='state' v='nm'/><tag k='cd' v='2'/>
+		<tag k='long' v='-107.686881666667'/>
+		<tag k='lat' v='33.242227'/>
+	</node>
+	<node id='649' lon='-103.844353666667' lat='36.0705696666667'>
+		<tag k='state' v='nm'/><tag k='cd' v='3'/>
+		<tag k='long' v='-103.844353666667'/>
+		<tag k='lat' v='36.0705696666667'/>
+	</node>
+	<node id='650' lon='-115.167134' lat='36.2760443333333'>
+		<tag k='state' v='nv'/><tag k='cd' v='1'/>
+		<tag k='long' v='-115.167134'/>
+		<tag k='lat' v='36.2760443333333'/>
+	</node>
+	<node id='651' lon='-116.222767333333' lat='39.646419'>
+		<tag k='state' v='nv'/><tag k='cd' v='2'/>
+		<tag k='long' v='-116.222767333333'/>
+		<tag k='lat' v='39.646419'/>
+	</node>
+	<node id='652' lon='-114.36834' lat='36.3994916666667'>
+		<tag k='state' v='nv'/><tag k='cd' v='3'/>
+		<tag k='long' v='-114.36834'/>
+		<tag k='lat' v='36.3994916666667'/>
+	</node>
+	<node id='653' lon='-72.9238973333333' lat='40.8433773333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='1'/>
+		<tag k='long' v='-72.9238973333333'/>
+		<tag k='lat' v='40.8433773333333'/>
+	</node>
+	<node id='654' lon='-73.8900076666667' lat='40.6569593333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='10'/>
+		<tag k='long' v='-73.8900076666667'/>
+		<tag k='lat' v='40.6569593333333'/>
+	</node>
+	<node id='655' lon='-73.963268' lat='40.653328'>
+		<tag k='state' v='ny'/><tag k='cd' v='11'/>
+		<tag k='long' v='-73.963268'/>
+		<tag k='lat' v='40.653328'/>
+	</node>
+	<node id='656' lon='-73.9273753333333' lat='40.716432'>
+		<tag k='state' v='ny'/><tag k='cd' v='12'/>
+		<tag k='long' v='-73.9273753333333'/>
+		<tag k='lat' v='40.716432'/>
+	</node>
+	<node id='657' lon='-74.1512686666667' lat='40.5771116666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='13'/>
+		<tag k='long' v='-74.1512686666667'/>
+		<tag k='lat' v='40.5771116666667'/>
+	</node>
+	<node id='658' lon='-73.9582273333333' lat='40.7659186666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='14'/>
+		<tag k='long' v='-73.9582273333333'/>
+		<tag k='lat' v='40.7659186666667'/>
+	</node>
+	<node id='659' lon='-73.9507586666667' lat='40.8105043333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='15'/>
+		<tag k='long' v='-73.9507586666667'/>
+		<tag k='lat' v='40.8105043333333'/>
+	</node>
+	<node id='660' lon='-73.9144983333333' lat='40.829123'>
+		<tag k='state' v='ny'/><tag k='cd' v='16'/>
+		<tag k='long' v='-73.9144983333333'/>
+		<tag k='lat' v='40.829123'/>
+	</node>
+	<node id='661' lon='-73.93545' lat='41.0685856666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='17'/>
+		<tag k='long' v='-73.93545'/>
+		<tag k='lat' v='41.0685856666667'/>
+	</node>
+	<node id='662' lon='-73.797777' lat='41.1198643333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='18'/>
+		<tag k='long' v='-73.797777'/>
+		<tag k='lat' v='41.1198643333333'/>
+	</node>
+	<node id='663' lon='-73.8471893333333' lat='41.4486256666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='19'/>
+		<tag k='long' v='-73.8471893333333'/>
+		<tag k='lat' v='41.4486256666667'/>
+	</node>
+	<node id='664' lon='-73.3585446666667' lat='40.8182873333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='2'/>
+		<tag k='long' v='-73.3585446666667'/>
+		<tag k='lat' v='40.8182873333333'/>
+	</node>
+	<node id='665' lon='-73.5508283333333' lat='43.2198416666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='20'/>
+		<tag k='long' v='-73.5508283333333'/>
+		<tag k='lat' v='43.2198416666667'/>
+	</node>
+	<node id='666' lon='-74.3858706666667' lat='42.6849253333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='21'/>
+		<tag k='long' v='-74.3858706666667'/>
+		<tag k='lat' v='42.6849253333333'/>
+	</node>
+	<node id='667' lon='-74.3580086666667' lat='41.701502'>
+		<tag k='state' v='ny'/><tag k='cd' v='22'/>
+		<tag k='long' v='-74.3580086666667'/>
+		<tag k='lat' v='41.701502'/>
+	</node>
+	<node id='668' lon='-75.813338' lat='43.668581'>
+		<tag k='state' v='ny'/><tag k='cd' v='23'/>
+		<tag k='long' v='-75.813338'/>
+		<tag k='lat' v='43.668581'/>
+	</node>
+	<node id='669' lon='-74.9855296666667' lat='43.0447656666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='24'/>
+		<tag k='long' v='-74.9855296666667'/>
+		<tag k='lat' v='43.0447656666667'/>
+	</node>
+	<node id='670' lon='-76.8349216666667' lat='43.3349786666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='25'/>
+		<tag k='long' v='-76.8349216666667'/>
+		<tag k='lat' v='43.3349786666667'/>
+	</node>
+	<node id='671' lon='-78.1128023333333' lat='42.832874'>
+		<tag k='state' v='ny'/><tag k='cd' v='26'/>
+		<tag k='long' v='-78.1128023333333'/>
+		<tag k='lat' v='42.832874'/>
+	</node>
+	<node id='672' lon='-79.3019313333333' lat='42.322869'>
+		<tag k='state' v='ny'/><tag k='cd' v='27'/>
+		<tag k='long' v='-79.3019313333333'/>
+		<tag k='lat' v='42.322869'/>
+	</node>
+	<node id='673' lon='-77.5293563333333' lat='43.462437'>
+		<tag k='state' v='ny'/><tag k='cd' v='28'/>
+		<tag k='long' v='-77.5293563333333'/>
+		<tag k='lat' v='43.462437'/>
+	</node>
+	<node id='674' lon='-77.1978486666667' lat='42.396472'>
+		<tag k='state' v='ny'/><tag k='cd' v='29'/>
+		<tag k='long' v='-77.1978486666667'/>
+		<tag k='lat' v='42.396472'/>
+	</node>
+	<node id='675' lon='-73.4874473333333' lat='40.6213236666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='3'/>
+		<tag k='long' v='-73.4874473333333'/>
+		<tag k='lat' v='40.6213236666667'/>
+	</node>
+	<node id='676' lon='-73.619905' lat='40.692964'>
+		<tag k='state' v='ny'/><tag k='cd' v='4'/>
+		<tag k='long' v='-73.619905'/>
+		<tag k='lat' v='40.692964'/>
+	</node>
+	<node id='677' lon='-73.7005166666667' lat='40.811655'>
+		<tag k='state' v='ny'/><tag k='cd' v='5'/>
+		<tag k='long' v='-73.7005166666667'/>
+		<tag k='lat' v='40.811655'/>
+	</node>
+	<node id='678' lon='-73.8005083333333' lat='40.670675'>
+		<tag k='state' v='ny'/><tag k='cd' v='6'/>
+		<tag k='long' v='-73.8005083333333'/>
+		<tag k='lat' v='40.670675'/>
+	</node>
+	<node id='679' lon='-73.8131033333333' lat='40.831923'>
+		<tag k='state' v='ny'/><tag k='cd' v='7'/>
+		<tag k='long' v='-73.8131033333333'/>
+		<tag k='lat' v='40.831923'/>
+	</node>
+	<node id='680' lon='-74.0054246666667' lat='40.575695'>
+		<tag k='state' v='ny'/><tag k='cd' v='8'/>
+		<tag k='long' v='-74.0054246666667'/>
+		<tag k='lat' v='40.575695'/>
+	</node>
+	<node id='681' lon='-74.0449076666667' lat='40.6893586666667'>
+		<tag k='state' v='ny'/><tag k='cd' v='8'/>
+		<tag k='long' v='-74.0449076666667'/>
+		<tag k='lat' v='40.6893586666667'/>
+	</node>
+	<node id='682' lon='-74.039746' lat='40.6999583333333'>
+		<tag k='state' v='ny'/><tag k='cd' v='8'/>
+		<tag k='long' v='-74.039746'/>
+		<tag k='lat' v='40.6999583333333'/>
+	</node>
+	<node id='683' lon='-73.8543606666667' lat='40.574759'>
+		<tag k='state' v='ny'/><tag k='cd' v='9'/>
+		<tag k='long' v='-73.8543606666667'/>
+		<tag k='lat' v='40.574759'/>
+	</node>
+	<node id='684' lon='-84.7212113333333' lat='39.2265636666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='1'/>
+		<tag k='long' v='-84.7212113333333'/>
+		<tag k='lat' v='39.2265636666667'/>
+	</node>
+	<node id='685' lon='-81.8322476666667' lat='41.3938313333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='10'/>
+		<tag k='long' v='-81.8322476666667'/>
+		<tag k='lat' v='41.3938313333333'/>
+	</node>
+	<node id='686' lon='-81.5529763333333' lat='41.507162'>
+		<tag k='state' v='oh'/><tag k='cd' v='11'/>
+		<tag k='long' v='-81.5529763333333'/>
+		<tag k='lat' v='41.507162'/>
+	</node>
+	<node id='687' lon='-83.0451236666667' lat='40.2379556666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='12'/>
+		<tag k='long' v='-83.0451236666667'/>
+		<tag k='lat' v='40.2379556666667'/>
+	</node>
+	<node id='688' lon='-82.0496986666667' lat='41.4153626666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='13'/>
+		<tag k='long' v='-82.0496986666667'/>
+		<tag k='lat' v='41.4153626666667'/>
+	</node>
+	<node id='689' lon='-81.2393936666667' lat='41.5544753333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='14'/>
+		<tag k='long' v='-81.2393936666667'/>
+		<tag k='lat' v='41.5544753333333'/>
+	</node>
+	<node id='690' lon='-83.321284' lat='39.955805'>
+		<tag k='state' v='oh'/><tag k='cd' v='15'/>
+		<tag k='long' v='-83.321284'/>
+		<tag k='lat' v='39.955805'/>
+	</node>
+	<node id='691' lon='-81.9108956666667' lat='40.8893426666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='16'/>
+		<tag k='long' v='-81.9108956666667'/>
+		<tag k='lat' v='40.8893426666667'/>
+	</node>
+	<node id='692' lon='-81.1151743333333' lat='41.1213513333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='17'/>
+		<tag k='long' v='-81.1151743333333'/>
+		<tag k='lat' v='41.1213513333333'/>
+	</node>
+	<node id='693' lon='-81.9263386666667' lat='40.1236866666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='18'/>
+		<tag k='long' v='-81.9263386666667'/>
+		<tag k='lat' v='40.1236866666667'/>
+	</node>
+	<node id='694' lon='-84.0407683333333' lat='39.0706996666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='2'/>
+		<tag k='long' v='-84.0407683333333'/>
+		<tag k='lat' v='39.0706996666667'/>
+	</node>
+	<node id='695' lon='-83.7011606666667' lat='39.2006346666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='3'/>
+		<tag k='long' v='-83.7011606666667'/>
+		<tag k='lat' v='39.2006346666667'/>
+	</node>
+	<node id='696' lon='-83.858088' lat='40.5298056666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='4'/>
+		<tag k='long' v='-83.858088'/>
+		<tag k='lat' v='40.5298056666667'/>
+	</node>
+	<node id='697' lon='-84.477264' lat='41.260807'>
+		<tag k='state' v='oh'/><tag k='cd' v='5'/>
+		<tag k='long' v='-84.477264'/>
+		<tag k='lat' v='41.260807'/>
+	</node>
+	<node id='698' lon='-81.0469106666667' lat='39.7905096666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='6'/>
+		<tag k='long' v='-81.0469106666667'/>
+		<tag k='lat' v='39.7905096666667'/>
+	</node>
+	<node id='699' lon='-83.756645' lat='39.8058263333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='7'/>
+		<tag k='long' v='-83.756645'/>
+		<tag k='lat' v='39.8058263333333'/>
+	</node>
+	<node id='700' lon='-84.5632926666667' lat='40.0804226666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='8'/>
+		<tag k='long' v='-84.5632926666667'/>
+		<tag k='lat' v='40.0804226666667'/>
+	</node>
+	<node id='701' lon='-83.2939776666667' lat='41.5404903333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-83.2939776666667'/>
+		<tag k='lat' v='41.5404903333333'/>
+	</node>
+	<node id='702' lon='-82.212873' lat='41.2491646666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-82.212873'/>
+		<tag k='lat' v='41.2491646666667'/>
+	</node>
+	<node id='703' lon='-82.8047306666667' lat='41.656712'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-82.8047306666667'/>
+		<tag k='lat' v='41.656712'/>
+	</node>
+	<node id='704' lon='-82.7127646666667' lat='41.6111326666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-82.7127646666667'/>
+		<tag k='lat' v='41.6111326666667'/>
+	</node>
+	<node id='705' lon='-83.108399' lat='41.7312553333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-83.108399'/>
+		<tag k='lat' v='41.7312553333333'/>
+	</node>
+	<node id='706' lon='-83.456993' lat='41.7046446666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-83.456993'/>
+		<tag k='lat' v='41.7046446666667'/>
+	</node>
+	<node id='707' lon='-83.453982' lat='41.7076676666667'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-83.453982'/>
+		<tag k='lat' v='41.7076676666667'/>
+	</node>
+	<node id='708' lon='-82.8361106666667' lat='41.494291'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-82.8361106666667'/>
+		<tag k='lat' v='41.494291'/>
+	</node>
+	<node id='709' lon='-82.809447' lat='41.5676353333333'>
+		<tag k='state' v='oh'/><tag k='cd' v='9'/>
+		<tag k='long' v='-82.809447'/>
+		<tag k='lat' v='41.5676353333333'/>
+	</node>
+	<node id='710' lon='-95.867721' lat='36.045662'>
+		<tag k='state' v='ok'/><tag k='cd' v='1'/>
+		<tag k='long' v='-95.867721'/>
+		<tag k='lat' v='36.045662'/>
+	</node>
+	<node id='711' lon='-95.109053' lat='34.7862593333333'>
+		<tag k='state' v='ok'/><tag k='cd' v='2'/>
+		<tag k='long' v='-95.109053'/>
+		<tag k='lat' v='34.7862593333333'/>
+	</node>
+	<node id='712' lon='-99.0652473333333' lat='36.0160606666667'>
+		<tag k='state' v='ok'/><tag k='cd' v='3'/>
+		<tag k='long' v='-99.0652473333333'/>
+		<tag k='lat' v='36.0160606666667'/>
+	</node>
+	<node id='713' lon='-97.6242836666667' lat='34.6005976666667'>
+		<tag k='state' v='ok'/><tag k='cd' v='4'/>
+		<tag k='long' v='-97.6242836666667'/>
+		<tag k='lat' v='34.6005976666667'/>
+	</node>
+	<node id='714' lon='-96.689515' lat='35.1690183333333'>
+		<tag k='state' v='ok'/><tag k='cd' v='5'/>
+		<tag k='long' v='-96.689515'/>
+		<tag k='lat' v='35.1690183333333'/>
+	</node>
+	<node id='715' lon='-123.061451' lat='45.4701906666667'>
+		<tag k='state' v='or'/><tag k='cd' v='1'/>
+		<tag k='long' v='-123.061451'/>
+		<tag k='lat' v='45.4701906666667'/>
+	</node>
+	<node id='716' lon='-118.553999666667' lat='44.069615'>
+		<tag k='state' v='or'/><tag k='cd' v='2'/>
+		<tag k='long' v='-118.553999666667'/>
+		<tag k='lat' v='44.069615'/>
+	</node>
+	<node id='717' lon='-122.030672666667' lat='45.462926'>
+		<tag k='state' v='or'/><tag k='cd' v='3'/>
+		<tag k='long' v='-122.030672666667'/>
+		<tag k='lat' v='45.462926'/>
+	</node>
+	<node id='718' lon='-123.212584' lat='43.9532916666667'>
+		<tag k='state' v='or'/><tag k='cd' v='4'/>
+		<tag k='long' v='-123.212584'/>
+		<tag k='lat' v='43.9532916666667'/>
+	</node>
+	<node id='719' lon='-123.843214' lat='44.8531083333333'>
+		<tag k='state' v='or'/><tag k='cd' v='5'/>
+		<tag k='long' v='-123.843214'/>
+		<tag k='lat' v='44.8531083333333'/>
+	</node>
+	<node id='720' lon='-75.2334236666667' lat='39.8849253333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='1'/>
+		<tag k='long' v='-75.2334236666667'/>
+		<tag k='lat' v='39.8849253333333'/>
+	</node>
+	<node id='721' lon='-76.342009' lat='41.483107'>
+		<tag k='state' v='pa'/><tag k='cd' v='10'/>
+		<tag k='long' v='-76.342009'/>
+		<tag k='lat' v='41.483107'/>
+	</node>
+	<node id='722' lon='-75.828335' lat='41.1189646666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='11'/>
+		<tag k='long' v='-75.828335'/>
+		<tag k='lat' v='41.1189646666667'/>
+	</node>
+	<node id='723' lon='-79.9728203333333' lat='40.0351246666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='12'/>
+		<tag k='long' v='-79.9728203333333'/>
+		<tag k='lat' v='40.0351246666667'/>
+	</node>
+	<node id='724' lon='-79.6514273333333' lat='40.2093266666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='12'/>
+		<tag k='long' v='-79.6514273333333'/>
+		<tag k='lat' v='40.2093266666667'/>
+	</node>
+	<node id='725' lon='-75.2139103333333' lat='40.18959'>
+		<tag k='state' v='pa'/><tag k='cd' v='13'/>
+		<tag k='long' v='-75.2139103333333'/>
+		<tag k='lat' v='40.18959'/>
+	</node>
+	<node id='726' lon='-79.9076073333333' lat='40.3736283333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='14'/>
+		<tag k='long' v='-79.9076073333333'/>
+		<tag k='lat' v='40.3736283333333'/>
+	</node>
+	<node id='727' lon='-75.523334' lat='40.628496'>
+		<tag k='state' v='pa'/><tag k='cd' v='15'/>
+		<tag k='long' v='-75.523334'/>
+		<tag k='lat' v='40.628496'/>
+	</node>
+	<node id='728' lon='-76.22682' lat='40.0179703333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='16'/>
+		<tag k='long' v='-76.22682'/>
+		<tag k='lat' v='40.0179703333333'/>
+	</node>
+	<node id='729' lon='-75.586868' lat='39.841849'>
+		<tag k='state' v='pa'/><tag k='cd' v='16'/>
+		<tag k='long' v='-75.586868'/>
+		<tag k='lat' v='39.841849'/>
+	</node>
+	<node id='730' lon='-76.6802196666667' lat='40.3529093333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='17'/>
+		<tag k='long' v='-76.6802196666667'/>
+		<tag k='lat' v='40.3529093333333'/>
+	</node>
+	<node id='731' lon='-77.134859' lat='40.4808913333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='17'/>
+		<tag k='long' v='-77.134859'/>
+		<tag k='lat' v='40.4808913333333'/>
+	</node>
+	<node id='732' lon='-80.2152456666667' lat='40.401964'>
+		<tag k='state' v='pa'/><tag k='cd' v='18'/>
+		<tag k='long' v='-80.2152456666667'/>
+		<tag k='lat' v='40.401964'/>
+	</node>
+	<node id='733' lon='-79.6514273333333' lat='40.2093266666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='18'/>
+		<tag k='long' v='-79.6514273333333'/>
+		<tag k='lat' v='40.2093266666667'/>
+	</node>
+	<node id='734' lon='-77.0206493333333' lat='40.0286776666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='19'/>
+		<tag k='long' v='-77.0206493333333'/>
+		<tag k='lat' v='40.0286776666667'/>
+	</node>
+	<node id='735' lon='-75.2050546666667' lat='39.9837333333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='2'/>
+		<tag k='long' v='-75.2050546666667'/>
+		<tag k='lat' v='39.9837333333333'/>
+	</node>
+	<node id='736' lon='-80.0052033333333' lat='41.8423533333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='3'/>
+		<tag k='long' v='-80.0052033333333'/>
+		<tag k='lat' v='41.8423533333333'/>
+	</node>
+	<node id='737' lon='-80.313903' lat='40.7285856666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='4'/>
+		<tag k='long' v='-80.313903'/>
+		<tag k='lat' v='40.7285856666667'/>
+	</node>
+	<node id='738' lon='-77.876881' lat='41.154654'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-77.876881'/>
+		<tag k='lat' v='41.154654'/>
+	</node>
+	<node id='739' lon='-78.5190883333333' lat='40.752113'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5190883333333'/>
+		<tag k='lat' v='40.752113'/>
+	</node>
+	<node id='740' lon='-78.5224773333333' lat='40.731004'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5224773333333'/>
+		<tag k='lat' v='40.731004'/>
+	</node>
+	<node id='741' lon='-78.438359' lat='40.915732'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.438359'/>
+		<tag k='lat' v='40.915732'/>
+	</node>
+	<node id='742' lon='-78.52465' lat='40.7501463333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.52465'/>
+		<tag k='lat' v='40.7501463333333'/>
+	</node>
+	<node id='743' lon='-78.51802' lat='40.730241'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.51802'/>
+		<tag k='lat' v='40.730241'/>
+	</node>
+	<node id='744' lon='-78.5201383333333' lat='40.7522993333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5201383333333'/>
+		<tag k='lat' v='40.7522993333333'/>
+	</node>
+	<node id='745' lon='-78.5250006666667' lat='40.7530393333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5250006666667'/>
+		<tag k='lat' v='40.7530393333333'/>
+	</node>
+	<node id='746' lon='-78.5194366666667' lat='40.7460146666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5194366666667'/>
+		<tag k='lat' v='40.7460146666667'/>
+	</node>
+	<node id='747' lon='-78.4954186666667' lat='40.771029'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.4954186666667'/>
+		<tag k='lat' v='40.771029'/>
+	</node>
+	<node id='748' lon='-78.518787' lat='40.752255'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.518787'/>
+		<tag k='lat' v='40.752255'/>
+	</node>
+	<node id='749' lon='-78.5267253333333' lat='40.7503283333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5267253333333'/>
+		<tag k='lat' v='40.7503283333333'/>
+	</node>
+	<node id='750' lon='-78.523376' lat='40.7507276666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.523376'/>
+		<tag k='lat' v='40.7507276666667'/>
+	</node>
+	<node id='751' lon='-78.5260616666667' lat='40.7528146666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5260616666667'/>
+		<tag k='lat' v='40.7528146666667'/>
+	</node>
+	<node id='752' lon='-78.5198453333333' lat='40.7517176666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5198453333333'/>
+		<tag k='lat' v='40.7517176666667'/>
+	</node>
+	<node id='753' lon='-78.5274243333333' lat='40.748834'>
+		<tag k='state' v='pa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.5274243333333'/>
+		<tag k='lat' v='40.748834'/>
+	</node>
+	<node id='754' lon='-75.7659016666667' lat='40.1178516666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='6'/>
+		<tag k='long' v='-75.7659016666667'/>
+		<tag k='lat' v='40.1178516666667'/>
+	</node>
+	<node id='755' lon='-75.3995813333333' lat='39.9717826666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='7'/>
+		<tag k='long' v='-75.3995813333333'/>
+		<tag k='lat' v='39.9717826666667'/>
+	</node>
+	<node id='756' lon='-75.1767056666667' lat='40.444116'>
+		<tag k='state' v='pa'/><tag k='cd' v='8'/>
+		<tag k='long' v='-75.1767056666667'/>
+		<tag k='lat' v='40.444116'/>
+	</node>
+	<node id='757' lon='-77.96861' lat='40.3273443333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-77.96861'/>
+		<tag k='lat' v='40.3273443333333'/>
+	</node>
+	<node id='758' lon='-77.1348166666667' lat='40.4809156666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-77.1348166666667'/>
+		<tag k='lat' v='40.4809156666667'/>
+	</node>
+	<node id='759' lon='-78.5190883333333' lat='40.752113'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5190883333333'/>
+		<tag k='lat' v='40.752113'/>
+	</node>
+	<node id='760' lon='-78.5224773333333' lat='40.731004'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5224773333333'/>
+		<tag k='lat' v='40.731004'/>
+	</node>
+	<node id='761' lon='-78.438359' lat='40.915732'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.438359'/>
+		<tag k='lat' v='40.915732'/>
+	</node>
+	<node id='762' lon='-78.52465' lat='40.7501463333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.52465'/>
+		<tag k='lat' v='40.7501463333333'/>
+	</node>
+	<node id='763' lon='-78.51802' lat='40.730241'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.51802'/>
+		<tag k='lat' v='40.730241'/>
+	</node>
+	<node id='764' lon='-78.5201383333333' lat='40.7522993333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5201383333333'/>
+		<tag k='lat' v='40.7522993333333'/>
+	</node>
+	<node id='765' lon='-78.5250006666667' lat='40.7530393333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5250006666667'/>
+		<tag k='lat' v='40.7530393333333'/>
+	</node>
+	<node id='766' lon='-78.5194366666667' lat='40.7460146666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5194366666667'/>
+		<tag k='lat' v='40.7460146666667'/>
+	</node>
+	<node id='767' lon='-78.4954186666667' lat='40.771029'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.4954186666667'/>
+		<tag k='lat' v='40.771029'/>
+	</node>
+	<node id='768' lon='-78.518787' lat='40.752255'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.518787'/>
+		<tag k='lat' v='40.752255'/>
+	</node>
+	<node id='769' lon='-78.5267253333333' lat='40.7503283333333'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5267253333333'/>
+		<tag k='lat' v='40.7503283333333'/>
+	</node>
+	<node id='770' lon='-78.523376' lat='40.7507276666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.523376'/>
+		<tag k='lat' v='40.7507276666667'/>
+	</node>
+	<node id='771' lon='-78.5260616666667' lat='40.7528146666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5260616666667'/>
+		<tag k='lat' v='40.7528146666667'/>
+	</node>
+	<node id='772' lon='-78.5198453333333' lat='40.7517176666667'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5198453333333'/>
+		<tag k='lat' v='40.7517176666667'/>
+	</node>
+	<node id='773' lon='-78.5274243333333' lat='40.748834'>
+		<tag k='state' v='pa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-78.5274243333333'/>
+		<tag k='lat' v='40.748834'/>
+	</node>
+	<node id='774' lon='-66.5286636666667' lat='18.0989896666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/pr'/>
+		<tag k='long' v='-66.5286636666667'/>
+		<tag k='lat' v='18.0989896666667'/>
+	</node>
+	<node id='775' lon='-67.8782576666667' lat='18.058639'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/pr'/>
+		<tag k='long' v='-67.8782576666667'/>
+		<tag k='lat' v='18.058639'/>
+	</node>
+	<node id='776' lon='-67.4835716666667' lat='18.4005103333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/pr'/>
+		<tag k='long' v='-67.4835716666667'/>
+		<tag k='lat' v='18.4005103333333'/>
+	</node>
+	<node id='777' lon='-71.3072916666667' lat='41.5350866666667'>
+		<tag k='state' v='ri'/><tag k='cd' v='1'/>
+		<tag k='long' v='-71.3072916666667'/>
+		<tag k='lat' v='41.5350866666667'/>
+	</node>
+	<node id='778' lon='-71.5821216666667' lat='41.718618'>
+		<tag k='state' v='ri'/><tag k='cd' v='2'/>
+		<tag k='long' v='-71.5821216666667'/>
+		<tag k='lat' v='41.718618'/>
+	</node>
+	<node id='779' lon='-71.5641273333333' lat='41.172921'>
+		<tag k='state' v='ri'/><tag k='cd' v='2'/>
+		<tag k='long' v='-71.5641273333333'/>
+		<tag k='lat' v='41.172921'/>
+	</node>
+	<node id='780' lon='-78.9418663333333' lat='33.8438623333333'>
+		<tag k='state' v='sc'/><tag k='cd' v='1'/>
+		<tag k='long' v='-78.9418663333333'/>
+		<tag k='lat' v='33.8438623333333'/>
+	</node>
+	<node id='781' lon='-80.816266' lat='32.3907773333333'>
+		<tag k='state' v='sc'/><tag k='cd' v='2'/>
+		<tag k='long' v='-80.816266'/>
+		<tag k='lat' v='32.3907773333333'/>
+	</node>
+	<node id='782' lon='-82.2179596666667' lat='34.1780736666667'>
+		<tag k='state' v='sc'/><tag k='cd' v='3'/>
+		<tag k='long' v='-82.2179596666667'/>
+		<tag k='lat' v='34.1780736666667'/>
+	</node>
+	<node id='783' lon='-82.2789466666667' lat='34.9161076666667'>
+		<tag k='state' v='sc'/><tag k='cd' v='4'/>
+		<tag k='long' v='-82.2789466666667'/>
+		<tag k='lat' v='34.9161076666667'/>
+	</node>
+	<node id='784' lon='-81.0512503333333' lat='34.5667693333333'>
+		<tag k='state' v='sc'/><tag k='cd' v='5'/>
+		<tag k='long' v='-81.0512503333333'/>
+		<tag k='lat' v='34.5667693333333'/>
+	</node>
+	<node id='785' lon='-79.8404466666667' lat='33.6232886666667'>
+		<tag k='state' v='sc'/><tag k='cd' v='6'/>
+		<tag k='long' v='-79.8404466666667'/>
+		<tag k='lat' v='33.6232886666667'/>
+	</node>
+	<node id='786' lon='-97.5546053333333' lat='44.4039093333333'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/sd'/>
+		<tag k='long' v='-97.5546053333333'/>
+		<tag k='lat' v='44.4039093333333'/>
+	</node>
+	<node id='787' lon='-82.9855123333333' lat='36.2859946666667'>
+		<tag k='state' v='tn'/><tag k='cd' v='1'/>
+		<tag k='long' v='-82.9855123333333'/>
+		<tag k='lat' v='36.2859946666667'/>
+	</node>
+	<node id='788' lon='-84.2081086666667' lat='35.4790773333333'>
+		<tag k='state' v='tn'/><tag k='cd' v='2'/>
+		<tag k='long' v='-84.2081086666667'/>
+		<tag k='lat' v='35.4790773333333'/>
+	</node>
+	<node id='789' lon='-84.5418703333333' lat='35.674744'>
+		<tag k='state' v='tn'/><tag k='cd' v='2'/>
+		<tag k='long' v='-84.5418703333333'/>
+		<tag k='lat' v='35.674744'/>
+	</node>
+	<node id='790' lon='-85.036601' lat='35.2578866666667'>
+		<tag k='state' v='tn'/><tag k='cd' v='3'/>
+		<tag k='long' v='-85.036601'/>
+		<tag k='lat' v='35.2578866666667'/>
+	</node>
+	<node id='791' lon='-84.5418703333333' lat='35.674744'>
+		<tag k='state' v='tn'/><tag k='cd' v='3'/>
+		<tag k='long' v='-84.5418703333333'/>
+		<tag k='lat' v='35.674744'/>
+	</node>
+	<node id='792' lon='-85.6582153333333' lat='35.274147'>
+		<tag k='state' v='tn'/><tag k='cd' v='4'/>
+		<tag k='long' v='-85.6582153333333'/>
+		<tag k='lat' v='35.274147'/>
+	</node>
+	<node id='793' lon='-86.9074396666667' lat='36.2122616666667'>
+		<tag k='state' v='tn'/><tag k='cd' v='5'/>
+		<tag k='long' v='-86.9074396666667'/>
+		<tag k='lat' v='36.2122616666667'/>
+	</node>
+	<node id='794' lon='-85.8914493333333' lat='36.3175353333333'>
+		<tag k='state' v='tn'/><tag k='cd' v='6'/>
+		<tag k='long' v='-85.8914493333333'/>
+		<tag k='lat' v='36.3175353333333'/>
+	</node>
+	<node id='795' lon='-88.3589403333333' lat='35.4546526666667'>
+		<tag k='state' v='tn'/><tag k='cd' v='7'/>
+		<tag k='long' v='-88.3589403333333'/>
+		<tag k='lat' v='35.4546526666667'/>
+	</node>
+	<node id='796' lon='-89.937922' lat='35.3018603333333'>
+		<tag k='state' v='tn'/><tag k='cd' v='7'/>
+		<tag k='long' v='-89.937922'/>
+		<tag k='lat' v='35.3018603333333'/>
+	</node>
+	<node id='797' lon='-89.3022543333333' lat='36.0026693333333'>
+		<tag k='state' v='tn'/><tag k='cd' v='8'/>
+		<tag k='long' v='-89.3022543333333'/>
+		<tag k='lat' v='36.0026693333333'/>
+	</node>
+	<node id='798' lon='-89.9432513333333' lat='35.3068293333333'>
+		<tag k='state' v='tn'/><tag k='cd' v='8'/>
+		<tag k='long' v='-89.9432513333333'/>
+		<tag k='lat' v='35.3068293333333'/>
+	</node>
+	<node id='799' lon='-89.9126586666667' lat='35.1023726666667'>
+		<tag k='state' v='tn'/><tag k='cd' v='9'/>
+		<tag k='long' v='-89.9126586666667'/>
+		<tag k='lat' v='35.1023726666667'/>
+	</node>
+	<node id='800' lon='-94.4010666666667' lat='31.5304716666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='1'/>
+		<tag k='long' v='-94.4010666666667'/>
+		<tag k='lat' v='31.5304716666667'/>
+	</node>
+	<node id='801' lon='-96.1049286666667' lat='29.8838363333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='10'/>
+		<tag k='long' v='-96.1049286666667'/>
+		<tag k='lat' v='29.8838363333333'/>
+	</node>
+	<node id='802' lon='-99.2420836666667' lat='31.4703933333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='11'/>
+		<tag k='long' v='-99.2420836666667'/>
+		<tag k='lat' v='31.4703933333333'/>
+	</node>
+	<node id='803' lon='-97.6167376666667' lat='32.870514'>
+		<tag k='state' v='tx'/><tag k='cd' v='12'/>
+		<tag k='long' v='-97.6167376666667'/>
+		<tag k='lat' v='32.870514'/>
+	</node>
+	<node id='804' lon='-100.867413' lat='35.3388766666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='13'/>
+		<tag k='long' v='-100.867413'/>
+		<tag k='lat' v='35.3388766666667'/>
+	</node>
+	<node id='805' lon='-96.6133346666667' lat='28.6304596666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='14'/>
+		<tag k='long' v='-96.6133346666667'/>
+		<tag k='lat' v='28.6304596666667'/>
+	</node>
+	<node id='806' lon='-97.520259' lat='28.6212666666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='15'/>
+		<tag k='long' v='-97.520259'/>
+		<tag k='lat' v='28.6212666666667'/>
+	</node>
+	<node id='807' lon='-106.321008333333' lat='31.8564413333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='16'/>
+		<tag k='long' v='-106.321008333333'/>
+		<tag k='lat' v='31.8564413333333'/>
+	</node>
+	<node id='808' lon='-97.5375223333333' lat='32.0076326666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='17'/>
+		<tag k='long' v='-97.5375223333333'/>
+		<tag k='lat' v='32.0076326666667'/>
+	</node>
+	<node id='809' lon='-95.4800173333333' lat='29.898782'>
+		<tag k='state' v='tx'/><tag k='cd' v='18'/>
+		<tag k='long' v='-95.4800173333333'/>
+		<tag k='lat' v='29.898782'/>
+	</node>
+	<node id='810' lon='-102.404091' lat='33.7074893333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='19'/>
+		<tag k='long' v='-102.404091'/>
+		<tag k='lat' v='33.7074893333333'/>
+	</node>
+	<node id='811' lon='-94.1372333333333' lat='29.7597473333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='2'/>
+		<tag k='long' v='-94.1372333333333'/>
+		<tag k='lat' v='29.7597473333333'/>
+	</node>
+	<node id='812' lon='-98.6569396666667' lat='29.4354683333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='20'/>
+		<tag k='long' v='-98.6569396666667'/>
+		<tag k='lat' v='29.4354683333333'/>
+	</node>
+	<node id='813' lon='-99.5850113333333' lat='29.9451113333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='21'/>
+		<tag k='long' v='-99.5850113333333'/>
+		<tag k='lat' v='29.9451113333333'/>
+	</node>
+	<node id='814' lon='-95.6774513333333' lat='29.4480793333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='22'/>
+		<tag k='long' v='-95.6774513333333'/>
+		<tag k='lat' v='29.4480793333333'/>
+	</node>
+	<node id='815' lon='-103.402521666667' lat='30.1699'>
+		<tag k='state' v='tx'/><tag k='cd' v='23'/>
+		<tag k='long' v='-103.402521666667'/>
+		<tag k='lat' v='30.1699'/>
+	</node>
+	<node id='816' lon='-96.976643' lat='32.6615716666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='24'/>
+		<tag k='long' v='-96.976643'/>
+		<tag k='lat' v='32.6615716666667'/>
+	</node>
+	<node id='817' lon='-96.949184' lat='29.534931'>
+		<tag k='state' v='tx'/><tag k='cd' v='25'/>
+		<tag k='long' v='-96.949184'/>
+		<tag k='lat' v='29.534931'/>
+	</node>
+	<node id='818' lon='-97.237543' lat='33.2033073333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='26'/>
+		<tag k='long' v='-97.237543'/>
+		<tag k='lat' v='33.2033073333333'/>
+	</node>
+	<node id='819' lon='-97.7683036666667' lat='27.4462633333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='27'/>
+		<tag k='long' v='-97.7683036666667'/>
+		<tag k='lat' v='27.4462633333333'/>
+	</node>
+	<node id='820' lon='-99.0204886666667' lat='28.543921'>
+		<tag k='state' v='tx'/><tag k='cd' v='28'/>
+		<tag k='long' v='-99.0204886666667'/>
+		<tag k='lat' v='28.543921'/>
+	</node>
+	<node id='821' lon='-95.194573' lat='29.7757046666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='29'/>
+		<tag k='long' v='-95.194573'/>
+		<tag k='lat' v='29.7757046666667'/>
+	</node>
+	<node id='822' lon='-96.717133' lat='33.079559'>
+		<tag k='state' v='tx'/><tag k='cd' v='3'/>
+		<tag k='long' v='-96.717133'/>
+		<tag k='lat' v='33.079559'/>
+	</node>
+	<node id='823' lon='-96.728385' lat='32.6478246666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='30'/>
+		<tag k='long' v='-96.728385'/>
+		<tag k='lat' v='32.6478246666667'/>
+	</node>
+	<node id='824' lon='-97.6301966666667' lat='30.920799'>
+		<tag k='state' v='tx'/><tag k='cd' v='31'/>
+		<tag k='long' v='-97.6301966666667'/>
+		<tag k='lat' v='30.920799'/>
+	</node>
+	<node id='825' lon='-96.806253' lat='32.892673'>
+		<tag k='state' v='tx'/><tag k='cd' v='32'/>
+		<tag k='long' v='-96.806253'/>
+		<tag k='lat' v='32.892673'/>
+	</node>
+	<node id='826' lon='-95.976906' lat='33.506039'>
+		<tag k='state' v='tx'/><tag k='cd' v='4'/>
+		<tag k='long' v='-95.976906'/>
+		<tag k='lat' v='33.506039'/>
+	</node>
+	<node id='827' lon='-95.8655353333333' lat='32.5053946666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='5'/>
+		<tag k='long' v='-95.8655353333333'/>
+		<tag k='lat' v='32.5053946666667'/>
+	</node>
+	<node id='828' lon='-96.019866' lat='31.3292703333333'>
+		<tag k='state' v='tx'/><tag k='cd' v='6'/>
+		<tag k='long' v='-96.019866'/>
+		<tag k='lat' v='31.3292703333333'/>
+	</node>
+	<node id='829' lon='-95.6273196666667' lat='29.829095'>
+		<tag k='state' v='tx'/><tag k='cd' v='7'/>
+		<tag k='long' v='-95.6273196666667'/>
+		<tag k='lat' v='29.829095'/>
+	</node>
+	<node id='830' lon='-94.7300513333333' lat='30.5282966666667'>
+		<tag k='state' v='tx'/><tag k='cd' v='8'/>
+		<tag k='long' v='-94.7300513333333'/>
+		<tag k='lat' v='30.5282966666667'/>
+	</node>
+	<node id='831' lon='-95.403627' lat='29.641723'>
+		<tag k='state' v='tx'/><tag k='cd' v='9'/>
+		<tag k='long' v='-95.403627'/>
+		<tag k='lat' v='29.641723'/>
+	</node>
+	<node id='832' lon='-113.044990333333' lat='41.270896'>
+		<tag k='state' v='ut'/><tag k='cd' v='1'/>
+		<tag k='long' v='-113.044990333333'/>
+		<tag k='lat' v='41.270896'/>
+	</node>
+	<node id='833' lon='-110.116650666667' lat='37.9765923333333'>
+		<tag k='state' v='ut'/><tag k='cd' v='2'/>
+		<tag k='long' v='-110.116650666667'/>
+		<tag k='lat' v='37.9765923333333'/>
+	</node>
+	<node id='834' lon='-111.863136666667' lat='39.0820943333333'>
+		<tag k='state' v='ut'/><tag k='cd' v='3'/>
+		<tag k='long' v='-111.863136666667'/>
+		<tag k='lat' v='39.0820943333333'/>
+	</node>
+	<node id='835' lon='-76.4574663333333' lat='37.713308'>
+		<tag k='state' v='va'/><tag k='cd' v='1'/>
+		<tag k='long' v='-76.4574663333333'/>
+		<tag k='lat' v='37.713308'/>
+	</node>
+	<node id='836' lon='-78.1473376666667' lat='39.05646'>
+		<tag k='state' v='va'/><tag k='cd' v='10'/>
+		<tag k='long' v='-78.1473376666667'/>
+		<tag k='lat' v='39.05646'/>
+	</node>
+	<node id='837' lon='-77.278851' lat='38.6930226666667'>
+		<tag k='state' v='va'/><tag k='cd' v='11'/>
+		<tag k='long' v='-77.278851'/>
+		<tag k='lat' v='38.6930226666667'/>
+	</node>
+	<node id='838' lon='-75.866245' lat='37.646829'>
+		<tag k='state' v='va'/><tag k='cd' v='2'/>
+		<tag k='long' v='-75.866245'/>
+		<tag k='lat' v='37.646829'/>
+	</node>
+	<node id='839' lon='-77.058345' lat='37.4016113333333'>
+		<tag k='state' v='va'/><tag k='cd' v='3'/>
+		<tag k='long' v='-77.058345'/>
+		<tag k='lat' v='37.4016113333333'/>
+	</node>
+	<node id='840' lon='-77.4006636666667' lat='36.8089263333333'>
+		<tag k='state' v='va'/><tag k='cd' v='4'/>
+		<tag k='long' v='-77.4006636666667'/>
+		<tag k='lat' v='36.8089263333333'/>
+	</node>
+	<node id='841' lon='-78.678332' lat='37.0764026666667'>
+		<tag k='state' v='va'/><tag k='cd' v='5'/>
+		<tag k='long' v='-78.678332'/>
+		<tag k='lat' v='37.0764026666667'/>
+	</node>
+	<node id='842' lon='-79.4431223333333' lat='38.069061'>
+		<tag k='state' v='va'/><tag k='cd' v='6'/>
+		<tag k='long' v='-79.4431223333333'/>
+		<tag k='lat' v='38.069061'/>
+	</node>
+	<node id='843' lon='-77.9693946666667' lat='38.3569256666667'>
+		<tag k='state' v='va'/><tag k='cd' v='7'/>
+		<tag k='long' v='-77.9693946666667'/>
+		<tag k='lat' v='38.3569256666667'/>
+	</node>
+	<node id='844' lon='-77.1008733333333' lat='38.784389'>
+		<tag k='state' v='va'/><tag k='cd' v='8'/>
+		<tag k='long' v='-77.1008733333333'/>
+		<tag k='lat' v='38.784389'/>
+	</node>
+	<node id='845' lon='-80.5559536666667' lat='36.957269'>
+		<tag k='state' v='va'/><tag k='cd' v='9'/>
+		<tag k='long' v='-80.5559536666667'/>
+		<tag k='lat' v='36.957269'/>
+	</node>
+	<node id='846' lon='-64.8544066666667' lat='18.284951'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/vi'/>
+		<tag k='long' v='-64.8544066666667'/>
+		<tag k='lat' v='18.284951'/>
+	</node>
+	<node id='847' lon='-64.7829033333333' lat='17.7658366666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/vi'/>
+		<tag k='long' v='-64.7829033333333'/>
+		<tag k='lat' v='17.7658366666667'/>
+	</node>
+	<node id='848' lon='-72.6827673333333' lat='44.5669676666667'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/vt'/>
+		<tag k='long' v='-72.6827673333333'/>
+		<tag k='lat' v='44.5669676666667'/>
+	</node>
+	<node id='849' lon='-122.561834' lat='47.715807'>
+		<tag k='state' v='wa'/><tag k='cd' v='1'/>
+		<tag k='long' v='-122.561834'/>
+		<tag k='lat' v='47.715807'/>
+	</node>
+	<node id='850' lon='-121.453024666667' lat='48.4048253333333'>
+		<tag k='state' v='wa'/><tag k='cd' v='2'/>
+		<tag k='long' v='-121.453024666667'/>
+		<tag k='lat' v='48.4048253333333'/>
+	</node>
+	<node id='851' lon='-122.422375666667' lat='46.1016913333333'>
+		<tag k='state' v='wa'/><tag k='cd' v='3'/>
+		<tag k='long' v='-122.422375666667'/>
+		<tag k='lat' v='46.1016913333333'/>
+	</node>
+	<node id='852' lon='-120.367326666667' lat='47.1203956666667'>
+		<tag k='state' v='wa'/><tag k='cd' v='4'/>
+		<tag k='long' v='-120.367326666667'/>
+		<tag k='lat' v='47.1203956666667'/>
+	</node>
+	<node id='853' lon='-118.075743666667' lat='47.4665276666667'>
+		<tag k='state' v='wa'/><tag k='cd' v='5'/>
+		<tag k='long' v='-118.075743666667'/>
+		<tag k='lat' v='47.4665276666667'/>
+	</node>
+	<node id='854' lon='-123.697141' lat='47.5161373333333'>
+		<tag k='state' v='wa'/><tag k='cd' v='6'/>
+		<tag k='long' v='-123.697141'/>
+		<tag k='lat' v='47.5161373333333'/>
+	</node>
+	<node id='855' lon='-122.356025333333' lat='47.643785'>
+		<tag k='state' v='wa'/><tag k='cd' v='7'/>
+		<tag k='long' v='-122.356025333333'/>
+		<tag k='lat' v='47.643785'/>
+	</node>
+	<node id='856' lon='-121.790987' lat='47.1104266666667'>
+		<tag k='state' v='wa'/><tag k='cd' v='8'/>
+		<tag k='long' v='-121.790987'/>
+		<tag k='lat' v='47.1104266666667'/>
+	</node>
+	<node id='857' lon='-122.605218333333' lat='47.0075836666667'>
+		<tag k='state' v='wa'/><tag k='cd' v='9'/>
+		<tag k='long' v='-122.605218333333'/>
+		<tag k='lat' v='47.0075836666667'/>
+	</node>
+	<node id='858' lon='-88.4093136666667' lat='42.7642313333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='1'/>
+		<tag k='long' v='-88.4093136666667'/>
+		<tag k='lat' v='42.7642313333333'/>
+	</node>
+	<node id='859' lon='-89.5377763333333' lat='43.0401996666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='2'/>
+		<tag k='long' v='-89.5377763333333'/>
+		<tag k='lat' v='43.0401996666667'/>
+	</node>
+	<node id='860' lon='-90.8688126666667' lat='44.3287733333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='3'/>
+		<tag k='long' v='-90.8688126666667'/>
+		<tag k='lat' v='44.3287733333333'/>
+	</node>
+	<node id='861' lon='-87.9222013333333' lat='42.9685446666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='4'/>
+		<tag k='long' v='-87.9222013333333'/>
+		<tag k='lat' v='42.9685446666667'/>
+	</node>
+	<node id='862' lon='-88.249695' lat='43.1020943333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='5'/>
+		<tag k='long' v='-88.249695'/>
+		<tag k='lat' v='43.1020943333333'/>
+	</node>
+	<node id='863' lon='-88.6785086666667' lat='43.8064673333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.6785086666667'/>
+		<tag k='lat' v='43.8064673333333'/>
+	</node>
+	<node id='864' lon='-88.4367386666667' lat='43.9875976666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.4367386666667'/>
+		<tag k='lat' v='43.9875976666667'/>
+	</node>
+	<node id='865' lon='-88.5153623333333' lat='44.0284913333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.5153623333333'/>
+		<tag k='lat' v='44.0284913333333'/>
+	</node>
+	<node id='866' lon='-88.4508816666667' lat='43.9006076666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.4508816666667'/>
+		<tag k='lat' v='43.9006076666667'/>
+	</node>
+	<node id='867' lon='-88.444367' lat='43.79553'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.444367'/>
+		<tag k='lat' v='43.79553'/>
+	</node>
+	<node id='868' lon='-88.5161006666667' lat='44.062872'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.5161006666667'/>
+		<tag k='lat' v='44.062872'/>
+	</node>
+	<node id='869' lon='-88.4918313333333' lat='43.9474013333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.4918313333333'/>
+		<tag k='lat' v='43.9474013333333'/>
+	</node>
+	<node id='870' lon='-88.4819856666667' lat='44.0886116666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.4819856666667'/>
+		<tag k='lat' v='44.0886116666667'/>
+	</node>
+	<node id='871' lon='-88.444793' lat='43.7969996666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.444793'/>
+		<tag k='lat' v='43.7969996666667'/>
+	</node>
+	<node id='872' lon='-88.5113876666667' lat='44.0345483333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.5113876666667'/>
+		<tag k='lat' v='44.0345483333333'/>
+	</node>
+	<node id='873' lon='-88.4614493333333' lat='43.7983326666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.4614493333333'/>
+		<tag k='lat' v='43.7983326666667'/>
+	</node>
+	<node id='874' lon='-88.5243446666667' lat='43.9674426666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.5243446666667'/>
+		<tag k='lat' v='43.9674426666667'/>
+	</node>
+	<node id='875' lon='-88.4643766666667' lat='44.1114183333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.4643766666667'/>
+		<tag k='lat' v='44.1114183333333'/>
+	</node>
+	<node id='876' lon='-88.443989' lat='43.7972803333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.443989'/>
+		<tag k='lat' v='43.7972803333333'/>
+	</node>
+	<node id='877' lon='-88.5234823333333' lat='43.9695'>
+		<tag k='state' v='wi'/><tag k='cd' v='6'/>
+		<tag k='long' v='-88.5234823333333'/>
+		<tag k='lat' v='43.9695'/>
+	</node>
+	<node id='878' lon='-91.1472143333333' lat='45.547927'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-91.1472143333333'/>
+		<tag k='lat' v='45.547927'/>
+	</node>
+	<node id='879' lon='-90.768302' lat='46.775213'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.768302'/>
+		<tag k='lat' v='46.775213'/>
+	</node>
+	<node id='880' lon='-90.5893333333333' lat='46.931455'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.5893333333333'/>
+		<tag k='lat' v='46.931455'/>
+	</node>
+	<node id='881' lon='-90.427684' lat='47.0296243333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.427684'/>
+		<tag k='lat' v='47.0296243333333'/>
+	</node>
+	<node id='882' lon='-90.7318436666666' lat='46.9311753333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.7318436666666'/>
+		<tag k='lat' v='46.9311753333333'/>
+	</node>
+	<node id='883' lon='-90.9594186666667' lat='46.97407'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.9594186666667'/>
+		<tag k='lat' v='46.97407'/>
+	</node>
+	<node id='884' lon='-90.744916' lat='46.8557726666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.744916'/>
+		<tag k='lat' v='46.8557726666667'/>
+	</node>
+	<node id='885' lon='-90.761637' lat='47.0127456666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.761637'/>
+		<tag k='lat' v='47.0127456666667'/>
+	</node>
+	<node id='886' lon='-90.489577' lat='46.8819463333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.489577'/>
+		<tag k='lat' v='46.8819463333333'/>
+	</node>
+	<node id='887' lon='-90.695954' lat='47.000642'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.695954'/>
+		<tag k='lat' v='47.000642'/>
+	</node>
+	<node id='888' lon='-90.555013' lat='47.0135316666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.555013'/>
+		<tag k='lat' v='47.0135316666667'/>
+	</node>
+	<node id='889' lon='-90.6610356666667' lat='46.9655866666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.6610356666667'/>
+		<tag k='lat' v='46.9655866666667'/>
+	</node>
+	<node id='890' lon='-90.6813113333333' lat='47.038478'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.6813113333333'/>
+		<tag k='lat' v='47.038478'/>
+	</node>
+	<node id='891' lon='-90.6861776666667' lat='46.888908'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.6861776666667'/>
+		<tag k='lat' v='46.888908'/>
+	</node>
+	<node id='892' lon='-90.6166006666667' lat='46.9969626666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.6166006666667'/>
+		<tag k='lat' v='46.9969626666667'/>
+	</node>
+	<node id='893' lon='-92.190818' lat='46.7025336666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.190818'/>
+		<tag k='lat' v='46.7025336666667'/>
+	</node>
+	<node id='894' lon='-90.7241056666667' lat='47.0685413333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.7241056666667'/>
+		<tag k='lat' v='47.0685413333333'/>
+	</node>
+	<node id='895' lon='-90.6453966666667' lat='47.0315256666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.6453966666667'/>
+		<tag k='lat' v='47.0315256666667'/>
+	</node>
+	<node id='896' lon='-90.7941036666667' lat='46.9728103333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.7941036666667'/>
+		<tag k='lat' v='46.9728103333333'/>
+	</node>
+	<node id='897' lon='-90.858386' lat='46.981485'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.858386'/>
+		<tag k='lat' v='46.981485'/>
+	</node>
+	<node id='898' lon='-90.7822563333333' lat='46.7260086666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.7822563333333'/>
+		<tag k='lat' v='46.7260086666667'/>
+	</node>
+	<node id='899' lon='-90.5873223333333' lat='47.0639846666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.5873223333333'/>
+		<tag k='lat' v='47.0639846666667'/>
+	</node>
+	<node id='900' lon='-90.717699' lat='46.6538393333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.717699'/>
+		<tag k='lat' v='46.6538393333333'/>
+	</node>
+	<node id='901' lon='-91.0374593333333' lat='46.9438206666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-91.0374593333333'/>
+		<tag k='lat' v='46.9438206666667'/>
+	</node>
+	<node id='902' lon='-92.0514453333333' lat='46.714963'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.0514453333333'/>
+		<tag k='lat' v='46.714963'/>
+	</node>
+	<node id='903' lon='-90.7162093333333' lat='46.6351416666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.7162093333333'/>
+		<tag k='lat' v='46.6351416666667'/>
+	</node>
+	<node id='904' lon='-92.1822603333333' lat='46.696665'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.1822603333333'/>
+		<tag k='lat' v='46.696665'/>
+	</node>
+	<node id='905' lon='-90.725953' lat='46.6231626666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.725953'/>
+		<tag k='lat' v='46.6231626666667'/>
+	</node>
+	<node id='906' lon='-92.2594886666667' lat='46.655173'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2594886666667'/>
+		<tag k='lat' v='46.655173'/>
+	</node>
+	<node id='907' lon='-92.2586143333333' lat='46.652965'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2586143333333'/>
+		<tag k='lat' v='46.652965'/>
+	</node>
+	<node id='908' lon='-92.2762453333333' lat='46.656869'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2762453333333'/>
+		<tag k='lat' v='46.656869'/>
+	</node>
+	<node id='909' lon='-92.2042246666667' lat='46.702241'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2042246666667'/>
+		<tag k='lat' v='46.702241'/>
+	</node>
+	<node id='910' lon='-92.032081' lat='46.706364'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.032081'/>
+		<tag k='lat' v='46.706364'/>
+	</node>
+	<node id='911' lon='-92.1915113333333' lat='46.7157773333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.1915113333333'/>
+		<tag k='lat' v='46.7157773333333'/>
+	</node>
+	<node id='912' lon='-92.1900253333333' lat='46.6723076666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.1900253333333'/>
+		<tag k='lat' v='46.6723076666667'/>
+	</node>
+	<node id='913' lon='-92.2518516666667' lat='46.6500103333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2518516666667'/>
+		<tag k='lat' v='46.6500103333333'/>
+	</node>
+	<node id='914' lon='-92.2795786666667' lat='46.655925'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2795786666667'/>
+		<tag k='lat' v='46.655925'/>
+	</node>
+	<node id='915' lon='-90.7334343333333' lat='46.6620086666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.7334343333333'/>
+		<tag k='lat' v='46.6620086666667'/>
+	</node>
+	<node id='916' lon='-90.4427103333334' lat='46.9071873333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.4427103333334'/>
+		<tag k='lat' v='46.9071873333333'/>
+	</node>
+	<node id='917' lon='-92.1090423333333' lat='46.748711'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.1090423333333'/>
+		<tag k='lat' v='46.748711'/>
+	</node>
+	<node id='918' lon='-92.168546' lat='46.7191883333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.168546'/>
+		<tag k='lat' v='46.7191883333333'/>
+	</node>
+	<node id='919' lon='-92.2757336666667' lat='46.653153'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2757336666667'/>
+		<tag k='lat' v='46.653153'/>
+	</node>
+	<node id='920' lon='-90.710428' lat='46.65286'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-90.710428'/>
+		<tag k='lat' v='46.65286'/>
+	</node>
+	<node id='921' lon='-92.274064' lat='46.6527996666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.274064'/>
+		<tag k='lat' v='46.6527996666667'/>
+	</node>
+	<node id='922' lon='-92.2018916666667' lat='46.7055346666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2018916666667'/>
+		<tag k='lat' v='46.7055346666667'/>
+	</node>
+	<node id='923' lon='-92.2010196666667' lat='46.7060473333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='7'/>
+		<tag k='long' v='-92.2010196666667'/>
+		<tag k='lat' v='46.7060473333333'/>
+	</node>
+	<node id='924' lon='-88.2636326666667' lat='45.1530336666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-88.2636326666667'/>
+		<tag k='lat' v='45.1530336666667'/>
+	</node>
+	<node id='925' lon='-87.2739843333333' lat='44.909492'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.2739843333333'/>
+		<tag k='lat' v='44.909492'/>
+	</node>
+	<node id='926' lon='-86.896099' lat='45.3759193333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.896099'/>
+		<tag k='lat' v='45.3759193333333'/>
+	</node>
+	<node id='927' lon='-87.3497613333333' lat='45.1815416666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.3497613333333'/>
+		<tag k='lat' v='45.1815416666667'/>
+	</node>
+	<node id='928' lon='-86.8205666666667' lat='45.4166833333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.8205666666667'/>
+		<tag k='lat' v='45.4166833333333'/>
+	</node>
+	<node id='929' lon='-86.9176873333333' lat='45.326031'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.9176873333333'/>
+		<tag k='lat' v='45.326031'/>
+	</node>
+	<node id='930' lon='-86.9505656666667' lat='45.3085303333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.9505656666667'/>
+		<tag k='lat' v='45.3085303333333'/>
+	</node>
+	<node id='931' lon='-87.9824663333333' lat='44.5969023333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.9824663333333'/>
+		<tag k='lat' v='44.5969023333333'/>
+	</node>
+	<node id='932' lon='-87.496114' lat='45.0593783333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.496114'/>
+		<tag k='lat' v='45.0593783333333'/>
+	</node>
+	<node id='933' lon='-87.9954243333333' lat='44.6070503333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.9954243333333'/>
+		<tag k='lat' v='44.6070503333333'/>
+	</node>
+	<node id='934' lon='-87.2649553333333' lat='45.1586253333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.2649553333333'/>
+		<tag k='lat' v='45.1586253333333'/>
+	</node>
+	<node id='935' lon='-87.269106' lat='45.166474'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.269106'/>
+		<tag k='lat' v='45.166474'/>
+	</node>
+	<node id='936' lon='-87.2082673333333' lat='45.179139'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.2082673333333'/>
+		<tag k='lat' v='45.179139'/>
+	</node>
+	<node id='937' lon='-86.93249' lat='45.3491636666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.93249'/>
+		<tag k='lat' v='45.3491636666667'/>
+	</node>
+	<node id='938' lon='-87.2665556666667' lat='45.173244'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.2665556666667'/>
+		<tag k='lat' v='45.173244'/>
+	</node>
+	<node id='939' lon='-87.5171506666667' lat='44.871878'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.5171506666667'/>
+		<tag k='lat' v='44.871878'/>
+	</node>
+	<node id='940' lon='-86.7644616666667' lat='45.3948116666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.7644616666667'/>
+		<tag k='lat' v='45.3948116666667'/>
+	</node>
+	<node id='941' lon='-86.919815' lat='45.284072'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.919815'/>
+		<tag k='lat' v='45.284072'/>
+	</node>
+	<node id='942' lon='-87.317446' lat='45.1018733333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.317446'/>
+		<tag k='lat' v='45.1018733333333'/>
+	</node>
+	<node id='943' lon='-88.006037' lat='44.6410883333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-88.006037'/>
+		<tag k='lat' v='44.6410883333333'/>
+	</node>
+	<node id='944' lon='-87.9775773333333' lat='44.6524503333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.9775773333333'/>
+		<tag k='lat' v='44.6524503333333'/>
+	</node>
+	<node id='945' lon='-88.012062' lat='44.6363426666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-88.012062'/>
+		<tag k='lat' v='44.6363426666667'/>
+	</node>
+	<node id='946' lon='-86.976866' lat='45.2084916666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.976866'/>
+		<tag k='lat' v='45.2084916666667'/>
+	</node>
+	<node id='947' lon='-87.0970993333333' lat='45.0558093333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.0970993333333'/>
+		<tag k='lat' v='45.0558093333333'/>
+	</node>
+	<node id='948' lon='-86.924156' lat='45.3505893333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.924156'/>
+		<tag k='lat' v='45.3505893333333'/>
+	</node>
+	<node id='949' lon='-87.1480293333333' lat='45.2242753333333'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.1480293333333'/>
+		<tag k='lat' v='45.2242753333333'/>
+	</node>
+	<node id='950' lon='-86.9328393333333' lat='45.3478536666667'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.9328393333333'/>
+		<tag k='lat' v='45.3478536666667'/>
+	</node>
+	<node id='951' lon='-87.2579516666667' lat='45.176485'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.2579516666667'/>
+		<tag k='lat' v='45.176485'/>
+	</node>
+	<node id='952' lon='-86.9625266666666' lat='45.253749'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-86.9625266666666'/>
+		<tag k='lat' v='45.253749'/>
+	</node>
+	<node id='953' lon='-87.1419886666667' lat='45.222196'>
+		<tag k='state' v='wi'/><tag k='cd' v='8'/>
+		<tag k='long' v='-87.1419886666667'/>
+		<tag k='lat' v='45.222196'/>
+	</node>
+	<node id='954' lon='-80.6182353333333' lat='39.4993256666667'>
+		<tag k='state' v='wv'/><tag k='cd' v='1'/>
+		<tag k='long' v='-80.6182353333333'/>
+		<tag k='lat' v='39.4993256666667'/>
+	</node>
+	<node id='955' lon='-81.3744866666667' lat='38.780148'>
+		<tag k='state' v='wv'/><tag k='cd' v='2'/>
+		<tag k='long' v='-81.3744866666667'/>
+		<tag k='lat' v='38.780148'/>
+	</node>
+	<node id='956' lon='-80.593244' lat='37.8572533333333'>
+		<tag k='state' v='wv'/><tag k='cd' v='3'/>
+		<tag k='long' v='-80.593244'/>
+		<tag k='lat' v='37.8572533333333'/>
+	</node>
+	<node id='957' lon='-109.658058' lat='42.992218'>
+		<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/wy'/>
+		<tag k='long' v='-109.658058'/>
+		<tag k='lat' v='42.992218'/>
+	</node>
+</osm>
