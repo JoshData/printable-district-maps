@@ -90,16 +90,18 @@ def draw_district_outline(statefp, state, district, shpfeature, map_size, contex
 
 	if not contextmap :
 		# Add a layer for counties and ZCTAs.
+		# TODO: These should really be generated with the map tile layer
+		# so that the labels don't hit each other.
 		for layer, featurename, labelfontsize, labelcolor in (
-				("county", "NAME", map_size/30, mapnik.Color('rgb(70%,20%,20%)')),
-				("zcta510", "ZCTA5CE10", map_size/60, mapnik.Color('rgb(20%,20%,70%)')),
+				("county", "NAME", map_size/40, mapnik.Color('rgb(70%,20%,20%)')),
+				("zcta510", "ZCTA5CE10", map_size/60, mapnik.Color('rgb(40%,40%,80%)')),
 				):
 			s = mapnik.Style()
 			r = mapnik.Rule()
-			p = mapnik.LineSymbolizer(labelcolor, map_size/300)
-			p.stroke.opacity = .3
-			p.stroke.add_dash(.1, .1)
-			r.symbols.append(p)
+			#p = mapnik.LineSymbolizer(labelcolor, map_size/300)
+			#p.stroke.opacity = .3
+			#p.stroke.add_dash(.1, .1)
+			#r.symbols.append(p)
 			r.symbols.append(mapnik.TextSymbolizer(mapnik.Expression('[%s]' % featurename), mapnik_label_font, labelfontsize, labelcolor))
 			s.rules.append(r)
 			m.append_style('%s Style' % layer, s)
@@ -122,10 +124,13 @@ def draw_district_outline(statefp, state, district, shpfeature, map_size, contex
 	r.symbols.append(t)
 	s.rules.append(r)
 
-	# Draw the outlines districts.
+	# Draw the outlines of districts. Use a hard thin outline to be exact plus
+	# a faded wider outline for strength.
 	r = mapnik.Rule()
-	p = mapnik.LineSymbolizer(district_outline_color, map_size/100)
-	p.line_opacity = .55
+	p = mapnik.LineSymbolizer(district_outline_color, 2)
+	r.symbols.append(p)
+	p = mapnik.LineSymbolizer(district_outline_color, map_size/140)
+	p.stroke.opacity = .35
 	r.symbols.append(p)
 	s.rules.append(r)
 
@@ -229,7 +234,7 @@ def add_osm_tiles(filename, bounds):
 
 			# Composite it into the right place.
 			tile = Image.open(fn)
-			tile = tile.resize((int(tile.size[0]*tile_scale), int(tile.size[1]*tile_scale)))
+			tile = tile.resize((int(tile.size[0]*tile_scale), int(tile.size[1]*tile_scale)), Image.BICUBIC if tile_scale > 1 else Image.ANTIALIAS)
 			composite.paste(tile,
 				(-int(t1[2]*tile.size[0]) + (xtile-t1[0])*tile.size[0],
 				 -int(t1[3]*tile.size[1]) + (ytile-t1[1])*tile.size[1] ) )
@@ -278,7 +283,7 @@ for feature in layer :
 	if not os.path.exists('maps/%d' % size): os.mkdir('maps/%d' % size)
 	composite = Image.new("RGBA", im1.size)
 	composite.paste(im1, (0, 0) )
-	composite.paste(im2, (5, min(im1.size)/25 + 5) )
+	composite.paste(im2, (int(min(im1.size)/15 * 0.5), int(min(im1.size)/15 * 1.5)) )
 	fn = 'maps/%d/%s%s.png' % (size, state, district)
 	composite.save(fn, "png")
 	print "Saved", fn

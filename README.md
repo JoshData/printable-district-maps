@@ -46,7 +46,7 @@ Start a new EC2 instance.
 	Availability Zone: Same as above
 
 The instance will have a small volume mounted at the root and also a big 400 GB
-volume mounted at /mnt.
+*ephemeral* volume mounted at /mnt.
 
 In the EC2 console, find the new instance and look for its security group. If AWS
 made one for you, it might be `launch-wizard-1`. Remember what it is. Now go back
@@ -182,7 +182,7 @@ We'll need to edit the configuration to make it work for us. You'll need to chan
 * database connection info
 * paths to the three ZIP files we downloaded earlier (which contain shapefiles), e.g. `path.join(getcwd(),"../data/coastline-good.zip")`
 
-The configuration file I used is in `osmbright-configure.py`. You'll at least need to change the
+The configuration file I used is in `osm-bright/configure.py`. You'll at least need to change the
 database hostname and copy the file into the right place.
 
 Now run OSM Bright to generate the TileMill configuration:
@@ -213,7 +213,7 @@ Start the TileMill tile server:
 
 	/usr/share/tilemill/index.js tile
 
-It listens on port 20008.
+It listens on port 20008 on localhost. You can run the next step from another machine, but if you do you'll have to set up port forwarding or change TileMill's configuration to listen on a public address.
 
 In another console, run the map-generating script:
 
