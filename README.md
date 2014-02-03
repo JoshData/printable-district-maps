@@ -182,6 +182,9 @@ We'll need to edit the configuration to make it work for us. You'll need to chan
 * database connection info
 * paths to the three ZIP files we downloaded earlier (which contain shapefiles), e.g. `path.join(getcwd(),"../data/coastline-good.zip")`
 
+The configuration file I used is in `osmbright-configure.py`. You'll at least need to change the
+database hostname and copy the file into the right place.
+
 Now run OSM Bright to generate the TileMill configuration:
 
 	mkdir -p ~/Documents/MapBox/project
