@@ -1,348 +1,284 @@
-# Generate printable maps for U.S. Congressional Districts.
-# ------------------------------------------------------------------------------
-
-# Start an Amazon EC2 instance using the latest MapBox
-# AMI at http://mapbox.com/data. That's ami-1917fb70 at
-# the time of writing. Note the availability zone.
-
-# Create EBS volume for the Planet.OSM snapshot in the same
-# availability zone.
-# ec2addvol --snapshot snap-01406368 -z us-east-1d -K aws-pk.pem -C aws-cert.pem 
-# http://mapbox.com/data/osm-planet
-
-# The Tiger snapshot is missing form mapbox so we'll grab
-# another for now.
-# ec2addvol --snapshot snap-00fb0869 -z us-east-1d -K aws-pk.pem -C aws-cert.pem 
-
-# You might find these or similar snapshots in the pull-down list
-# in the AWS Console.
-
-# Log in to the instance, and then get this file!
-# svn co svn://razor.occams.info/viz/districtmaps .
-
-# Attach the volumes to the instance and then mount them:
-# mkdir /mnt/osm; mount -t ext3 /dev/sdf /mnt/osm
-# mkdir /mnt/tiger; mount -t ext3 /dev/sdg /mnt/tiger
-
-# Attach it to Postgres,  noting port number, which might have to be modified in the OSM file.
-# pg_createcluster -d /mnt/osm/data 8.3 osm
-
-# Give us access to the database because we don't know what the password is!
-# edit /etc/postgresql/8.3/osm/pg_hba.conf and change the host local connection method from MD5 to trust.
-# /etc/init.d/postgresql-8.3 restart
-
-# Get the mapnik style information from OSM.
-# svn export http://svn.openstreetmap.org/applications/rendering/mapnik
-
-# Is there a better way to do this? Is there a snapshot with this?
-# cd mapnik
-# wget http://tile.openstreetmap.org/world_boundaries-spherical.tgz
-# wget http://tile.openstreetmap.org/processed_p.tar.bz2
-# wget http://tile.openstreetmap.org/shoreline_300.tar.bz2
-# tar xzf world_boundaries-spherical.tgz
-# tar xjf processed_p.tar.bz2 -C world_boundaries
-# tar xjf shoreline_300.tar.bz2 -C world_boundaries
-
-# To create a new osm.xml style file do this, but I've already customized
-# the output so you probably don't want to overwrite it!
-# python generate_xml.py osm.xml ../osm.xml --host localhost --port 5433 --dbname gis --user gis --password none
-
-# Make a place for the output. We're probably almost out of the main partition's space.
-# cd ..
-# mkdir /mnt/maps
-# ln -s /mnt/maps .
-
-# Get district number locations because Mapnik's label placement method is not good for
-# concave shapes! I've committed this file to the repository so there's no need to
-# run this again, at least not till there's redistricting.
-# wget -O - "http://www.govtrack.us/perl/wms/list-regions.cgi?dataset=http://www.rdfabout.com/rdf/usgov/congress/house/110&fields=coord&format=osm"        |sed "s|<tag k='URI' v='http://www.rdfabout.com/rdf/usgov/geo/us/\(..\)/cd/110/\(.*\)'/>|<tag k='state' v='\1'/><tag k='cd' v='\2'/>|" > district_numbers.osm
-
-# Run this very script.
-# python printablemaps.py [continue|GA11]
-#    continue means generate maps for missing files, or specify a particular file like GA11 to recreate it 
-
-# We'll put the maps into Amazon S3 for public downloading. First configure s3cmd with your credentials:
-# s3cmd --configure
-# Create a bucket? s3cmd mb s3://govtrackus --bucket-location=US
-# Then upload: (take out --dry-run eventually)
-# s3cmd sync --dry-run --delete-removed -M -P maps/ s3://govtrackus/printabledistrictmaps/
+# -*- coding: utf-8 -*-
+#
+# apt-get install python-gdal python-mapnik python-mpmath
 
 import sys
 import os
 import os.path
 import math
+import mpmath
+import urllib
 
-from osgeo import ogr
+from osgeo import ogr, osr
 import mapnik
-import Image, ImageDraw, ImageFont, ImageEnhance
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
+# For output, convert numeric FIPS codes for U.S. states to their usual USPS abbreviations and names.
 STATE_FIPS_TO_USPS = { 1: 'AL',  2: 'AK',  4: 'AZ',  5: 'AR',  6: 'CA',  8: 'CO',  9: 'CT',  10: 'DE',  11: 'DC',  12: 'FL',  13: 'GA',  15: 'HI',  16: 'ID',  17: 'IL',  18: 'IN',  19: 'IA',  20: 'KS',  21: 'KY',  22: 'LA',  23: 'ME',  24: 'MD',  25: 'MA',  26: 'MI',  27: 'MN',  28: 'MS',  29: 'MO',  30: 'MT',  31: 'NE',  32: 'NV',  33: 'NH',  34: 'NJ',  35: 'NM',  36: 'NY',  37: 'NC',  38: 'ND',  39: 'OH',  40: 'OK',  41: 'OR',  42: 'PA',  44: 'RI',  45: 'SC',  46: 'SD',  47: 'TN',  48: 'TX',  49: 'UT',  50: 'VT',  51: 'VA',  53: 'WA',  54: 'WV',  55: 'WI',  56: 'WY',  60: 'AS',  66: 'GU',  69: 'MP',  72: 'PR',  78: 'VI' }
-
-STATE_TIGER_DIRS = ('01_ALABAMA',  '02_ALASKA',  '04_ARIZONA',  '05_ARKANSAS',  '06_CALIFORNIA',  '08_COLORADO',  '09_CONNECTICUT',  '10_DELAWARE',  '11_DISTRICT_OF_COLUMBIA',  '12_FLORIDA',  '13_GEORGIA',  '15_HAWAII',  '16_IDAHO',  '17_ILLINOIS',  '18_INDIANA',  '19_IOWA',  '20_KANSAS',  '21_KENTUCKY',  '22_LOUISIANA',  '23_MAINE',  '24_MARYLAND',  '25_MASSACHUSETTS',  '26_MICHIGAN',  '27_MINNESOTA',  '28_MISSISSIPPI',  '29_MISSOURI',  '30_MONTANA',  '31_NEBRASKA',  '32_NEVADA',  '33_NEW_HAMPSHIRE',  '34_NEW_JERSEY',  '35_NEW_MEXICO',  '36_NEW_YORK',  '37_NORTH_CAROLINA',  '38_NORTH_DAKOTA',  '39_OHIO',  '40_OKLAHOMA',  '41_OREGON',  '42_PENNSYLVANIA',  '44_RHODE_ISLAND',  '45_SOUTH_CAROLINA',  '46_SOUTH_DAKOTA',  '47_TENNESSEE',  '48_TEXAS',  '49_UTAH',  '50_VERMONT',  '51_VIRGINIA',  '53_WASHINGTON',  '54_WEST_VIRGINIA',  '55_WISCONSIN',  '56_WYOMING',  '60_AMERICAN_SAMOA',  '66_GUAM',  '69_COMMONWEALTH_OF_THE_NORTHERN_MARIANA_ISLANDS',  '72_PUERTO_RICO',  '78_VIRGIN_ISLANDS_OF_THE_UNITED_STATES')
-
 STATE_NAMES = { "AL": "Alabama", "AK": "Alaska", "AS": "American Samoa",  "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "DC": "District of Columbia", "FM": "Federated States of Micronesia", "FL": "Florida", "GA": "Georgia", "GU": "Guam", "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MH": "Marshall Islands", "MD": "Maryland",  "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina",  "ND": "North Dakota", "MP": "Northern Mariana Islands", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PW": "Palau", "PA": "Pennsylvania",  "PR": "Puerto Rico", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah",  "VT": "Vermont", "VI": "Virgin Islands", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming" } 
 
-# Another projection might be better but the scaling factor filters in
-# osm.xml won't work if this is changed...
-proj = "+proj=latlong +datum=WGS84"
+# For rending the map title and footer, paths to a regular, bold, and bold-italic font:
+font_path = "/usr/share/fonts/truetype/"
+fonts = (font_path + "gentium/GenR102.ttf",
+	     font_path + "gentium/GenAR102.ttf",
+	     font_path + "gentium/GenAI102.ttf")
 
-def DrawMap(state_fips, state, district, shpfile, shpfeature, map_size, contextmap) :
-	fctx = ""
-	if contextmap :
-		fctx = "_context"
-	imgfile = 'maps/' + state + district + "_" + str(map_size) + fctx + '.png'
-	if outputfilter == "continue" and os.path.exists(imgfile) :
-		return
+# For mapnik labels.
+mapnik_label_font = 'DejaVu Sans Book'
 
-	if contextmap :
-		map_size /= 6
+# The projection, web mercator, which is necessary because the base map tiles
+# are in this projection.
+output_projection = "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +over +no_defs"
+
+# The projection in which the Census shapefiles are stored, from the .prj file.
+# It's basically WGS84, but perhaps not exactly? I'm not sure, but this is what
+# the Census says it is.
+census_shapefile_projection = "+proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs"
+
+# For getting the steet map tiles.
+tile_size = 256
+tile_baseurl = "http://localhost:20008/tile/OSMBright"
+ #cloudmate_api_key, cloudmate_style = os.environ["CLOUDMATE"].split(":")		
+ #tile_baseurl = "http://b.tile.cloudmade.com/%s/%s@2x/%d" % (cloudmate_api_key, cloudmate_style, tile_size)
+
+def draw_district_outline(statefp, state, district, shpfeature, map_size, contextmap) :
+	# Create an image with district outlines and shading over the parts of the map
+	# in other districts or other states. Also compute our desired bounding box.
 
 	# Get bounding box of this map, which will be a little larger than the boudning box of the district.
-	long_min,  long_max,  lat_min,  lat_max = shpfeature.GetGeometryRef().GetEnvelope()
+	long_min, long_max, lat_min, lat_max = shpfeature.GetGeometryRef().GetEnvelope()
 	margin = 0.06
 	if contextmap :
-		margin = 1
+		margin = 1.5
 	d_long = long_max-long_min
 	d_lat = lat_max-lat_min
 	long_min -= d_long*margin
 	long_max += d_long*margin
 	lat_min -= d_lat*margin
 	lat_max += d_lat*margin
-	
-	# Choose a map aspect ratio, and then size.
-	if d_long > d_lat * 2.5 : # two landscape sheets side by side
-		map_width = int(2.58*map_size)
-		map_height = 1*map_size
-	elif d_lat > d_long * 2.5 : # two portrait sheets side by side
-		map_width = 1*map_size
-		map_height = int(2.58*map_size)
-	elif d_long > d_lat * 1.1 : # landscape
-		map_width = int(1.29*map_size) # aspect ratio of 8.5x11 sheet
-		map_height = 1*map_size
-	elif d_lat > d_long * 1.1 : # portrait
-		map_width = 1*map_size
-		map_height = int(1.29*map_size)
-	else : # square
-		map_width = map_size
-		map_height = map_size
-	
-	# Create a map and add the basic map layer.
-	m = mapnik.Map(map_width, map_height, proj)
 
-	m.zoom_to_box(mapnik.Envelope(long_min, lat_min, long_max, lat_max))
+	# Choose an aspect ratio for the final image that is a good match for
+	# the shape of the district. We have two choices. We could use nice-looking
+	# aspect ratios or we could use aspect ratios that match common sizes of
+	# paper so that the map can be printed nicely.
+	good_aspect_ratios = [
+		(3.0,    3.0/1.0), # 8.5x17 tabloid landscape
+		(1.5,   16.0/9.0), # HD widescreen
+		(1.25,  11.0/8.5), # 8.5x11 letter landscape
+		(1/1.25, 1.0/1.0), # square
+		(1/1.5,  8.5/11.0), # 8.5x11 letter portrait
+		(0,      8.5/17.0), # 8.5x17 tabloid portrait
+		]
+
+	for threshold, ratio in good_aspect_ratios:
+		if d_long/d_lat > threshold:
+			if ratio > 1.0:
+				map_width = int(ratio * map_size)
+				map_height = map_size
+			else:
+				map_width = map_size
+				map_height = int(map_size / ratio)
+			break
 	
+	# Create a map.
+	m = mapnik.Map(map_width, map_height, output_projection)
+
+	# Center to the projected coordinates.
+	bounds = (mapnik.Projection(output_projection).forward( mapnik.Projection(census_shapefile_projection).inverse(mapnik.Coord(long_min, lat_min)) ),
+			mapnik.Projection(output_projection).forward( mapnik.Projection(census_shapefile_projection).inverse(mapnik.Coord(long_max, lat_max)) ))
+	m.zoom_to_box(mapnik.Envelope(bounds[0].x, bounds[0].y, bounds[1].x, bounds[1].y))
+
 	if not contextmap :
-		m.background = mapnik.Color('steelblue')
+		# Add a layer for counties and ZCTAs.
+		for layer, featurename, labelfontsize, labelcolor in (
+				("county", "NAME", map_size/30, mapnik.Color('rgb(70%,20%,20%)')),
+				("zcta510", "ZCTA5CE10", map_size/60, mapnik.Color('rgb(20%,20%,70%)')),
+				):
+			s = mapnik.Style()
+			r = mapnik.Rule()
+			p = mapnik.LineSymbolizer(labelcolor, map_size/300)
+			p.stroke.opacity = .3
+			p.stroke.add_dash(.1, .1)
+			r.symbols.append(p)
+			r.symbols.append(mapnik.TextSymbolizer(mapnik.Expression('[%s]' % featurename), mapnik_label_font, labelfontsize, labelcolor))
+			s.rules.append(r)
+			m.append_style('%s Style' % layer, s)
+			lyr = mapnik.Layer('world', census_shapefile_projection)
+			lyr.datasource = mapnik.Shapefile(file="/home/user/data/gis/tl_2013_us_%s.shp" % layer)
+			lyr.styles.append('%s Style' % layer)
+			m.layers.append(lyr)
 
-		# Streets
-		mapnik.load_map(m, 'osm.xml')
-	
-		# Add a layer for the places in the state.
-		s = mapnik.Style()
-		r = mapnik.Rule()
-		t = mapnik.TextSymbolizer('NAME', 'DejaVu Sans Book', map_size/85, mapnik.Color('rgb(60%,30%,30%)'))
-		t.halo_fill = mapnik.Color('white')
-		t.halo_radius = 3
-		r.symbols.append(t)
-		s.rules.append(r)
-		m.append_style('Places Style',s)
-		lyr = mapnik.Layer('world', proj)
-		lyr.datasource = mapnik.Shapefile(file=(shpfile % ('place')))
-		lyr.styles.append('Places Style')
-		m.layers.append(lyr)
 
-		# Add a layer for the county subdivisions in the state.
-		s = mapnik.Style()
-		r = mapnik.Rule()
-		t = mapnik.TextSymbolizer('NAME', 'DejaVu Sans Book', map_size/75, mapnik.Color('rgb(70%,20%,20%)'))
-		t.halo_fill = mapnik.Color('white')
-		t.halo_radius = 3
-		r.symbols.append(t)
-		s.rules.append(r)
-		m.append_style('County Subdivisions Style',s)
-		lyr = mapnik.Layer('world', proj)
-		lyr.datasource = mapnik.Shapefile(file=(shpfile % ('cousub')))
-		lyr.styles.append('County Subdivisions Style')
-		m.layers.append(lyr)
-
-		# Add a layer for the counties in the state.
-		s = mapnik.Style()
-		r = mapnik.Rule()
-		t = mapnik.TextSymbolizer('NAME', 'DejaVu Sans Bold', int(map_size/60), mapnik.Color('rgb(70%,20%,20%)'))
-		t.halo_fill = mapnik.Color('white')
-		t.halo_radius = 3
-		r.symbols.append(t)
-		p = mapnik.LineSymbolizer(mapnik.Color('rgb(70%,20%,20%)'), map_size/400)
-		p.stroke.opacity = .2 # has no effect
-		p.stroke.add_dash(.1, .1) # has no effect
-		r.symbols.append(p)
-		s.rules.append(r)
-		m.append_style('Counties Style',s)
-		lyr = mapnik.Layer('world', proj)
-		lyr.datasource = mapnik.Shapefile(file=(shpfile % ('county')))
-		lyr.styles.append('Counties Style')
-		m.layers.append(lyr)
-
-	else :
-		m.background = mapnik.Color('white')
-	
-
-	# Add a layer for the boundaries against other U.S. states.. We need two styles.
-	# The first is a shaded style for other states. The second is an outline style
-	# for all states including this one, to make sure we get the boundary with other
-	# countries.
+	# Draw shading and numbering for the other districts.
+	district_outline_color = mapnik.Color('rgb(100%,75%,25%)')
 	s = mapnik.Style()
 	r = mapnik.Rule()
-	p = mapnik.PolygonSymbolizer(mapnik.Color('rgb(40%,40%,40%)')) # shading
-	p.fill_opacity = .6
+	p = mapnik.PolygonSymbolizer(mapnik.Color('rgb(70%,70%,70%)'))
+	p.fill_opacity = .55
 	r.symbols.append(p)
-	r.filter = mapnik.Filter("[STATEFP] <> '" + state_fips + "'")
+	r.filter = mapnik.Filter("([CD113FP] <> '" + district + "' || [STATEFP] <> '" + statefp + "') && [CD113FP] != 'ZZ'")
+	t = mapnik.TextSymbolizer(mapnik.Expression('[CD113FP]'), mapnik_label_font, map_size/15, district_outline_color)
+	t.halo_radius = map_size/120
+	r.symbols.append(t)
 	s.rules.append(r)
-	r = mapnik.Rule()
-	r.symbols.append(mapnik.LineSymbolizer(mapnik.Color('rgb(50%,50%,50%)'), map_size/150)) # thick outline
-	s.rules.append(r)
-	m.append_style('States Style',s)
-	lyr = mapnik.Layer('world', proj)
-	lyr.datasource = mapnik.Shapefile(file="/mnt/tiger/TIGER2008/tl_2008_us_state.shp")
-	lyr.styles.append('States Style')
-	m.layers.append(lyr)
 
-	# Add a layer for the boundary of this district against the others in this state. We'll
-	# draw outlines and shading for the other districts, which is enough to give us the
-	# boundary of this district (since the state boundary is already drawn).
-	s = mapnik.Style()
+	# Draw the outlines districts.
 	r = mapnik.Rule()
-	if not contextmap :
-		p = mapnik.PolygonSymbolizer(mapnik.Color('rgb(100%,100%,100%)'))
-		p.fill_opacity = .8
-		r.symbols.append(p)
-		p = mapnik.LineSymbolizer(mapnik.Color('rgb(0%,0%,0%)'), map_size/300)
-	else :
-		p = mapnik.LineSymbolizer(mapnik.Color('rgb(0%,0%,0%)'), map_size/200)
-	p.stroke.opacity = .2 # has no effect
-	p.stroke.add_dash(12, 12) # has no effect
+	p = mapnik.LineSymbolizer(district_outline_color, map_size/100)
+	p.line_opacity = .55
 	r.symbols.append(p)
-	if not contextmap :
-		r.filter = mapnik.Filter("[CD110FP] <> '" + district + "'")
 	s.rules.append(r)
-	if contextmap :
-		r = mapnik.Rule()
-		p = mapnik.PolygonSymbolizer(mapnik.Color('rgb(100%,0%,0%)'))
-		p.fill_opacity = .25
-		r.symbols.append(p)
-		r.filter = mapnik.Filter("[CD110FP] = '" + district + "'")
-		s.rules.append(r)
+
 	m.append_style('Other Districts Style',s)
-	lyr = mapnik.Layer('world', proj)
-	lyr.datasource = mapnik.Shapefile(file=(shpfile % ('cd110')))
+	lyr = mapnik.Layer('world', census_shapefile_projection)
+	lyr.datasource = mapnik.Shapefile(file="/home/user/data/gis/tl_2013_us_cd113.shp")
 	lyr.styles.append('Other Districts Style')
 	m.layers.append(lyr)
 
-	# Add a layer for district numbers using the point locations that I've computed for GovTrack's
-	# district maps, since Mapnik places labels in weird locations for weird polygons.
-	s = mapnik.Style()
-	r = mapnik.Rule()
-	if not contextmap :
-		t = mapnik.TextSymbolizer('cd', 'DejaVu Sans Bold', int(map_size/30), mapnik.Color('black'))
-	else :
-		t = mapnik.TextSymbolizer('cd', 'DejaVu Sans Bold', int(map_size/17), mapnik.Color('black'))
-	r.symbols.append(t)
-	r.filter = mapnik.Filter("[state] = '" + state.lower() + "'")
-	s.rules.append(r)
-	m.append_style("District Numbers Style", s)
-	lyr = mapnik.Layer("district_numbers", proj)
-	lyr.datasource = mapnik.Osm(file='district_numbers.osm')
-	lyr.styles.append('District Numbers Style')
-	m.layers.append(lyr)
+	im = mapnik.Image(map_width, map_height)
+	mapnik.render(m, im)
 
-	mapnik.render_to_file(m, imgfile, 'png')
+	env = m.envelope()
+	env = ( mapnik.Projection(output_projection).inverse(mapnik.Coord(env[0], env[1])), mapnik.Projection(output_projection).inverse(mapnik.Coord(env[2], env[3])) )
+	return im, env
 	
+def add_header_footer(filename):
 	# Post process the image.
-	im = Image.open(imgfile)
+	im = Image.open(filename)
+	im = im.convert("RGBA")
 
-	if not contextmap :
-		# Add translucent bands for the title and footer.
-		layer = Image.new('RGBA', im.size, (0,0,0,0))
-		draw = ImageDraw.Draw(layer)
-		draw.rectangle([ (0, 0), (map_width, map_size/25) ], fill="#555555")
-		draw.rectangle([ (0, map_height - map_size/50), (map_width, map_height) ], fill="#555555")
-		alpha = layer.split()[3]
-		alpha = ImageEnhance.Brightness(alpha).enhance(.8)
-		layer.putalpha(alpha)
-		im = Image.composite(layer, im, layer)
-		del draw 
+	# Add bands for the title and footer.
+	draw = ImageDraw.Draw(im)
+	draw.rectangle([ (0, 0), (im.size[0], min(im.size)/15) ], fill="#555555")
+	draw.rectangle([ (0, im.size[1] - min(im.size)/50), im.size ], fill="#555555")
 
-		# Title text.
-		title_a = STATE_NAMES[state] + u"\u2019s " + str(int(district))
-		title_b = "  Congressional District"
-		if int(district) % 100 in (11, 12, 13) :
-			ordinal = "th"
-		elif int(district) % 10 == 1 :
-			ordinal = "st"
-		elif int(district) % 10 == 2 :
-			ordinal = "nd"
-		elif int(district) % 10 == 3 :
-			ordinal = "rd"
-		else :
-			ordinal = "th"
-	
-		font = ImageFont.truetype("/root/src/mapnik/fonts/dejavu-fonts-ttf-2.30/ttf/DejaVuSans-Bold.ttf", map_size/45)
-		font2 = ImageFont.truetype("/root/src/mapnik/fonts/dejavu-fonts-ttf-2.30/ttf/DejaVuSans-BoldOblique.ttf", map_size/90, encoding="unic")
-		title_a_width, title_a_height = font.getsize(title_a)
-		title_width, title_height = font.getsize(title_a + title_b)
-		ordinal_width, ordinal_height = font.getsize(ordinal)
-		draw = ImageDraw.Draw(im)
-		draw.text(((map_width-title_width)/2, 4 + ordinal_height/4), title_a + title_b, font=font)
-		draw.text(((map_width-title_width)/2 + title_a_width - 2, 4 + ordinal_height/6), ordinal, font=font2)
-		del draw 
-	
-		footer = "Map by www.GovTrack.us. Street data from OpenStreetMap.org. Reuse with attribution under CC-BY-SA 2.0."
-		font = ImageFont.truetype("/root/src/mapnik/fonts/dejavu-fonts-ttf-2.30/ttf/DejaVuSans.ttf", map_size/70)
-		footer_width, footer_height = font.getsize(footer)
-		draw = ImageDraw.Draw(im)
-		draw.text((map_width-footer_width-10, map_height - map_size/50+1), footer, font=font)
-		del draw 
-
+	# Title text.
+	title_a = "The " + str(int(district))
+	title_b = "   Congressional District of " + STATE_NAMES[state] + " (2013)"
+	if int(district) % 100 in (11, 12, 13) :
+		ordinal = "th"
+	elif int(district) % 10 == 1 :
+		ordinal = "st"
+	elif int(district) % 10 == 2 :
+		ordinal = "nd"
+	elif int(district) % 10 == 3 :
+		ordinal = "rd"
 	else :
-		draw = ImageDraw.Draw(im)
-		draw.rectangle([ (0, 0), (map_width-1, map_height-1) ], outline="#000000")
-		del draw 
+		ordinal = "th"
 
-	im.convert("RGB").save(imgfile, "PNG")
+	font = ImageFont.truetype(fonts[1], min(im.size)/25)
+	font2 = ImageFont.truetype(fonts[2], min(im.size)/50, encoding="unic")
+	title_a_width, title_a_height = font.getsize(title_a)
+	title_width, title_height = font.getsize(title_a + title_b)
+	ordinal_width, ordinal_height = font.getsize(ordinal)
+	draw = ImageDraw.Draw(im)
+	draw.text(((im.size[0]-title_width)/2, 4 + ordinal_height/4), title_a + title_b, font=font)
+	draw.text(((im.size[0]-title_width)/2 + title_a_width - 2, 4 + ordinal_height/6), ordinal, font=font2)
+	del draw 
+
+	footer = u"Copyright © 2014 Civic Impulse, LLC (GovTrack.us). Data from OpenStreetMap.org; U.S. Census Bureau."
+	font = ImageFont.truetype(fonts[0], min(im.size)/100)
+	footer_width, footer_height = font.getsize(footer)
+	draw = ImageDraw.Draw(im)
+	draw.text((im.size[0]-footer_width-10, im.size[1] - min(im.size)/60), footer, font=font)
+	del draw 
+
+	im.convert("RGBA").save(filename, "PNG")
+
+def post_process_thumbnail(filename):
+	im = Image.open(filename)
+	im = im.convert("RGBA")
+	draw = ImageDraw.Draw(im)
+	draw.rectangle([ (0, 0), (im.size[0]-1, im.size[1]-1) ], outline="#000000")
+	del draw 
+	im.save(filename, "PNG")
+
+def tile_from_coord(lng, lat, zoom):
+	n = 2**zoom
+	xtile = ((lng + 180.0) / 360.0) * n
+	ytile = (1.0 - (math.log(math.tan(lat*math.pi/180.0) + mpmath.sec(lat*math.pi/180.0)) / math.pi)) / 2.0 * n
+	return int(xtile), int(ytile), xtile-int(xtile), ytile-int(ytile)
+
+def add_osm_tiles(filename, bounds):
+	im1 = Image.open(filename)
+	composite = Image.new('RGBA', im1.size, (0,0,0,0))
+
+	# What zoom level should we use? And then how much do we need to scale the tiles
+	# to match the actual resolution of the output image? Because map labels are small
+	# at high resolution, we'd rather use a lower zoom level and then resize the image
+	# to make it larger than the other way.
+	zoom_level = int(math.log(360 / (max((bounds[1].x-bounds[0].x)/im1.size[0], (bounds[1].y-bounds[0].y)/im1.size[1]) * tile_size)) / math.log(2) + 0.5)
+	tile_scale = (360.0 / (2**zoom_level) / tile_size) / ((bounds[1].x-bounds[0].x)/im1.size[0])
+	if tile_scale > 1.33: raise ValueError("Scale error, got upscaling: %f" % tile_scale) 
+	if tile_scale < .66: raise ValueError("Scale error, got large downscaling: %f" % tile_scale) 
+
+	# Fetch all of the tiles we need and lay them into place.
+	t1 = tile_from_coord(bounds[0].x, bounds[1].y, zoom_level)
+	t2 = tile_from_coord(bounds[1].x, bounds[0].y, zoom_level)
+	for xtile in xrange(t1[0], t2[0]+2):
+		for ytile in xrange(t1[1], t2[1]+2):
+			# Get the tile from the tile server...
+			fn = "tiles/%d-%d-%d.png" % (zoom_level, xtile, ytile) 
+			if not os.path.exists(fn):
+				url = "%s/%d/%d/%d.png" \
+					% (tile_baseurl, zoom_level, xtile, ytile)
+				print url
+				img = urllib.urlopen(url).read()
+				with open(fn, "w") as f:
+					f.write(img)
+
+			# Composite it into the right place.
+			tile = Image.open(fn)
+			tile = tile.resize((int(tile.size[0]*tile_scale), int(tile.size[1]*tile_scale)))
+			composite.paste(tile,
+				(-int(t1[2]*tile.size[0]) + (xtile-t1[0])*tile.size[0],
+				 -int(t1[3]*tile.size[1]) + (ytile-t1[1])*tile.size[1] ) )
+
+	composite = Image.alpha_composite(composite, im1)
+	composite.save(filename, "png")
 
 outputfilter = None
 if len(sys.argv) > 1 :
 	outputfilter = sys.argv[1]
-		
-for state in STATE_TIGER_DIRS :
-	try :
-		state_fips, state_name = state.split("_", 1)
-		if not int(state_fips) in STATE_FIPS_TO_USPS :
-			continue
-	except :
-		# Skip other files in the directory.
+
+if not os.path.exists("maps"): os.mkdir("maps")
+if not os.path.exists("tiles"): os.mkdir("tiles")
+
+shpfile = '/home/user/data/gis/tl_2013_us_cd113.shp'
+shp = ogr.Open(shpfile, False)
+layer = shp.GetLayer(0)
+for feature in layer :
+	state = STATE_FIPS_TO_USPS[int(feature.GetField("STATEFP"))]
+	district = feature.GetField("CD113FP")
+
+	#if district in ('00', '98', '99') :
+	#	continue
+	if outputfilter != None and not (state + district).startswith(outputfilter):
 		continue
-	shpfile = '/mnt/tiger/TIGER2008/' + state + '/tl_2008_' + state_fips + '_%s.shp'
-	shp = ogr.Open(shpfile % ('cd110'),  False)
-	layer = shp.GetLayer(0)
-	for feature in layer :
-		for size in (150*8, 150*16, 150*24) :
-			state = STATE_FIPS_TO_USPS[int(state_fips)]
-			district = feature.GetField("CD110FP")
 
-			if district in ('00', '98', '99') :
-				continue
-			if outputfilter != None and outputfilter != "continue" and state + district + "_" + str(size) != outputfilter :
-				continue
+	print state, district
 
-			print state, district, size
-		
-			# Draw PNG maps
-			DrawMap(state_fips, state, district, shpfile, feature, size, False)
-			DrawMap(state_fips, state, district, shpfile, feature, size, True)
-			
-			# Composite into a PDF
-			im1 = Image.open('maps/' + state + district + "_" + str(size) + '.png')
-			im2 = Image.open('maps/' + state + district + "_" + str(size) + '_context.png')
-			im1.paste(im2, (5, size/25 + 5) )
-			im1.save('maps/' + state + district + "_" + str(size) + '.pdf', "PDF")
+	size = 3072
+
+	# Draw PNG map
+	im, bounds = draw_district_outline(feature.GetField("STATEFP"), state, district, feature, size, False)
+	im.save("/tmp/main.png", 'png256')
+	add_header_footer("/tmp/main.png")
+	add_osm_tiles('/tmp/main.png', bounds)
+	im1 = Image.open('/tmp/main.png')
+
+	# Draw the context map.
+	im, bounds2 = draw_district_outline(feature.GetField("STATEFP"), state, district, feature, size/6, True)
+	im.save("/tmp/context.png", 'png256')
+	post_process_thumbnail("/tmp/context.png")
+	add_osm_tiles('/tmp/context.png', bounds2)
+	im2 = Image.open('/tmp/context.png')
+
+	# Composite everything together.
+	if not os.path.exists('maps/%d' % size): os.mkdir('maps/%d' % size)
+	composite = Image.new("RGBA", im1.size)
+	composite.paste(im1, (0, 0) )
+	composite.paste(im2, (5, min(im1.size)/25 + 5) )
+	fn = 'maps/%d/%s%s.png' % (size, state, district)
+	composite.save(fn, "png")
+	print "Saved", fn
