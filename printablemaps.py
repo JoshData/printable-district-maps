@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# apt-get install python-gdal python-mapnik python-mpmath
+# apt-get install python-pillow python-gdal python-mapnik python-mpmath
 
 import sys
 import os
@@ -92,21 +92,22 @@ def draw_district_outline(statefp, state, district, shpfeature, map_size, contex
 		# Add a layer for counties and ZCTAs.
 		# TODO: These should really be generated with the map tile layer
 		# so that the labels don't hit each other.
-		for layer, featurename, labelfontsize, labelcolor in (
-				("county", "NAME", map_size/40, mapnik.Color('rgb(70%,20%,20%)')),
-				("zcta510", "ZCTA5CE10", map_size/60, mapnik.Color('rgb(40%,40%,80%)')),
+		for layer, featurename, labelfontsize, labelcolor, border in (
+				("county", "NAME", map_size/40, mapnik.Color('rgb(70%,20%,20%)'), True),
+				("zcta510", "ZCTA5CE10", map_size/60, mapnik.Color('rgb(40%,40%,80%)'), False),
 				):
 			s = mapnik.Style()
 			r = mapnik.Rule()
-			#p = mapnik.LineSymbolizer(labelcolor, map_size/300)
-			#p.stroke.opacity = .3
-			#p.stroke.add_dash(.1, .1)
-			#r.symbols.append(p)
+			if border:
+				p = mapnik.LineSymbolizer(labelcolor, map_size/300)
+				p.stroke.opacity = .3
+				p.stroke.add_dash(.1, .1)
+				r.symbols.append(p)
 			r.symbols.append(mapnik.TextSymbolizer(mapnik.Expression('[%s]' % featurename), mapnik_label_font, labelfontsize, labelcolor))
 			s.rules.append(r)
 			m.append_style('%s Style' % layer, s)
 			lyr = mapnik.Layer('world', census_shapefile_projection)
-			lyr.datasource = mapnik.Shapefile(file="/home/user/data/gis/tl_2013_us_%s.shp" % layer)
+			lyr.datasource = mapnik.Shapefile(file=sys.argv[1] + "/tl_2013_us_%s.shp" % layer)
 			lyr.styles.append('%s Style' % layer)
 			m.layers.append(lyr)
 
@@ -136,7 +137,7 @@ def draw_district_outline(statefp, state, district, shpfeature, map_size, contex
 
 	m.append_style('Other Districts Style',s)
 	lyr = mapnik.Layer('world', census_shapefile_projection)
-	lyr.datasource = mapnik.Shapefile(file="/home/user/data/gis/tl_2013_us_cd113.shp")
+	lyr.datasource = mapnik.Shapefile(file=sys.argv[1] + "/tl_2013_us_cd113.shp")
 	lyr.styles.append('Other Districts Style')
 	m.layers.append(lyr)
 
@@ -243,14 +244,16 @@ def add_osm_tiles(filename, bounds):
 	composite.save(filename, "png")
 
 outputfilter = None
-if len(sys.argv) > 1 :
-	outputfilter = sys.argv[1]
+if len(sys.argv) <= 1:
+	print "Usage: python printablemaps.py path/to/shapefiles [STATEDISTRICT]"
+	sys.exit(0)
+if len(sys.argv) > 2 :
+	outputfilter = sys.argv[2]
 
 if not os.path.exists("maps"): os.mkdir("maps")
 if not os.path.exists("tiles"): os.mkdir("tiles")
 
-shpfile = '/home/user/data/gis/tl_2013_us_cd113.shp'
-shp = ogr.Open(shpfile, False)
+shp = ogr.Open(sys.argv[1] + "/tl_2013_us_cd113.shp", False)
 layer = shp.GetLayer(0)
 for feature in layer :
 	state = STATE_FIPS_TO_USPS[int(feature.GetField("STATEFP"))]

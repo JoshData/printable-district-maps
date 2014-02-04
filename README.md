@@ -68,10 +68,11 @@ Much of the instructions below is based on https://www.mapbox.com/tilemill/docs/
 Install some system packages:
 
 	sudo apt-get update
-	sudo apt-get install git postgresql-client-common postgresql-9.1-postgis \
+	sudo apt-get install unzip git \
+		postgresql-client-common postgresql-9.1-postgis \
 		build-essential python-dev python-pip protobuf-compiler \
 		libprotobuf-dev libtokyocabinet-dev python-psycopg2 libgeos-c1 \
-		python-gdal python-mapnik python-mpmath
+		python-pillow python-gdal python-mapnik python-mpmath fonts-sil-gentium
 	sudo pip install imposm
 
 Install tilemill:
@@ -105,6 +106,10 @@ Download OSM data in PBF format for the United States. Geofabrik's mirror (http:
 	wget http://tilemill-data.s3.amazonaws.com/osm/coastline-good.zip
 	wget http://tilemill-data.s3.amazonaws.com/osm/shoreline_300.zip
 	wget http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.3.0/physical/10m-land.zip
+	wget http://www2.census.gov/geo/tiger/TIGER2013/CD/tl_2013_us_cd113.zip
+	wget http://www2.census.gov/geo/tiger/TIGER2013/COUNTY/tl_2013_us_county.zip
+	wget http://www2.census.gov/geo/tiger/TIGER2013/ZCTA5/tl_2013_us_zcta510.zip
+	for x in *.zip; do unzip $x; done
 	cd ..
 
 It is 5 GB in all, so it will take at least 10 minutes to get it, or more if the servers
@@ -217,5 +222,5 @@ It listens on port 20008 on localhost. You can run the next step from another ma
 
 In another console, run the map-generating script:
 
-	python printable-district-maps/printablemaps.py
+	python printable-district-maps/printablemaps.py data
 
