@@ -214,7 +214,7 @@ def add_osm_tiles(filename, bounds):
 	# to make it larger than the other way.
 	zoom_level = int(math.log(360 / (max((bounds[1].x-bounds[0].x)/im1.size[0], (bounds[1].y-bounds[0].y)/im1.size[1]) * tile_size)) / math.log(2) + 0.5)
 	tile_scale = (360.0 / (2**zoom_level) / tile_size) / ((bounds[1].x-bounds[0].x)/im1.size[0])
-	if tile_scale > 1.33: raise ValueError("Scale error, got upscaling: %f" % tile_scale) 
+	if tile_scale > 1.4: raise ValueError("Scale error, got upscaling: %f" % tile_scale) 
 	if tile_scale < .66: raise ValueError("Scale error, got large downscaling: %f" % tile_scale) 
 
 	# Fetch all of the tiles we need and lay them into place.
